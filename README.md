@@ -4,6 +4,8 @@
 
 This is the replication repository for the paper "Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles". The repository contains all code, data processing pipelines, and analysis scripts necessary to replicate the results presented in the paper.
 
+**Paper:** [Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5006857)
+
 ## Contact
 
 - Website: [jesusvillota.github.io](https://jesusvillota.github.io/)
