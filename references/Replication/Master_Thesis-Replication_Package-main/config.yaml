@@ -1,0 +1,7 @@
+directories:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  notebooks: "notebooks"
+  output_data_description: "output/descriptives"
+  output_kmeans: "output/kmeans"
+  output_llama: "output/llama"
