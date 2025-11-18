@@ -1,7 +1,5 @@
 # Predicting Market Reactions to News: Replication Code
 
-Replication code for "Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles".
-
 ## Overview
 
 This is the replication repository for the paper "Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles". The repository contains all code, data processing pipelines, and analysis scripts necessary to replicate the results presented in the paper.
