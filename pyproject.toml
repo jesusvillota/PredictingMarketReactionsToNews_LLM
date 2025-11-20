@@ -1,30 +1,79 @@
 [project]
-name = "predicting-market-reactions-news"
+name = "news-market-analysis"
 version = "0.1.0"
-description = "Replication code for Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles"
-requires-python = ">=3.11"
+description = "Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles"
+authors = [
+    {name = "Jesus Villota Miranda", email = "jesus.villota@cemfi.edu.es"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.12"
+license = {text = "MIT"}
+keywords = ["finance", "nlp", "machine-learning", "clustering", "news-analysis"]
+
 dependencies = [
-    "pandas>=1.4.3,<2.0.0",
-    "numpy>=1.22.4,<2.0.0",
-    "matplotlib>=3.5.2,<4.0.0",
-    "seaborn>=0.11.2,<0.14.0",
-    "scikit-learn>=1.1.1,<2.0.0",
-    "scipy>=1.8.1,<2.0.0",
-    "yfinance>=0.1.70,<1.0.0",
-    "statsmodels>=0.13.2,<1.0.0",
-    "nltk>=3.7,<4.0.0",
-    "wordcloud>=1.8.1,<2.0.0",
-    "Pillow>=9.1.1,<11.0.0",
-    "joblib>=1.1.0,<2.0.0",
-    "torch>=1.11.0,<3.0.0",
-    "sentence-transformers>=2.2.2,<3.0.0",
-    "sklearn-extra>=0.2.0,<1.0.0",
-    "pyyaml>=6.0,<7.0",
-    "colorama>=0.4.6,<1.0.0",
-    "groq>=0.4.0,<1.0.0",
+    "pandas==1.4.3",
+    "numpy==1.22.4",
+    "matplotlib==3.5.2",
+    "seaborn==0.11.2",
+    "scikit-learn==1.1.1",
+    "scipy==1.8.1",
+    "yfinance==0.1.70",
+    "statsmodels==0.13.2",
+    "nltk==3.7",
+    "wordcloud==1.8.1",
+    "Pillow==9.1.1",
+    "joblib==1.1.0",
+    "torch==1.11.0",
+    "sentence-transformers==2.2.2",
+    "huggingface-hub==0.10.1",  # Pin compatible version for sentence-transformers 2.2.2
+    "scikit-learn-extra==0.2.0",
+    "multiprocessing-logging==0.3.1",
+    "pyyaml>=6.0",
+    "click>=8.0.0",
 ]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "black>=22.0.0",
+    "ruff>=0.0.250",
+    "mypy>=0.950",
+    "types-PyYAML",
+    "pyarrow>=8.0.0",
+]
 
+[project.scripts]
+news-analysis = "news_market_analysis.cli.main:cli"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --cov=news_market_analysis --cov-report=html --cov-report=term"
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "PT"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
