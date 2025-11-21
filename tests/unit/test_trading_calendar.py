@@ -4,7 +4,7 @@ from datetime import datetime, date, time
 
 import pytest
 
-from news_market_analysis.analysis import TradingCalendarAdjustments
+from PMRTN.analysis import TradingCalendarAdjustments
 
 
 @pytest.fixture

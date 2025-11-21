@@ -7,7 +7,7 @@ from typing import Generator
 import pytest
 import yaml
 
-from news_market_analysis.config import (
+from PMRTN.config import (
     ConfigurationError,
     PathManager,
     Settings,

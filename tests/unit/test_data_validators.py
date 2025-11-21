@@ -5,7 +5,7 @@ from datetime import datetime
 import pandas as pd
 import pytest
 
-from news_market_analysis.data.validators import (
+from PMRTN.data.validators import (
     DataValidationError,
     check_data_quality,
     validate_article_dataframe,

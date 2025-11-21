@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from news_market_analysis.visualization.plotting import (
+from PMRTN.visualization.plotting import (
     PlottingError,
     configure_matplotlib_style,
     plot_average_cars_by_cluster,
@@ -54,7 +54,7 @@ def sample_returns():
 class TestPlotClusterDistribution:
     """Tests for plot_cluster_distribution function."""
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_basic_plot(self, mock_show, sample_cluster_df):
         """Test basic cluster distribution plot."""
         fig = plot_cluster_distribution(
@@ -65,7 +65,7 @@ class TestPlotClusterDistribution:
         assert fig is not None
         mock_show.assert_called_once()
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_plot_with_split_filter(self, mock_show, sample_cluster_df):
         """Test plot with split filtering."""
         fig = plot_cluster_distribution(
@@ -77,7 +77,7 @@ class TestPlotClusterDistribution:
         
         assert fig is not None
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_plot_without_density(self, mock_show, sample_cluster_df):
         """Test plot without density overlay."""
         fig = plot_cluster_distribution(
@@ -88,7 +88,7 @@ class TestPlotClusterDistribution:
         
         assert fig is not None
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_plot_without_title(self, mock_show, sample_cluster_df):
         """Test plot without title."""
         fig = plot_cluster_distribution(
@@ -99,7 +99,7 @@ class TestPlotClusterDistribution:
         
         assert fig is not None
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_save_plot(self, mock_show, sample_cluster_df):
         """Test saving plot to file."""
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -143,7 +143,7 @@ class TestPlotClusterDistribution:
                 show_plot=False
             )
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_custom_figsize(self, mock_show, sample_cluster_df):
         """Test plot with custom figure size."""
         fig = plot_cluster_distribution(
@@ -158,7 +158,7 @@ class TestPlotClusterDistribution:
 class TestPlotClusterDistributionsBySplit:
     """Tests for plot_cluster_distributions_by_split function."""
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_plot_all_splits(self, mock_show, sample_cluster_df):
         """Test plotting for all splits."""
         figures = plot_cluster_distributions_by_split(
@@ -171,7 +171,7 @@ class TestPlotClusterDistributionsBySplit:
         assert 'Validation' in figures
         assert 'Test' in figures
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_save_all_splits(self, mock_show, sample_cluster_df):
         """Test saving plots for all splits."""
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -201,7 +201,7 @@ class TestPlotClusterDistributionsBySplit:
 class TestPlotAverageCARsByCluster:
     """Tests for plot_average_cars_by_cluster function."""
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_basic_car_plot(self, mock_show, sample_car_data):
         """Test basic CAR plot."""
         fig = plot_average_cars_by_cluster(
@@ -212,7 +212,7 @@ class TestPlotAverageCARsByCluster:
         
         assert fig is not None
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_car_plot_with_limit(self, mock_show, sample_car_data):
         """Test CAR plot with point limit."""
         fig = plot_average_cars_by_cluster(
@@ -224,7 +224,7 @@ class TestPlotAverageCARsByCluster:
         
         assert fig is not None
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_save_car_plot(self, mock_show, sample_car_data):
         """Test saving CAR plot."""
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -249,7 +249,7 @@ class TestPlotAverageCARsByCluster:
                 show_plot=False
             )
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_empty_car_arrays_ignored(self, mock_show):
         """Test that empty CAR arrays are ignored."""
         car_data = {
@@ -270,7 +270,7 @@ class TestPlotAverageCARsByCluster:
 class TestPlotCumulativeReturns:
     """Tests for plot_cumulative_returns function."""
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_basic_returns_plot(self, mock_show, sample_returns):
         """Test basic cumulative returns plot."""
         fig = plot_cumulative_returns(
@@ -280,7 +280,7 @@ class TestPlotCumulativeReturns:
         
         assert fig is not None
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_custom_title(self, mock_show, sample_returns):
         """Test plot with custom title."""
         fig = plot_cumulative_returns(
@@ -291,7 +291,7 @@ class TestPlotCumulativeReturns:
         
         assert fig is not None
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_save_returns_plot(self, mock_show, sample_returns):
         """Test saving returns plot."""
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -322,7 +322,7 @@ class TestPlotCumulativeReturns:
                 show_plot=False
             )
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_non_datetime_index(self, mock_show):
         """Test plot with non-datetime index."""
         returns_dict = {
@@ -365,7 +365,7 @@ class TestMatplotlibConfiguration:
 class TestPlottingIntegration:
     """Integration tests for plotting functions."""
     
-    @patch('news_market_analysis.visualization.plotting.plt.show')
+    @patch('PMRTN.visualization.plotting.plt.show')
     def test_full_workflow(self, mock_show, sample_cluster_df, sample_car_data, sample_returns):
         """Test complete plotting workflow."""
         with tempfile.TemporaryDirectory() as tmpdir:

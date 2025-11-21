@@ -8,9 +8,9 @@ from typing import Optional
 import click
 import pandas as pd
 
-from news_market_analysis.config import get_settings, get_path_manager
-from news_market_analysis.data import load_processed_articles
-from news_market_analysis.models import create_parser
+from PMRTN.config import get_settings, get_path_manager
+from PMRTN.data import load_processed_articles
+from PMRTN.models import create_parser
 
 logger = logging.getLogger(__name__)
 
@@ -193,7 +193,7 @@ def llama_clustering(
     
     if not input_path.exists():
         click.echo(f"❌ Error: Input file not found: {input_path}", err=True)
-        click.echo("   Run 'news-analysis llama-parse' first", err=True)
+        click.echo("   Run 'pmrtn llama-parse' first", err=True)
         raise click.Abort()
     
     df = pd.read_csv(input_path)

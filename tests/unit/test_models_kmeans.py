@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from news_market_analysis.models.kmeans import (
+from PMRTN.models.kmeans import (
     ClusteringError,
     NewsClusteringModel,
     cluster_train_val_test,

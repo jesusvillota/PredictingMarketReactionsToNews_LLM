@@ -1,5 +1,5 @@
 [project]
-name = "news-market-analysis"
+name = "PMRTN"
 version = "0.1.0"
 description = "Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles"
 authors = [
@@ -44,7 +44,10 @@ dev = [
 ]
 
 [project.scripts]
-news-analysis = "news_market_analysis.cli.main:cli"
+# Primary CLI entry (new name)
+pmrtn = "PMRTN.cli.main:cli"
+# Backward-compatible alias (can be removed later)
+news-analysis = "PMRTN.cli.main:cli"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
@@ -58,7 +61,7 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
-addopts = "-v --cov=news_market_analysis --cov-report=html --cov-report=term"
+addopts = "-v --cov=PMRTN --cov-report=html --cov-report=term"
 
 [tool.black]
 line-length = 100

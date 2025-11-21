@@ -6,7 +6,7 @@ from unittest.mock import MagicMock, Mock, patch
 import pandas as pd
 import pytest
 
-from news_market_analysis.models.llama import (
+from PMRTN.models.llama import (
     FirmShock,
     LLAMANewsParser,
     LLAMAParserError,
@@ -100,7 +100,7 @@ def test_firm_shock_repr():
 @pytest.fixture
 def mock_groq_client():
     """Create a mock Groq client."""
-    with patch("news_market_analysis.models.llama.Groq") as mock:
+    with patch("PMRTN.models.llama.Groq") as mock:
         client = MagicMock()
         mock.return_value = client
         yield client
@@ -108,7 +108,7 @@ def mock_groq_client():
 
 def test_parser_initialization_no_groq():
     """Test parser initialization without groq installed."""
-    with patch("news_market_analysis.models.llama.Groq", None):
+    with patch("PMRTN.models.llama.Groq", None):
         with pytest.raises(LLAMAParserError, match="groq package not installed"):
             LLAMANewsParser(api_key="test_key")
 

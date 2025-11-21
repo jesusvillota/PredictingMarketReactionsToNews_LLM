@@ -4,10 +4,15 @@ This module provides utility functions for calculating portfolio statistics,
 risk metrics, returns, and other financial indicators used in the analysis.
 """
 
-from typing import Dict, Optional, Tuple
+import warnings
+from datetime import timedelta
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
+import yfinance as yf
+from joblib import Parallel, delayed
 
 
 class FinancialUtilsError(Exception):
@@ -477,3 +482,273 @@ def calculate_cvar(
     var = calculate_var(returns, confidence_level)
     cvar = returns[returns <= var].mean()
     return cvar
+
+
+# =============================================================================
+# Stock Data Download Functions
+# =============================================================================
+
+
+def load_risk_free_rate(data_path: Path) -> pd.DataFrame:
+    """Load risk-free rate data (ESTR) from CSV file.
+    
+    Loads the Euro Short-Term Rate (€STR) data and converts it to daily returns.
+    The rate is converted from annual to daily using the formula:
+    r_daily = (1 + r_annual)^(1/252) - 1
+    
+    Args:
+        data_path: Path to the ESTR.csv file containing risk-free rate data.
+                   Expected columns: ['datetime', 'TIME PERIOD', 'rf']
+    
+    Returns:
+        DataFrame with datetime index and 'rf' column containing daily risk-free rates.
+    
+    Raises:
+        FinancialUtilsError: If file not found or data format is invalid.
+    
+    Examples:
+        >>> rf_data = load_risk_free_rate(Path('data/raw/ESTR.csv'))
+        >>> print(rf_data.head())
+                    rf
+        datetime
+        2020-01-01  0.0001
+    """
+    data_path = Path(data_path)
+    
+    if not data_path.exists():
+        raise FinancialUtilsError(f"Risk-free rate file not found: {data_path}")
+    
+    try:
+        # Load ESTR data
+        estr = pd.read_csv(data_path, index_col=0, parse_dates=True)
+        estr.index.names = ['datetime']
+        
+        # Drop TIME PERIOD column if it exists
+        if 'TIME PERIOD' in estr.columns:
+            estr.drop(columns='TIME PERIOD', inplace=True)
+        
+        # Rename column to 'rf' if needed
+        if estr.columns[0] != 'rf':
+            estr.columns = ['rf']
+        
+        # Convert from percentage to decimal
+        estr['rf'] = estr['rf'] / 100
+        
+        # Convert annual rate to daily rate
+        estr['rf'] = (1 + estr['rf']) ** (1 / 252) - 1
+        
+        return estr
+        
+    except Exception as e:
+        raise FinancialUtilsError(f"Error loading risk-free rate data: {e}")
+
+
+def download_market_index(
+    ticker: str,
+    start_date: pd.Timestamp,
+    end_date: pd.Timestamp
+) -> pd.DataFrame:
+    """Download market index data and calculate returns.
+    
+    Downloads market index data (e.g., IBEX 35) using yfinance and calculates
+    daily returns from adjusted close prices.
+    
+    Args:
+        ticker: Market index ticker symbol (e.g., '^IBEX' for IBEX 35).
+        start_date: Start date for downloading data.
+        end_date: End date for downloading data.
+    
+    Returns:
+        DataFrame with datetime index and 'r_market' column containing daily returns.
+    
+    Raises:
+        FinancialUtilsError: If download fails or no data is retrieved.
+    
+    Examples:
+        >>> from datetime import datetime
+        >>> market_data = download_market_index(
+        ...     '^IBEX',
+        ...     pd.Timestamp('2020-01-01'),
+        ...     pd.Timestamp('2023-12-31')
+        ... )
+        >>> print(market_data.head())
+                    r_market
+        datetime
+        2020-01-02  0.0123
+    """
+    # Suppress yfinance warnings
+    warnings.filterwarnings("ignore", category=FutureWarning, module="yfinance.utils")
+    
+    try:
+        print(f"Downloading market index data for {ticker}...")
+        
+        # Download data with buffer
+        ibex = yf.download(
+            ticker,
+            start=start_date - timedelta(days=1),
+            end=end_date + timedelta(days=1),
+            progress=False
+        )
+        
+        if ibex.empty:
+            raise FinancialUtilsError(f"No data retrieved for market index {ticker}")
+        
+        # Calculate returns
+        ibex['r_market'] = ibex['Adj Close'].pct_change()
+        ibex.index.names = ['datetime']
+        
+        # Keep only returns column and drop NaN
+        ibex = ibex[['r_market']].dropna()
+        
+        print(f"Successfully downloaded {len(ibex)} trading days for {ticker}")
+        
+        return ibex
+        
+    except Exception as e:
+        raise FinancialUtilsError(f"Error downloading market index {ticker}: {e}")
+
+
+def _fetch_single_ticker_data(
+    ticker: str,
+    start_date: pd.Timestamp,
+    end_date: pd.Timestamp,
+    rf_series: pd.Series
+) -> Tuple[str, Optional[pd.Series], Optional[pd.Series], Optional[str]]:
+    """Helper function to fetch and process data for a single ticker.
+    
+    This function is designed to be called in parallel for multiple tickers.
+    
+    Args:
+        ticker: Stock ticker symbol.
+        start_date: Start date for downloading data.
+        end_date: End date for downloading data.
+        rf_series: Series with risk-free rate data (used for excess returns).
+    
+    Returns:
+        Tuple of (ticker, returns, excess_returns, error_message).
+        If successful, error_message is None. If failed, returns and excess_returns are None.
+    """
+    # Suppress yfinance warnings
+    warnings.filterwarnings("ignore", category=FutureWarning, module="yfinance.utils")
+    
+    try:
+        print(f"Downloading data for ticker: {ticker}")
+        
+        # Download price data
+        prices = yf.download(
+            ticker,
+            start=start_date,
+            end=end_date,
+            progress=False
+        )
+        
+        if prices.empty:
+            print(f"No data found for ticker: {ticker}")
+            return ticker, None, None, "No data"
+        
+        # Convert index to date (remove time component)
+        prices.index = prices.index.date
+        
+        # Calculate returns
+        r_ticker = prices['Adj Close'].pct_change().dropna()
+        
+        # Calculate excess returns (subtract lagged risk-free rate)
+        r_ticker_excess = r_ticker - rf_series.shift(1)
+        
+        return ticker, r_ticker, r_ticker_excess, None
+            
+    except Exception as e:
+        print(f"Failed to download data for ticker: {ticker}. Error: {e}")
+        return ticker, None, None, str(e)
+
+
+def download_stock_returns(
+    tickers: List[str],
+    start_date: pd.Timestamp,
+    end_date: pd.Timestamp,
+    rf_data: pd.DataFrame,
+    n_jobs: int = -1
+) -> Tuple[pd.DataFrame, List[str], List[str]]:
+    """Download stock returns data for multiple tickers in parallel.
+    
+    Downloads adjusted close prices for all tickers, calculates returns,
+    and computes excess returns over the risk-free rate. Uses parallel
+    processing for efficient downloading.
+    
+    Args:
+        tickers: List of stock ticker symbols to download.
+        start_date: Start date for downloading data.
+        end_date: End date for downloading data.
+        rf_data: DataFrame with datetime index and 'rf' column containing
+                 daily risk-free rates.
+        n_jobs: Number of parallel jobs to run (-1 uses all available cores).
+    
+    Returns:
+        Tuple containing:
+            - returns_df: DataFrame with datetime index and columns for each ticker's
+                         returns (r_{ticker}) and excess returns (r_{ticker}_excess).
+            - successful_tickers: List of tickers successfully downloaded.
+            - failed_tickers: List of tickers that failed to download.
+    
+    Raises:
+        FinancialUtilsError: If inputs are invalid or processing fails.
+    
+    Examples:
+        >>> tickers = ['SAN.MC', 'TEF.MC', 'BBVA.MC']
+        >>> start = pd.Timestamp('2020-01-01')
+        >>> end = pd.Timestamp('2023-12-31')
+        >>> rf = load_risk_free_rate(Path('data/raw/ESTR.csv'))
+        >>> returns_df, successful, failed = download_stock_returns(
+        ...     tickers, start, end, rf, n_jobs=-1
+        ... )
+        >>> print(f"Downloaded {len(successful)} tickers successfully")
+        >>> print(f"Failed: {len(failed)} tickers")
+    """
+    if not tickers:
+        raise FinancialUtilsError("Tickers list is empty")
+    
+    if rf_data.empty:
+        raise FinancialUtilsError("Risk-free rate data is empty")
+    
+    print(f"\nDownloading stock returns for {len(tickers)} tickers...")
+    print(f"Date range: {start_date.date()} to {end_date.date()}")
+    print(f"Using {n_jobs if n_jobs > 0 else 'all available'} parallel workers")
+    
+    # Add buffer to dates
+    download_start = start_date - timedelta(days=1)
+    download_end = end_date + timedelta(days=1)
+    
+    # Parallel processing using Joblib
+    results = Parallel(n_jobs=n_jobs)(
+        delayed(_fetch_single_ticker_data)(
+            ticker, download_start, download_end, rf_data['rf']
+        )
+        for ticker in tickers
+    )
+    
+    # Initialize output DataFrame with risk-free rate
+    returns_df = rf_data.copy()
+    
+    # Track successful and failed tickers
+    successful_tickers = []
+    failed_tickers = []
+    
+    # Process results
+    for ticker, r_ticker, r_ticker_excess, error in results:
+        if error is None:
+            # Add returns to DataFrame
+            returns_df[f'r_{ticker}'] = r_ticker
+            returns_df[f'r_{ticker}_excess'] = r_ticker_excess
+            successful_tickers.append(ticker)
+        else:
+            failed_tickers.append(ticker)
+    
+    print(f"\n✓ Successfully downloaded: {len(successful_tickers)} tickers")
+    print(f"✗ Failed to download: {len(failed_tickers)} tickers")
+    
+    if failed_tickers:
+        print(f"Failed tickers: {', '.join(failed_tickers[:10])}")
+        if len(failed_tickers) > 10:
+            print(f"... and {len(failed_tickers) - 10} more")
+    
+    return returns_df, successful_tickers, failed_tickers

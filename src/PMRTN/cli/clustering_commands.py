@@ -7,11 +7,11 @@ from typing import Optional
 import click
 import pandas as pd
 
-from news_market_analysis.config import get_settings, get_path_manager
-from news_market_analysis.data import load_embeddings
-from news_market_analysis.models import NewsClusteringModel, find_optimal_k
-from news_market_analysis.analysis import split_data
-from news_market_analysis.visualization import (
+from PMRTN.config import get_settings, get_path_manager
+from PMRTN.data import load_embeddings
+from PMRTN.models import NewsClusteringModel, find_optimal_k
+from PMRTN.analysis import split_data
+from PMRTN.visualization import (
     configure_matplotlib_style,
     plot_cluster_distribution,
     plot_cluster_distributions_by_split,

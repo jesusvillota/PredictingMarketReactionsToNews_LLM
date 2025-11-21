@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
     type=click.Choice([
         'load-articles',
         'describe-data',
-        'fetch-tickers',
+        'download-returns',
         'generate-embeddings',
         'kmeans-clustering',
         'llama-parse',
@@ -35,12 +35,25 @@ logger = logging.getLogger(__name__)
     envvar='GROQ_API_KEY',
     help='Groq API key for LLAMA steps',
 )
+@click.option(
+    '--rf-data',
+    type=click.Path(exists=True, path_type=Path),
+    help='Path to risk-free rate CSV file (ESTR.csv) - required for download-returns step',
+)
+@click.option(
+    '--model-type',
+    type=click.Choice(['KMeans', 'LLAMA', 'both'], case_sensitive=False),
+    default='both',
+    help='Which model type to run: KMeans, LLAMA, or both (default: both)',
+)
 @click.pass_context
 def run_all(
     ctx: click.Context,
     config: Optional[Path],
     skip: tuple,
     llama_api_key: Optional[str],
+    rf_data: Optional[Path],
+    model_type: str,
 ) -> None:
     """Run the complete analysis pipeline.
     
@@ -48,21 +61,32 @@ def run_all(
     
     1. load-articles: Load and process raw articles
     2. describe-data: Generate descriptive statistics
-    3. fetch-tickers: Fetch stock data from Yahoo Finance
+    3. download-returns: Download stock returns data from Yahoo Finance
     4. generate-embeddings: Generate sentence embeddings
-    5. kmeans-clustering: Perform KMeans clustering
-    6. llama-parse: Parse articles with LLAMA (requires API key)
-    7. llama-clustering: Perform LLAMA-based clustering
+    5. kmeans-clustering: Perform KMeans clustering (if model-type is KMeans or both)
+    6. llama-parse: Parse articles with LLAMA (if model-type is LLAMA or both, requires API key)
+    7. llama-clustering: Perform LLAMA-based clustering (if model-type is LLAMA or both)
     
     You can skip specific steps using the --skip option. For example:
     
-        news-analysis run-all --skip llama-parse --skip llama-clustering
+        pmrtn run-all --skip llama-parse --skip llama-clustering --rf-data data/raw/ESTR.csv
     
     Note: LLAMA steps require a Groq API key and may take many hours to run.
+    Note: The download-returns step requires --rf-data to be specified unless skipped.
     """
     logger.info("Starting full analysis pipeline")
     
     skip_steps = set(skip)
+    
+    # Validate required parameters
+    if 'download-returns' not in skip_steps and not rf_data:
+        click.echo("❌ Error: --rf-data is required for download-returns step", err=True)
+        click.echo("  Either provide --rf-data or skip the step with --skip download-returns", err=True)
+        raise click.Abort()
+    
+    # Determine which model steps to run
+    run_kmeans = model_type.lower() in ['kmeans', 'both']
+    run_llama = model_type.lower() in ['llama', 'both']
     
     # Display pipeline overview
     click.echo("\n" + "=" * 70)
@@ -70,19 +94,24 @@ def run_all(
     click.echo("=" * 70)
     
     steps = [
-        ('load-articles', 'Load and process raw articles'),
-        ('describe-data', 'Generate descriptive statistics'),
-        ('fetch-tickers', 'Fetch stock data from Yahoo Finance'),
-        ('generate-embeddings', 'Generate sentence embeddings'),
-        ('kmeans-clustering', 'Perform KMeans clustering analysis'),
-        ('llama-parse', 'Parse articles with LLAMA (slow, requires API key)'),
-        ('llama-clustering', 'Perform LLAMA clustering analysis'),
+        ('load-articles', 'Load and process raw articles', True),
+        ('describe-data', 'Generate descriptive statistics', True),
+        ('download-returns', 'Download stock returns from Yahoo Finance', True),
+        ('generate-embeddings', 'Generate sentence embeddings', True),
+        ('kmeans-clustering', 'Perform KMeans clustering analysis', run_kmeans),
+        ('llama-parse', 'Parse articles with LLAMA (slow, requires API key)', run_llama),
+        ('llama-clustering', 'Perform LLAMA clustering analysis', run_llama),
     ]
     
     click.echo("\nPipeline steps:")
-    for i, (step_name, description) in enumerate(steps, 1):
-        status = "SKIP" if step_name in skip_steps else "RUN"
-        click.echo(f"  {i}. [{status:4}] {step_name}: {description}")
+    for i, (step_name, description, should_run) in enumerate(steps, 1):
+        if not should_run:
+            status = "SKIP (model)"
+        elif step_name in skip_steps:
+            status = "SKIP (user)"
+        else:
+            status = "RUN"
+        click.echo(f"  {i}. [{status:12}] {step_name}: {description}")
     
     click.echo("\n" + "=" * 70)
     
@@ -92,14 +121,14 @@ def run_all(
         return
     
     # Import commands
-    from news_market_analysis.cli.data_commands import (
+    from PMRTN.cli.data_commands import (
         load_articles,
         describe_data,
-        fetch_tickers,
+        download_returns,
         generate_embeddings,
     )
-    from news_market_analysis.cli.clustering_commands import kmeans_clustering
-    from news_market_analysis.cli.llama_commands import llama_parse, llama_clustering
+    from PMRTN.cli.clustering_commands import kmeans_clustering
+    from PMRTN.cli.llama_commands import llama_parse, llama_clustering
     
     # Prepare context with config
     ctx.obj = ctx.obj or {}
@@ -108,7 +137,7 @@ def run_all(
     
     # Execute steps in sequence
     step_number = 0
-    total_steps = len([s for s in steps if s[0] not in skip_steps])
+    total_steps = len([s for s, _, should_run in steps if should_run and s[0] not in skip_steps])
     
     try:
         # Step 1: Load articles
@@ -127,13 +156,22 @@ def run_all(
             click.echo('='*70)
             ctx.invoke(describe_data, config=config)
         
-        # Step 3: Fetch tickers
-        if 'fetch-tickers' not in skip_steps:
+        # Step 3: Download returns (replaces fetch-tickers)
+        if 'download-returns' not in skip_steps:
             step_number += 1
             click.echo(f"\n{'='*70}")
-            click.echo(f"STEP {step_number}/{total_steps}: Fetch stock data")
+            click.echo(f"STEP {step_number}/{total_steps}: Download stock returns")
             click.echo('='*70)
-            ctx.invoke(fetch_tickers, config=config)
+            
+            # Download for KMeans if needed
+            if run_kmeans:
+                click.echo("\n→ Downloading returns for KMeans model...")
+                ctx.invoke(download_returns, config=config, rf_data=rf_data, model='KMeans')
+            
+            # Download for LLAMA if needed
+            if run_llama:
+                click.echo("\n→ Downloading returns for LLAMA model...")
+                ctx.invoke(download_returns, config=config, rf_data=rf_data, model='LLAMA')
         
         # Step 4: Generate embeddings
         if 'generate-embeddings' not in skip_steps:
@@ -144,7 +182,7 @@ def run_all(
             ctx.invoke(generate_embeddings, config=config)
         
         # Step 5: KMeans clustering
-        if 'kmeans-clustering' not in skip_steps:
+        if run_kmeans and 'kmeans-clustering' not in skip_steps:
             step_number += 1
             click.echo(f"\n{'='*70}")
             click.echo(f"STEP {step_number}/{total_steps}: KMeans clustering")
@@ -152,7 +190,7 @@ def run_all(
             ctx.invoke(kmeans_clustering, config=config)
         
         # Step 6: LLAMA parse
-        if 'llama-parse' not in skip_steps:
+        if run_llama and 'llama-parse' not in skip_steps:
             step_number += 1
             click.echo(f"\n{'='*70}")
             click.echo(f"STEP {step_number}/{total_steps}: LLAMA news parsing")
@@ -164,7 +202,7 @@ def run_all(
                 ctx.invoke(llama_parse, config=config, api_key=llama_api_key)
         
         # Step 7: LLAMA clustering
-        if 'llama-clustering' not in skip_steps:
+        if run_llama and 'llama-clustering' not in skip_steps:
             step_number += 1
             click.echo(f"\n{'='*70}")
             click.echo(f"STEP {step_number}/{total_steps}: LLAMA clustering")

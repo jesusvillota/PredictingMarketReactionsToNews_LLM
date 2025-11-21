@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from news_market_analysis.embeddings import (
+from PMRTN.embeddings import (
     AVAILABLE_MODELS,
     DEFAULT_MODEL,
     EmbeddingGeneratorError,
@@ -24,7 +24,7 @@ class TestGetModel:
 
     def test_get_model_valid(self):
         """Test getting a valid model."""
-        with patch('news_market_analysis.embeddings.generators.SentenceTransformer') as mock_st:
+        with patch('PMRTN.embeddings.generators.SentenceTransformer') as mock_st:
             mock_model = MagicMock()
             mock_st.return_value = mock_model
             
@@ -43,7 +43,7 @@ class TestGetModel:
 
     def test_get_model_caching(self):
         """Test that models are cached after first load."""
-        with patch('news_market_analysis.embeddings.generators.SentenceTransformer') as mock_st:
+        with patch('PMRTN.embeddings.generators.SentenceTransformer') as mock_st:
             mock_model = MagicMock()
             mock_st.return_value = mock_model
             
@@ -66,7 +66,7 @@ class TestClearModelCache:
 
     def test_clear_model_cache(self):
         """Test clearing the model cache."""
-        with patch('news_market_analysis.embeddings.generators.SentenceTransformer') as mock_st:
+        with patch('PMRTN.embeddings.generators.SentenceTransformer') as mock_st:
             mock_model = MagicMock()
             mock_st.return_value = mock_model
             
@@ -93,7 +93,7 @@ class TestGetEmbedding:
 
     def test_get_embedding_success(self):
         """Test generating embedding for a single article."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embedding = np.array([0.1, 0.2, 0.3])
             mock_model.encode.return_value = mock_embedding
@@ -109,7 +109,7 @@ class TestGetEmbedding:
 
     def test_get_embedding_with_custom_model(self):
         """Test generating embedding with custom model."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embedding = np.array([0.1, 0.2])
             mock_model.encode.return_value = mock_embedding
@@ -136,7 +136,7 @@ class TestGetEmbedding:
 
     def test_get_embedding_model_error(self):
         """Test handling of model encoding errors."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_model.encode.side_effect = RuntimeError("Model error")
             mock_get_model.return_value = mock_model
@@ -152,7 +152,7 @@ class TestGenerateEmbeddings:
 
     def test_generate_embeddings_list(self):
         """Test generating embeddings for list of texts."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embeddings = np.array([[0.1, 0.2], [0.3, 0.4], [0.5, 0.6]])
             mock_model.encode.return_value = mock_embeddings
@@ -170,7 +170,7 @@ class TestGenerateEmbeddings:
 
     def test_generate_embeddings_series(self):
         """Test generating embeddings for pandas Series."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embeddings = np.array([[0.1, 0.2], [0.3, 0.4]])
             mock_model.encode.return_value = mock_embeddings
@@ -205,7 +205,7 @@ class TestGenerateEmbeddings:
 
     def test_generate_embeddings_custom_batch_size(self):
         """Test generating embeddings with custom batch size."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embeddings = np.array([[0.1, 0.2], [0.3, 0.4]])
             mock_model.encode.return_value = mock_embeddings
@@ -220,7 +220,7 @@ class TestGenerateEmbeddings:
 
     def test_generate_embeddings_show_progress(self):
         """Test that progress bar parameter is passed correctly."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embeddings = np.array([[0.1, 0.2]])
             mock_model.encode.return_value = mock_embeddings
@@ -238,7 +238,7 @@ class TestAddEmbeddingsToDataframe:
 
     def test_add_embeddings_default_columns(self):
         """Test adding embeddings with default column names."""
-        with patch('news_market_analysis.embeddings.generators.generate_embeddings') as mock_gen:
+        with patch('PMRTN.embeddings.generators.generate_embeddings') as mock_gen:
             mock_gen.return_value = [[0.1, 0.2], [0.3, 0.4]]
             
             df = pd.DataFrame({'articles': ['Text 1', 'Text 2']})
@@ -250,7 +250,7 @@ class TestAddEmbeddingsToDataframe:
 
     def test_add_embeddings_custom_columns(self):
         """Test adding embeddings with custom column names."""
-        with patch('news_market_analysis.embeddings.generators.generate_embeddings') as mock_gen:
+        with patch('PMRTN.embeddings.generators.generate_embeddings') as mock_gen:
             mock_gen.return_value = [[0.1, 0.2]]
             
             df = pd.DataFrame({'text_col': ['Text 1']})
@@ -276,7 +276,7 @@ class TestAddEmbeddingsToDataframe:
 
     def test_add_embeddings_preserves_original(self):
         """Test that original DataFrame is not modified."""
-        with patch('news_market_analysis.embeddings.generators.generate_embeddings') as mock_gen:
+        with patch('PMRTN.embeddings.generators.generate_embeddings') as mock_gen:
             mock_gen.return_value = [[0.1, 0.2]]
             
             df = pd.DataFrame({'articles': ['Text 1']})
@@ -293,7 +293,7 @@ class TestAddEmbeddingsToDataframe:
 
     def test_add_embeddings_custom_model(self):
         """Test adding embeddings with custom model."""
-        with patch('news_market_analysis.embeddings.generators.generate_embeddings') as mock_gen:
+        with patch('PMRTN.embeddings.generators.generate_embeddings') as mock_gen:
             mock_gen.return_value = [[0.1, 0.2]]
             
             df = pd.DataFrame({'articles': ['Text 1']})
@@ -313,7 +313,7 @@ class TestGetEmbeddingDimension:
 
     def test_get_embedding_dimension_default(self):
         """Test getting embedding dimension for default model."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embedding = np.array([[0.1, 0.2, 0.3, 0.4, 0.5]])
             mock_model.encode.return_value = mock_embedding
@@ -326,7 +326,7 @@ class TestGetEmbeddingDimension:
 
     def test_get_embedding_dimension_custom_model(self):
         """Test getting embedding dimension for custom model."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_embedding = np.array([[0.1, 0.2, 0.3]])
             mock_model.encode.return_value = mock_embedding
@@ -339,7 +339,7 @@ class TestGetEmbeddingDimension:
 
     def test_get_embedding_dimension_error(self):
         """Test error handling when dimension cannot be determined."""
-        with patch('news_market_analysis.embeddings.generators.get_model') as mock_get_model:
+        with patch('PMRTN.embeddings.generators.get_model') as mock_get_model:
             mock_model = MagicMock()
             mock_model.encode.side_effect = RuntimeError("Model error")
             mock_get_model.return_value = mock_model

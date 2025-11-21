@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from news_market_analysis.data.loaders import (
+from PMRTN.data.loaders import (
     filter_articles,
     load_embeddings,
     load_processed_articles,

@@ -5,7 +5,7 @@ import pandas as pd
 import pytest
 from sklearn.preprocessing import StandardScaler
 
-from news_market_analysis.analysis import split_data, get_e_data
+from PMRTN.analysis import split_data, get_e_data
 
 
 @pytest.fixture

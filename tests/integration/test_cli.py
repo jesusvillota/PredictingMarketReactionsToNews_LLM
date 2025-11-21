@@ -7,7 +7,7 @@ from unittest.mock import patch, MagicMock
 import pytest
 from click.testing import CliRunner
 
-from news_market_analysis.cli.main import cli
+from PMRTN.cli.main import cli
 
 
 @pytest.fixture
@@ -150,9 +150,9 @@ class TestPipelineCommands:
 class TestCLIIntegration:
     """Integration tests for CLI workflows."""
     
-    @patch('news_market_analysis.cli.data_commands.load_raw_articles')
-    @patch('news_market_analysis.cli.data_commands.process_articles')
-    @patch('news_market_analysis.cli.data_commands.save_processed_data')
+    @patch('PMRTN.cli.data_commands.load_raw_articles')
+    @patch('PMRTN.cli.data_commands.process_articles')
+    @patch('PMRTN.cli.data_commands.save_processed_data')
     def test_load_articles_workflow(
         self,
         mock_save,
@@ -190,14 +190,14 @@ class TestCLIIntegration:
 
 def test_cli_import():
     """Test that CLI can be imported successfully."""
-    from news_market_analysis.cli import cli
+    from PMRTN.cli import cli
     assert cli is not None
     assert callable(cli)
 
 
 def test_all_commands_registered():
     """Test that all expected commands are registered."""
-    from news_market_analysis.cli import cli
+    from PMRTN.cli import cli
     
     expected_commands = [
         'load-articles',

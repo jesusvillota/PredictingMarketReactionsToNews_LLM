@@ -18,7 +18,8 @@ class PortfolioError(Exception):
 
 def initialize_portfolio(
     articles_df: pd.DataFrame,
-    trading_days: List[pd.Timestamp]
+    trading_days: List[pd.Timestamp],
+    l_value: int
 ) -> Tuple[Dict[str, pd.DataFrame], Dict[str, List[pd.Timestamp]]]:
     """Initialize portfolio DataFrames for tracking returns by split.
     
@@ -28,6 +29,8 @@ def initialize_portfolio(
         DataFrame with 'split', 'date_affect' columns.
     trading_days : List[pd.Timestamp]
         Complete list of trading days in chronological order.
+    l_value : int
+        Holding period L in trading days. Used to extend timeline beyond last article.
     
     Returns
     -------
@@ -40,6 +43,7 @@ def initialize_portfolio(
     -----
     Creates separate DataFrames for 'All', 'Train', 'Validation', 'Test' splits.
     Timeline construction ensures proper alignment with article publication dates.
+    Timeline is extended by L days after the last article to account for holding period.
     """
     # Get split DataFrames
     splits_data = {
@@ -67,11 +71,17 @@ def initialize_portfolio(
     first_test_idx = indices.get('first_day_Test_index', last_val_idx)
     last_test_idx = indices.get('last_day_Test_index', len(trading_days) - 1)
     
+    # Extend the end indices by L days to account for holding period
+    # This ensures we can track portfolio performance for L days after the last article
+    last_test_idx_extended = min(last_test_idx + l_value, len(trading_days) - 1)
+    last_train_idx_extended = min(last_train_idx + l_value, len(trading_days) - 1)
+    last_val_idx_extended = min(last_val_idx + l_value, len(trading_days) - 1)
+    
     # Create trading day timelines
-    trading_days_all = trading_days[first_train_idx:last_test_idx + 1]
-    trading_days_train = trading_days[first_train_idx:last_train_idx + 1]
-    trading_days_val = trading_days[last_train_idx:last_val_idx + 1]
-    trading_days_test = trading_days[last_val_idx:last_test_idx + 1]
+    trading_days_all = trading_days[first_train_idx:last_test_idx_extended + 1]
+    trading_days_train = trading_days[first_train_idx:last_train_idx_extended + 1]
+    trading_days_val = trading_days[last_train_idx:last_val_idx_extended + 1]
+    trading_days_test = trading_days[last_val_idx:last_test_idx_extended + 1]
     
     # Initialize return DataFrames
     r_p_all = pd.DataFrame({'returns': 0.0}, index=trading_days_all)
@@ -152,7 +162,7 @@ def calculate_portfolio_returns(
     where w_d^i is the weight of position i on day d.
     """
     # Initialize portfolio
-    r_p_dict, trading_days_dict = initialize_portfolio(articles_df, trading_days)
+    r_p_dict, trading_days_dict = initialize_portfolio(articles_df, trading_days, l_value)
     trading_days_all = trading_days_dict['All']
     
     # Initialize tracking DataFrames
@@ -161,7 +171,13 @@ def calculate_portfolio_returns(
         for split in ['All', 'Train', 'Validation', 'Test']
     }
     
-    turnover_tracking = pd.DataFrame({'turnover': 0.0}, index=trading_days_all)
+    # Create a union of all trading days from all splits to ensure turnover_tracking covers everything
+    all_split_days = set(trading_days_all)
+    for split in ['Train', 'Validation', 'Test']:
+        all_split_days.update(trading_days_dict[split])
+    all_split_days_sorted = sorted(list(all_split_days))
+    
+    turnover_tracking = pd.DataFrame({'turnover': 0.0}, index=all_split_days_sorted)
     previous_positions: Dict[str, float] = {}
     
     # Initialize return columns

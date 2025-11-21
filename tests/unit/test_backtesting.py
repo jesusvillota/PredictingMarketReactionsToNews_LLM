@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from news_market_analysis.analysis.backtesting import (
+from PMRTN.analysis.backtesting import (
     BacktestingError,
     calculate_average_metrics_by_group,
     calculate_trading_strategy_data,

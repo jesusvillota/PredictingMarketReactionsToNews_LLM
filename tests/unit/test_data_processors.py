@@ -5,7 +5,7 @@ from datetime import datetime
 import pandas as pd
 import pytest
 
-from news_market_analysis.data.processors import (
+from PMRTN.data.processors import (
     clean_article_text,
     convert_to_datetime,
     eliminate_text_after_word,

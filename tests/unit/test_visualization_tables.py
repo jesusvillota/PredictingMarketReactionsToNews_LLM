@@ -6,7 +6,7 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from news_market_analysis.visualization.tables import (
+from PMRTN.visualization.tables import (
     TableGenerationError,
     generate_cluster_mapping_table,
     generate_llama_shock_mapping_table,

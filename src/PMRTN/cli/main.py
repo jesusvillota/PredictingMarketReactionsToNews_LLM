@@ -10,7 +10,7 @@ from typing import Optional
 
 import click
 
-from news_market_analysis.config import get_settings
+from PMRTN.config import get_settings
 
 # Configure logging
 logging.basicConfig(
@@ -62,15 +62,15 @@ def cli(ctx: click.Context, config: Optional[Path], verbose: bool) -> None:
 @click.pass_context
 def version(ctx: click.Context) -> None:
     """Display version information."""
-    from news_market_analysis import __version__
-    click.echo(f"news-market-analysis version {__version__}")
+    from PMRTN import __version__
+    click.echo(f"PMRTN version {__version__}")
 
 
 @cli.command()
 @click.pass_context
 def info(ctx: click.Context) -> None:
     """Display configuration and environment information."""
-    from news_market_analysis.config import get_path_manager
+    from PMRTN.config import get_path_manager
     
     config_path = ctx.obj.get('config_path')
     settings = get_settings(config_path)
@@ -92,20 +92,21 @@ def info(ctx: click.Context) -> None:
 
 
 # Import subcommands from other modules
-from news_market_analysis.cli.data_commands import (
+from PMRTN.cli.data_commands import (
     load_articles,
     describe_data,
     fetch_tickers,
+    download_returns,
     generate_embeddings,
 )
-from news_market_analysis.cli.clustering_commands import (
+from PMRTN.cli.clustering_commands import (
     kmeans_clustering,
 )
-from news_market_analysis.cli.llama_commands import (
+from PMRTN.cli.llama_commands import (
     llama_parse,
     llama_clustering,
 )
-from news_market_analysis.cli.pipeline_commands import (
+from PMRTN.cli.pipeline_commands import (
     run_all,
 )
 
@@ -113,6 +114,7 @@ from news_market_analysis.cli.pipeline_commands import (
 cli.add_command(load_articles)
 cli.add_command(describe_data)
 cli.add_command(fetch_tickers)
+cli.add_command(download_returns)
 cli.add_command(generate_embeddings)
 cli.add_command(kmeans_clustering)
 cli.add_command(llama_parse)

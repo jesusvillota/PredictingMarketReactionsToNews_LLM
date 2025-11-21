@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from news_market_analysis.utils.financial import (
+from PMRTN.utils.financial import (
     FinancialUtilsError,
     calculate_annualized_return,
     calculate_annualized_volatility,

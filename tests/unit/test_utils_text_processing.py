@@ -2,7 +2,7 @@
 
 import pytest
 
-from news_market_analysis.utils.text_processing import (
+from PMRTN.utils.text_processing import (
     calculate_text_statistics,
     capitalize_first_letter,
     contains_keywords,

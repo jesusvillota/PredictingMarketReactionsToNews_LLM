@@ -1,8 +1,9 @@
-"""Command-line interface for news market analysis.
+"""Command-line interface for PMRTN (Predicting Market Reactions to News).
 
-This module provides the CLI for running the news market analysis pipeline.
+This module provides the CLI for running the PMRTN analysis pipeline.
 The main entry point is the `cli` function in main.py, which is registered
-as the `news-analysis` command via pyproject.toml.
+as the `pmrtn` command via pyproject.toml (with `news-analysis` kept as a
+temporary alias for backward compatibility).
 
 Available commands:
 - load-articles: Load and process raw articles
@@ -15,12 +16,12 @@ Available commands:
 - run-all: Execute the complete pipeline
 
 Usage:
-    news-analysis --help
-    news-analysis load-articles --help
-    news-analysis run-all --config config.yaml
+    pmrtn --help
+    pmrtn load-articles --help
+    pmrtn run-all --config config.yaml
 """
 
-from news_market_analysis.cli.main import cli
+from PMRTN.cli.main import cli
 
 __all__ = ['cli']
 
