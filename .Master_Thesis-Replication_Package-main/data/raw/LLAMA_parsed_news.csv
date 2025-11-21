@@ -1,0 +1,3325 @@
+article_id,firm,tickers,shock_type,shock_magnitude,shock_direction
+0,Cellnex,CLNX.MC,financial,minor,positive
+1,ENCE (ENC.MC),ENC.MC,policy,minor,positive
+1,Iberdrola (IBE.MC),IBE.MC,policy,minor,positive
+1,Acciona (ANA.MC),ANA.MC,policy,minor,positive
+2,Telefónica SA,TEF.MC,policy,minor,positive
+2,MásMóvil Ibercom SA,MAS.MC,policy,minor,positive
+3,Amadeus,AMS.MC,demand,minor,positive
+4,MásMóvil Ibercom SA,MAS.MC,financial,minor,positive
+4,Telefónica SA,TEF.MC,financial,minor,positive
+5,Iberdrola,IBE.MC,supply,minor,positive
+6,Iberdrola,IBE.MC,supply,major,negative
+7,Banco de Sabadell SA,SAB.MC,financial,minor,negative
+8,Meliá Hotels,MEL.MC,demand,minor,negative
+9,Siemens Gamesa,SGRE.MC,financial,minor,positive
+10,Ferrovial SA,FER.MC,financial,major,positive
+11,Ferrovial,FER.MC,demand,minor,positive
+12,Iberdrola,IBE.MC,policy,minor,positive
+12,Siemens Gamesa,SGRE.MC,policy,minor,positive
+12,Endesa,ELE.MC,policy,minor,positive
+13,Meliá Hotels International SA,MEL.MC,demand,major,negative
+14,Iberia,IBE.MC,policy,minor,positive
+15,Bankia SA (BKIA.MC),BKIA.MC,financial,minor,positive
+15,Banco Santander SA (SAN.MC),SAN.MC,financial,minor,positive
+15,Abengoa SA (ABG.MC),ABG.MC,financial,major,negative
+16,Banco Santander S.A.,SAN.MC,financial,minor,positive
+17,Iberdrola,IBE.MC,financial,minor,positive
+18,Iberdrola,IBE.MC,financial,minor,positive
+19,Ferrovial,FER.MC,financial,minor,negative
+20,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,major,positive
+21,Iberdrola,IBE.MC,financial,minor,positive
+22,Iberdrola,IBE.MC,financial,major,positive
+23,Colonial SOCIMI SA,COL.MC,financial,minor,negative
+24,Aena SME SA,AENA.MC,supply,major,negative
+25,Siemens Gamesa Renewable Energy SA (SGRE.MC),SGRE.MC,supply,major,negative
+26,Siemens Gamesa,SGRE.MC,demand,major,positive
+27,Iberdrola,IBE.MC,financial,minor,positive
+28,Aena,AENA.MC,financial,minor,positive
+29,Aena,AENA.MC,financial,minor,negative
+30,Siemens Gamesa,SGRE.MC,supply,minor,negative
+31,CaixaBank S.A.,CABK.MC,financial,minor,positive
+32,Amadeus IT Group S.A.,AMS.MC,financial,minor,positive
+33,Aena,AENA.MC,demand,minor,positive
+34,Telefónica,TEF.MC,financial,minor,negative
+35,ACS,ACS.MC,financial,minor,positive
+35,Sacyr,SCYR.MC,financial,minor,positive
+36,Iberdrola SA,IBE.MC,financial,minor,positive
+36,Repsol SA,REP.MC,financial,minor,positive
+37,Iberdrola,IBE.MC,financial,minor,positive
+38,Telefónica,TEF.MC,supply,minor,positive
+39,Amadeus,AMS.MC,financial,minor,negative
+40,Aena SME SA,AENA.MC,financial,minor,negative
+40,Ferrovial SA,FER.MC,financial,minor,positive
+41,Cellnex,CLNX.MC,financial,minor,positive
+42,BBVA,BBVA.MC,financial,major,positive
+43,Lar España Real Estate Socimi SA,LRE.MC,policy,minor,negative
+43,Merlin Properties Socimi SA,MRL.MC,policy,minor,negative
+43,Inmobiliaria Colonial SA Socimi,COL.MC,policy,minor,negative
+44,Endesa,ELE.MC,policy,minor,positive
+45,Enagás,ENG.MC,supply,minor,negative
+46,CaixaBank SA,CABK.MC,financial,minor,positive
+47,Cellnex,CLNX.MC,financial,minor,positive
+48,BBVA,BBVA.MC,financial,major,positive
+49,Cellnex,CLNX.MC,financial,major,positive
+50,Red Eléctrica,REE.MC,demand,minor,positive
+51,Amadeus,AMS.MC,demand,minor,negative
+52,Iberdrola SA,IBE.MC,policy,major,positive
+53,Bankinter,BKT.MC,financial,minor,positive
+54,Actividades de Construcción y Servicios,ACS.MC,policy,minor,negative
+55,Siemens Gamesa,SGRE.MC,financial,minor,negative
+56,MásMóvil,MAS.MC,financial,minor,positive
+57,Meliá Hotels,MEL.MC,demand,minor,negative
+58,Iberdrola,IBE.MC,supply,minor,negative
+59,Banco Santander SA,SAN.MC,financial,minor,positive
+60,Aena SME SA,AENA.MC,demand,minor,positive
+61,Banco Santander SA,SAN.MC,financial,minor,positive
+61,Abengoa SA,ABG.MC,financial,major,negative
+61,Bankia SA,BKIA.MC,financial,minor,positive
+62,ACS,ACS.MC,policy,minor,negative
+63,Cellnex,CLNX.MC,financial,minor,negative
+64,Cellnex,CLNX.MC,financial,major,positive
+65,Naturgy,NTGY.MC,policy,minor,positive
+66,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,financial,major,negative
+67,Inditex,ITX.MC,supply,minor,positive
+68,Abertis,ACS.MC,financial,minor,positive
+69,Siemens Gamesa,SGRE.MC,demand,minor,positive
+70,Ferrovial S.A.,FER.MC,demand,minor,positive
+71,Telefónica SA,TEF.MC,policy,minor,positive
+72,Repsol SA (REP.MC),REP.MC,financial,minor,positive
+73,Iberdrola,IBE.MC,financial,minor,positive
+74,Repsol,REP.MC,financial,minor,positive
+75,Acciona SA,ANA.MC,demand,minor,positive
+76,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+76,CaixaBank SA,CABK.MC,financial,minor,positive
+77,Siemens Gamesa,SGRE.MC,demand,minor,positive
+78,Telefónica,TEF.MC,financial,minor,negative
+79,Iberdrola,IBE.MC,demand,major,positive
+80,Telefónica S.A.,TEF.MC,supply,major,positive
+81,Grifols,GRF.MC,demand,major,positive
+82,Telefónica,TEF.MC,financial,minor,positive
+83,Grifols SA,GRF.MC,demand,minor,positive
+84,Acciona S.A.,ANA.MC,financial,minor,positive
+85,Grifols,GRF.MC,demand,minor,positive
+86,Telefónica,TEF.MC,financial,minor,positive
+87,IAG,IAG.MC,demand,minor,negative
+88,Cellnex,CLNX.MC,financial,minor,negative
+89,CaixaBank SA,CABK.MC,financial,minor,negative
+89,Bankinter SA,BKT.MC,financial,minor,negative
+89,Banco Sabadell SA,SAB.MC,financial,minor,negative
+89,Bankia SA,BKIA.MC,financial,minor,negative
+89,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,negative
+89,Banco Santander SA,SAN.MC,financial,minor,negative
+90,Merlin Properties,MRL.MC,financial,major,negative
+91,Cellnex,CLNX.MC,demand,minor,positive
+92,Cellnex,CLNX.MC,demand,minor,positive
+93,Grifols,GRF.MC,demand,minor,positive
+94,BBVA,BBVA.MC,financial,minor,positive
+95,Cellnex,CLNX.MC,supply,minor,positive
+96,Almirall,ALM.MC,financial,minor,negative
+97,Grifols,GRF.MC,demand,minor,positive
+98,Telefónica (TEF.MC),TEF.MC,financial,minor,positive
+98,Cellnex Telecom SA (CLNX.MC),CLNX.MC,financial,minor,positive
+99,Iberdrola,IBE.MC,financial,minor,positive
+100,Iberdrola,IBE.MC,demand,minor,positive
+101,Iberdrola,IBE.MC,demand,minor,positive
+101,Endesa,ELE.MC,demand,minor,positive
+101,Red Eléctrica,REE.MC,demand,minor,positive
+102,Cellnex,CLNX.MC,financial,minor,positive
+103,Iberdrola,IBE.MC,financial,minor,positive
+104,Naturgy,NTGY.MC,demand,minor,negative
+105,Naturgy Energy Group SA,NTGY.MC,financial,minor,negative
+105,CaixaBank SA,CABK.MC,financial,minor,positive
+105,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+105,Banco Santander SA,SAN.MC,financial,minor,positive
+106,Naturgy Energy Group SA,NTGY.MC,demand,major,negative
+107,Ferrovial SA,FER.MC,financial,minor,positive
+108,Cellnex,CLNX.MC,financial,major,positive
+109,Cellnex Telecom S.A.,CLNX.MC,financial,major,positive
+110,Bankinter,BKT.MC,financial,major,negative
+111,Repsol,REP.MC,supply,major,negative
+112,Bankia,BKIA.MC,financial,minor,positive
+113,Cellnex,CLNX.MC,financial,minor,positive
+114,Cellnex,CLNX.MC,financial,major,positive
+115,Bankinter SA,BKT.MC,financial,minor,negative
+116,Repsol S.A.,REP.MC,supply,minor,negative
+117,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,technology,minor,positive
+118,Repsol S.A.,REP.MC,financial,minor,positive
+119,Naturgy,NTGY.MC,financial,minor,positive
+120,Repsol,REP.MC,financial,minor,positive
+121,Repsol SA,REP.MC,financial,minor,positive
+122,Repsol S.A.,REP.MC,policy,minor,positive
+123,Bankinter SA,BKT.MC,financial,major,negative
+124,Iberdrola,IBE.MC,financial,minor,negative
+125,Cellnex,CLNX.MC,financial,minor,positive
+126,Repsol SA,REP.MC,supply,major,negative
+127,Telefónica S.A.,TEF.MC,technology,minor,positive
+128,Cellnex Telecom S.A.,CLNX.MC,financial,minor,negative
+129,Telefónica S.A.,TEF.MC,financial,minor,positive
+130,Iberdrola,IBE.MC,financial,minor,positive
+131,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+132,Cellnex,CLNC.MC,supply,minor,negative
+133,Cellnex,CLNX.MC,financial,minor,positive
+134,Bankinter,BKT.MC,financial,minor,positive
+135,Telefónica,TEF.MC,demand,minor,negative
+136,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,demand,minor,positive
+137,Cellnex,CLNX.MC,financial,minor,positive
+138,Repsol SA,REP.MC,demand,minor,positive
+139,Repsol S.A.,REP.MC,financial,minor,negative
+140,Naturgy,NTGY.MC,supply,minor,negative
+141,IAG,ICAG.MC,financial,minor,positive
+143,Ferrovial SA,FER.MC,demand,minor,positive
+144,IAG.MC,IAG.MC,financial,minor,positive
+145,Telefónica,TEF.MC,demand,minor,negative
+146,Cellnex,CLNX.MC,financial,major,positive
+147,Iberdrola,IBE.MC,demand,minor,positive
+148,IAG,IAG.MC,financial,minor,positive
+148,Meliá Hotels,MEL.MC,demand,major,negative
+149,Meliá Hotels,MEL.MC,demand,minor,negative
+150,Banco Santander SA,SAN.MC,financial,minor,positive
+151,ACS,ACS.MC,financial,minor,negative
+152,Telefónica,TEF.MC,financial,major,positive
+153,Bankia,BKIA.MC,financial,major,negative
+154,Enagás,ENG.MC,financial,minor,positive
+155,Endesa,ELE.MC,financial,minor,positive
+156,Enagás,ENG.MC,financial,minor,positive
+157,Endesa,ELE.MC,demand,minor,positive
+158,Enagás SA,ENG.MC,financial,minor,positive
+159,Bankia SA,BKIA.MC,financial,major,negative
+160,Bankia,BKIA.MC,financial,minor,positive
+161,Telefónica,TEF.MC,demand,minor,positive
+162,Telefónica,TEF.MC,financial,minor,positive
+163,Endesa SA (ELE.MC),ELE.MC,financial,major,positive
+164,Bankia SA,BKIA.MC,financial,major,negative
+165,Meliá Hotels International SA,MEL.MC,demand,major,negative
+166,Grifols SA,GRF.MC,financial,minor,positive
+167,Aena SME SA,AENA.MC,demand,major,negative
+168,Santander,SAN.MC,financial,major,negative
+169,Red Eléctrica,REE.MC,demand,minor,negative
+170,Banco Santander SA,SAN.MC,financial,major,negative
+171,Aena,AENA.MC,financial,minor,positive
+172,Banco Santander,SAN.MC,financial,major,negative
+173,Red Eléctrica,REE.MC,policy,minor,positive
+174,ACS.MC,ACS.MC,financial,minor,positive
+175,Cellnex,CLNX.MC,financial,major,positive
+176,Banco Santander,SAN.MC,financial,major,negative
+177,Aena,AENA.MC,demand,minor,negative
+178,Aena,AENA.MC,financial,minor,positive
+179,Red Eléctrica Corp SA (REE.MC),REE.MC,supply,minor,negative
+180,Banco Santander SA (SAN.MC),SAN.MC,financial,major,negative
+181,Bankia,BKIA.MC,financial,minor,positive
+182,Iberdrola,IBE.MC,technology,major,positive
+183,Iberdrola,IBE.MC,supply,major,positive
+184,Banco Santander SA,SAN.MC,financial,major,negative
+185,Telefónica SA,TEF.MC,supply,major,negative
+186,Banco Santander,SAN.MC,financial,major,negative
+187,Colonial Socimi SA,COL.MC,financial,minor,negative
+188,BBVA,BBVA.MC,financial,major,negative
+189,Telefónica,TEF.MC,financial,major,negative
+190,Merlin Properties Socimi SA,MRL.MC,financial,minor,negative
+191,Telefónica,TEF.MC,financial,major,positive
+192,Masmovil Ibercom S.A.,MAS.MC,financial,major,positive
+193,Siemens Gamesa,SGRE.MC,supply,major,negative
+194,Acciona SA,ANA.MC,financial,major,negative
+195,Banco Bilbao Vizcaya Argentaria SA (BBVA.MC),BBVA.MC,financial,major,negative
+196,Sacyr,SCYR.MC,supply,minor,negative
+196,Repsol,REP.MC,supply,minor,negative
+197,Telefónica SA (TEF.MC),TEF.MC,demand,major,negative
+198,Colonial,COL.MC,financial,minor,positive
+199,BBVA,BBVA.MC,financial,minor,negative
+200,Siemens Gamesa,SGRE.MC,supply,major,negative
+201,Aena,AENA.MC,demand,minor,positive
+202,Telefónica,TEF.MC,demand,minor,negative
+203,Acciona SA,ANA.MC,financial,major,negative
+204,Siemens Gamesa,SGRE.MC,supply,minor,negative
+205,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,major,negative
+206,BBVA,BBVA.MC,financial,major,negative
+207,Sacyr SA,SCYR.MC,financial,minor,negative
+207,Repsol SA,REP.MC,financial,minor,negative
+209,Ferrovial,FER.MC,supply,major,negative
+210,Ferrovial SA (FER.MC),FER.MC,demand,major,negative
+211,CaixaBank,CABK.MC,financial,minor,negative
+212,Banco Sabadell SA,SAB.MC,financial,major,negative
+213,Másmóvil Ibercom S.A.,MAS.MC,financial,major,positive
+214,CaixaBank,CABK.MC,financial,minor,positive
+215,Ferrovial,FER.MC,financial,minor,positive
+216,Másmóvil,MAS.MC,demand,minor,positive
+216,Bankinter,BKT.MC,financial,minor,positive
+217,IAG,IAG.MC,financial,major,negative
+218,IAG,IAG.MC,financial,major,negative
+219,CaixaBank SA,CABK.MC,financial,major,negative
+220,Telefónica,TEF.MC,financial,minor,negative
+221,BBVA,BBVA.MC,financial,minor,negative
+222,Ferrovial,FER.MC,demand,minor,negative
+223,Siemens Gamesa,SGRE.MC,supply,minor,positive
+224,Banco Santander,SAN.MC,financial,minor,negative
+225,Ferrovial S.A.,FER.MC,demand,minor,positive
+226,IAG,IAG.MC,demand,minor,negative
+227,Banco Sabadell SA,SAB.MC,financial,major,negative
+228,Acciona SA,ANA.MC,financial,minor,positive
+229,Endesa,ELE.MC,supply,minor,negative
+230,Cellnex,CLNX.MC,financial,major,positive
+231,Red Eléctrica,REE.MC,financial,minor,positive
+232,CaixaBank,CABK.MC,financial,minor,positive
+233,Acciona,ANA.MC,demand,major,positive
+234,Acciona SA,ANA.MC,financial,minor,positive
+235,BBVA.MC,BBVA.MC,financial,minor,positive
+236,Cellnex Telecom S.A.,CLNX.MC,financial,minor,positive
+237,Merlin Properties,MRL.MC,financial,minor,positive
+238,Merlin Properties,MRL.MC,financial,minor,positive
+239,Telefónica,TEF.MC,financial,minor,negative
+240,Enagás,ENG.MC,financial,minor,positive
+241,Red Eléctrica Corp,REE.MC,demand,minor,negative
+242,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,negative
+242,Liberbank SA,LBK.MC,financial,minor,negative
+242,Banco Santander SA,SAN.MC,financial,minor,negative
+242,CaixaBank SA,CABK.MC,financial,minor,negative
+242,Bankia SA,BKIA.MC,financial,minor,negative
+242,Banco de Sabadell SA,SAB.MC,financial,minor,negative
+243,IAG,IAG.MC,financial,minor,negative
+244,IAG (IAG.MC),IAG.MC,demand,minor,positive
+245,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,financial,major,negative
+246,Iberdrola,IBE.MC,financial,minor,positive
+247,Sabadell,SAB.MC,financial,minor,negative
+248,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,minor,negative
+249,Merlin Properties,MRL.MC,demand,minor,positive
+250,Telefónica S.A.,TEF.MC,financial,minor,positive
+251,Telefónica SA,TEF.MC,supply,major,negative
+252,Iberdrola,IBE.MC,financial,minor,positive
+253,Telefónica,TEF.MC,financial,minor,positive
+254,IAG,IAG.MC,policy,minor,positive
+254,Air Europa,UX.MC,policy,minor,positive
+255,Acciona S.A.,ANA.MC,financial,minor,positive
+256,Santander,SAN.MC,financial,major,negative
+257,Colonial,COL.MC,demand,minor,negative
+258,Banco de Sabadell S.A.,SAB.MC,financial,minor,positive
+259,Iberdrola,IBE.MC,demand,minor,positive
+260,Aena SME S.A.,AENA.MC,demand,major,negative
+261,ACS.MC,ACS.MC,financial,minor,negative
+262,Siemens Gamesa,SGRE.MC,demand,minor,positive
+263,Cellnex,CLNX.MC,financial,minor,negative
+264,Cellnex Telecom S.A.,CLNX.MC,financial,minor,positive
+265,Repsol,REP.MC,demand,minor,negative
+266,ACS,ACS.MC,supply,minor,negative
+267,ACS,ACS.MC,supply,major,negative
+268,ACS,ACS.MC,demand,minor,positive
+269,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,minor,positive
+270,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+271,Telefónica SA,TEF.MC,financial,minor,positive
+272,Siemens Gamesa,SGRE.MC,technology,minor,positive
+273,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+274,Iberdrola,IBE.MC,supply,minor,positive
+275,Ferrovial,FER.MC,demand,minor,negative
+276,Aena,AENA.MC,financial,minor,positive
+277,Naturgy,NTGY.MC,demand,minor,positive
+278,Bankia SA,BKIA.MC,financial,minor,positive
+279,Iberdrola,IBE.MC,financial,major,positive
+280,AENA.MC,AENA.MC,demand,minor,positive
+281,MásMóvil,MAS.MC,financial,major,negative
+282,MásMóvil,MAS.MC,supply,minor,positive
+283,Banco Bilbao Vizcaya Argentaria S.A. (BBVA.MC),BBVA.MC,financial,minor,negative
+284,Iberdrola,IBE.MC,supply,minor,positive
+285,Telefónica,TEF.MC,financial,minor,negative
+285,BBVA,BBVA.MC,financial,minor,negative
+286,Banco Santander SA,SAN.MC,financial,minor,positive
+287,Siemens Gamesa,SGRE.MC,demand,minor,positive
+288,Telefónica,TEF.MC,financial,major,negative
+289,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+290,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,minor,positive
+291,Fomento de Construcciones y Contratas S.A.,FCC.MC,financial,minor,positive
+291,Banco Santander S.A.,SAN.MC,financial,minor,positive
+292,Siemens Gamesa,SGRE.MC,financial,minor,negative
+293,Siemens Gamesa,SGRE.MC,supply,minor,negative
+294,Siemens Gamesa,SGRE.MC,financial,minor,negative
+295,Siemens Gamesa,SGRE.MC,supply,minor,negative
+296,Iberdrola,IBE.MC,financial,minor,positive
+297,Aena SME SA,AENA.MC,demand,major,negative
+298,IAG,IAG.MC,demand,major,positive
+299,BBVA,BBVA.MC,policy,minor,positive
+300,Repsol SA,REP.MC,supply,major,negative
+301,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,minor,positive
+302,Banco Sabadell,SAB.MC,financial,minor,negative
+303,Inditex,ITX.MC,financial,minor,negative
+304,Amadeus,AMS.MC,financial,minor,positive
+305,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,minor,positive
+306,Siemens Gamesa,SGRE.MC,demand,minor,positive
+307,Banco Sabadell,SAB.MC,financial,minor,positive
+308,Telefónica SA,TEF.MC,financial,minor,negative
+308,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,negative
+309,Cellnex,CLNX.MC,demand,minor,positive
+310,Siemens Gamesa,SGRE.MC,financial,minor,positive
+311,Iberdrola,IBE.MC,policy,minor,positive
+311,Indra Sistemas,IDR.MC,policy,minor,positive
+311,Banco Santander,SAN.MC,policy,minor,positive
+312,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+312,Telefónica SA,TEF.MC,technology,major,positive
+312,Banco Santander SA,SAN.MC,financial,major,positive
+314,CaixaBank,CABK.MC,financial,minor,positive
+314,Bankia,BKIA.MC,financial,minor,positive
+315,Bankia SA,BKIA.MC,financial,minor,positive
+315,CaixaBank SA,CABK.MC,financial,minor,positive
+316,Bankia,BKIA.MC,financial,minor,positive
+316,CaixaBank,CABK.MC,financial,minor,positive
+317,Bankia,BKIA.MC,financial,minor,positive
+317,CaixaBank,CBK.MC,financial,minor,positive
+318,Telefónica,TEF.MC,policy,minor,negative
+319,Naturgy Energy Group SA,NTGY.MC,demand,minor,positive
+320,Bankia,BKIA.MC,financial,minor,positive
+320,CaixaBank,CABK.MC,financial,minor,positive
+321,CaixaBank,CABK.MC,financial,minor,positive
+321,Bankia,BKIA.MC,financial,minor,positive
+322,CaixaBank,CABK.MC,financial,minor,positive
+322,Bankia,BKIA.MC,financial,minor,positive
+323,Cellnex,CLNX.MC,financial,minor,positive
+324,Bankia,BKIA.MC,policy,minor,positive
+324,CaixaBank,CABK.MC,policy,minor,positive
+325,Bankia,BKIA.MC,financial,major,positive
+325,CaixaBank,CABK.MC,financial,major,positive
+326,Telefónica,TEF.MC,financial,minor,negative
+327,CaixaBank,CABK.MC,financial,minor,positive
+327,Bankia,BKIA.MC,financial,minor,positive
+328,CaixaBank SA,CABK.MC,financial,major,positive
+328,Bankia SA,BKIA.MC,financial,major,positive
+329,Bankia,BKIA.MC,financial,minor,positive
+329,CaixaBank,CABK.MC,financial,minor,positive
+330,Grifols SA,GRF.MC,financial,major,positive
+331,Siemens Gamesa,SGRE.MC,financial,minor,positive
+332,Banco Santander SA,SAN.MC,financial,minor,negative
+332,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,negative
+332,Bankia SA,BKIA.MC,financial,major,negative
+332,CaixaBank SA,CABK.MC,financial,minor,positive
+333,Bankia,BKIA.MC,financial,minor,positive
+333,CaixaBank,CABK.MC,financial,minor,positive
+334,Iberia,IAG.MC,financial,major,positive
+334,Globalia,GLB.MC,financial,minor,negative
+334,International Consolidated Airlines Group S.A.,IAG.MC,financial,major,negative
+335,CaixaBank SA,CABK.MC,financial,minor,positive
+335,Bankia SA,BKIA.MC,financial,minor,negative
+336,CaixaBank SA,CABK.MC,financial,minor,positive
+336,Bankia SA,BKIA.MC,financial,minor,positive
+337,Telefónica,TEF.MC,financial,major,positive
+338,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+339,Telefónica,TEF.MC,demand,minor,positive
+340,CaixaBank SA,CABK.MC,financial,minor,positive
+340,Bankia SA,BKIA.MC,financial,minor,positive
+341,CaixaBank,CABK.MC,financial,minor,positive
+341,Bankia,BKIA.MC,financial,minor,positive
+342,CaixaBank,CABK.MC,financial,minor,positive
+342,Bankia,BKIA.MC,financial,minor,positive
+343,Ferrovial,FER.MC,demand,minor,negative
+344,Telefónica SA (TEF.MC),TEF.MC,supply,minor,positive
+345,Unicaja,UNI.MC,financial,minor,positive
+345,Liberbank,LBK.MC,financial,minor,positive
+345,Sabadell,SAB.MC,financial,minor,positive
+345,CaixaBank,CABK.MC,financial,minor,positive
+345,Bankia,BKIA.MC,financial,minor,positive
+346,Solaria,SLR.MC,financial,minor,positive
+346,Pharma Mar,PHM.MC,financial,minor,positive
+347,Iberdrola,IBE.MC,demand,major,positive
+348,Cellnex,CLNX.MC,financial,minor,positive
+349,IAG,IAG.MC,financial,minor,positive
+350,IAG,IAG.MC,financial,minor,positive
+351,IAG,IAG.MC,financial,minor,negative
+352,IAG,IAG.MC,demand,major,negative
+352,Iberia,IBE.MC,demand,major,negative
+353,Banco de Sabadell SA,SAB.MC,policy,minor,positive
+353,CaixaBank SA,CABK.MC,policy,minor,positive
+353,Bankia SA,BKIA.MC,policy,minor,positive
+353,Banco Santander SA,SAN.MC,policy,minor,positive
+354,MásMóvil Ibercom SA,MAS.MC,policy,minor,negative
+354,Pharma Mar SA,PHM.MC,policy,minor,positive
+354,Ence Energía y Celulosa SA,ENC.MC,policy,minor,negative
+355,Másmóvil,MAS.MC,financial,major,positive
+356,IAG,IAG.MC,financial,minor,negative
+357,Bankia,BKIA.MC,financial,minor,negative
+357,CaixaBank,CABK.MC,financial,minor,negative
+358,Siemens Gamesa,SGRE.MC,supply,minor,positive
+359,Aena SME S.A.,AENA.MC,supply,major,negative
+360,IAG,IAG.MC,financial,minor,positive
+361,Grifols,GRF.MC,demand,minor,positive
+362,IAG,IAG.MC,financial,minor,positive
+363,Ferrovial SA,FER.MC,financial,minor,positive
+364,Ferrovial S.A.,FER.MC,demand,minor,negative
+364,Renfe,REN.MC,policy,minor,positive
+365,Banco Sabadell,SAB.MC,financial,minor,negative
+365,Bankia,BKIA.MC,financial,minor,positive
+365,CaixaBank,CABK.MC,financial,minor,positive
+366,CaixaBank,CABK.MC,financial,minor,positive
+366,Bankia,BKIA.MC,financial,minor,negative
+367,Endesa SA,ELE.MC,supply,minor,positive
+368,IAG,IAG.MC,financial,minor,positive
+369,Naturgy,NTGY.MC,financial,minor,positive
+370,Enagás,ENG.MC,financial,minor,positive
+371,Iberdrola,IBE.MC,demand,minor,positive
+372,Inditex,ITX.MC,demand,minor,positive
+373,Iberia,IAG.MC,demand,minor,negative
+373,Amadeus,AMS.MC,demand,minor,negative
+374,CaixaBank,CABK.MC,financial,major,positive
+374,Bankia,BKIA.MC,financial,major,positive
+375,Inditex,ITX.MC,demand,major,negative
+376,CaixaBank,CABK.MC,financial,minor,negative
+376,Bankia,BKIA.MC,financial,minor,positive
+377,Bankia,BKIA.MC,financial,minor,positive
+378,Industria de Diseño Textil SA,ITX.MC,demand,minor,positive
+379,Bankia SA,BKIA.MC,policy,minor,positive
+379,CaixaBank SA,CABK.MC,policy,minor,positive
+380,Inditex,ITX.MC,financial,minor,positive
+381,Repsol SA (REP.MC),REP.MC,policy,major,positive
+382,ACS,ACS.MC,policy,minor,positive
+383,Telefónica S.A.,TEF.MC,technology,major,positive
+384,Iberdrola,IBE.MC,supply,minor,positive
+385,Inditex,ITX.MC,demand,minor,positive
+386,Sabadell (SAB.MC),SAB.MC,financial,minor,negative
+386,Santander (SAN.MC),SAN.MC,financial,minor,negative
+386,BBVA (BBVA.MC),BBVA.MC,financial,minor,negative
+387,CaixaBank,CABK.MC,financial,minor,positive
+387,Bankia,BKIA.MC,financial,minor,positive
+388,Inditex,ITX.MC,demand,minor,positive
+389,Unicaja,UNI.MC,financial,minor,positive
+389,Liberbank,LBK.MC,financial,minor,positive
+390,Inditex,ITX.MC,demand,minor,positive
+391,Naturgy,NTGY.MC,financial,minor,negative
+392,Bankia,BKIA.MC,financial,minor,positive
+392,Intesa Sanpaolo,ISP.MC,financial,minor,positive
+392,CaixaBank,CABK.MC,financial,minor,positive
+393,Repsol SA,REP.MC,policy,minor,positive
+393,Enagás SA,ENG.MC,policy,minor,positive
+393,Telefónica SA,TEF.MC,policy,minor,positive
+394,Amadeus IT Group SA,AMS.MC,financial,minor,positive
+395,CaixaBank SA,CABK.MC,financial,major,positive
+395,Bankia SA,BKIA.MC,financial,major,positive
+396,Banco Sabadell,SAB.MC,financial,minor,negative
+397,Bankia,BKIA.MC,financial,major,positive
+397,CaixaBank,CABK.MC,financial,major,positive
+398,CaixaBank S.A.,CABK.MC,financial,minor,positive
+398,Bankia S.A.,BKIA.MC,financial,minor,positive
+399,CaixaBank,CABK.MC,financial,major,positive
+399,Bankia,BKIA.MC,financial,major,negative
+400,Bankia,BKIA.MC,financial,minor,positive
+400,CaixaBank,CABK.MC,financial,minor,positive
+401,Bankia,BKIA.MC,financial,minor,negative
+401,CaixaBank,CABK.MC,financial,minor,positive
+402,Inditex,ITX.MC,demand,minor,positive
+403,Iberdrola,IBE.MC,demand,minor,positive
+404,Bankia,BKIA.MC,financial,major,negative
+404,CaixaBank,CABK.MC,financial,minor,positive
+405,Liberbank,LBK.MC,financial,minor,positive
+405,CaixaBank,CABK.MC,financial,minor,positive
+405,Bankia,BKIA.MC,financial,minor,positive
+405,Unicaja,UNI.MC,financial,minor,positive
+405,BBVA,BBVA.MC,financial,minor,positive
+405,Banco Santander,SAN.MC,financial,minor,positive
+406,CaixaBank,CABK.MC,financial,minor,positive
+406,Bankia,BKIA.MC,financial,minor,positive
+407,Merlin Properties,MRL.MC,demand,minor,positive
+408,Bankia S.A.,BKIA.MC,financial,minor,negative
+408,CaixaBank S.A.,CABK.MC,financial,minor,negative
+409,CaixaBank,CABK.MC,financial,major,positive
+409,Bankia,BKIA.MC,financial,major,positive
+410,Bankia,BKIA.MC,financial,minor,positive
+410,CaixaBank,CABK.MC,financial,minor,positive
+411,CaixaBank,CABK.MC,financial,minor,positive
+411,Bankia,BKIA.MC,financial,minor,positive
+412,Pharma Mar,PHM.MC,financial,minor,negative
+413,CaixaBank,CABK.MC,financial,minor,positive
+413,Bankia,BKIA.MC,financial,minor,positive
+414,Iberdrola,IBE.MC,technology,major,positive
+415,Banco Santander SA,SAN.MC,financial,minor,positive
+416,ACS,ACS.MC,supply,major,positive
+417,Repsol,REP.MC,policy,minor,negative
+418,Banco Santander,SAN.MC,financial,minor,positive
+419,Banco Santander,SAN.MC,financial,minor,positive
+420,Liberbank SA,LBK.MC,financial,minor,negative
+420,CaixaBank SA,CABK.MC,financial,major,negative
+420,Banco de Sabadell SA,SAB.MC,financial,major,negative
+420,Bankinter SA,BKT.MC,financial,minor,negative
+420,Bankia SA,BKIA.MC,financial,major,negative
+420,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+420,Unicaja Banco SA,UNI.MC,financial,minor,negative
+421,Repsol,REP.MC,demand,minor,positive
+422,IAG,IAG.MC,demand,major,negative
+423,Santander,SAN.MC,financial,minor,positive
+424,BBVA,BBVA.MC,financial,minor,positive
+425,CaixaBank,CABK.MC,financial,minor,positive
+425,Bankia,BKIA.MC,financial,minor,positive
+426,BBVA,BBVA.MC,demand,minor,positive
+427,Acciona SA,ANA.MC,technology,major,positive
+428,Enagás,ENG.MC,financial,minor,positive
+429,BBVA,BBVA.MC,financial,minor,positive
+430,CaixaBank,CABK.MC,financial,minor,positive
+430,Bankia,BKIA.MC,financial,minor,positive
+431,Bankia,BKIA.MC,financial,minor,negative
+431,CaixaBank,CABK.MC,financial,minor,negative
+432,Banco Santander S.A.,SAN.MC,financial,minor,positive
+432,Abengoa S.A. (ABG.MC),ABG.MC,financial,minor,positive
+433,CaixaBank,CABK.MC,financial,minor,positive
+433,Bankia,BKIA.MC,financial,minor,positive
+434,CaixaBank,CABK.MC,financial,minor,positive
+434,Bankia,BKIA.MC,financial,minor,positive
+435,Bankia,BKIA.MC,financial,minor,positive
+435,CaixaBank,CABK.MC,financial,minor,positive
+436,Iberdrola,IBE.MC,supply,minor,positive
+437,Acciona S.A.,ANA.MC,demand,major,positive
+438,CaixaBank,CABK.MC,financial,major,negative
+438,Bankia,BKIA.MC,financial,major,negative
+439,BBVA,BBVA.MC,financial,minor,positive
+440,Ferrovial SA,FER.MC,financial,minor,positive
+441,Liberbank,LBK.MC,financial,minor,positive
+441,Unicaja,UNI.MC,financial,minor,positive
+441,Sabadell,SAB.MC,financial,minor,positive
+441,BBVA,BBVA.MC,financial,minor,positive
+442,ACS.MC,ACS.MC,financial,minor,positive
+443,Ferrovial,FER.MC,financial,minor,positive
+444,CaixaBank,CABK.MC,financial,minor,positive
+444,Endesa,ELE.MC,financial,minor,positive
+445,Ferrovial,FER.MC,demand,minor,negative
+446,IAG,IAG.MC,financial,major,negative
+447,Almirall,ALM.MC,financial,minor,negative
+448,Colonial Socimi SA,COL.MC,financial,minor,positive
+449,Acciona S.A.,ANA.MC,demand,major,positive
+450,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+451,BBVA,BBVA.MC,financial,minor,positive
+451,Santander,SAN.MC,financial,minor,positive
+451,Banco Sabadell,SAB.MC,financial,minor,positive
+452,Colonial,COL.MC,demand,minor,positive
+452,Merlin Properties,MRL.MC,demand,minor,positive
+453,Colonial,COL.MC,financial,minor,positive
+454,Aena,AENA.MC,demand,minor,negative
+455,Repsol,REP.MC,financial,minor,positive
+456,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,minor,positive
+457,Cellnex,CLNX.MC,technology,minor,positive
+458,Telefónica,TEF.MC,financial,major,positive
+459,Banco de Sabadell SA,SAB.MC,financial,major,negative
+460,Cellnex,CLNX.MC,financial,major,positive
+461,CaixaBank SA,CABK.MC,financial,minor,positive
+461,Bankia SA,BKIA.MC,financial,minor,positive
+462,Telefónica S.A.,TEF.MC,financial,major,negative
+462,Inditex,ITX.MC,demand,minor,negative
+463,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+464,Telefónica,TEF.MC,financial,minor,positive
+465,Siemens Gamesa,SGRE.MC,policy,minor,positive
+466,CaixaBank SA,CABK.MC,financial,minor,positive
+466,Bankia SA,BKIA.MC,financial,minor,positive
+467,Endesa,ELE.MC,financial,minor,positive
+468,ACS,ACS.MC,financial,major,positive
+469,Iberdrola,IBE.MC,financial,major,negative
+470,ACS,ACS.MC,financial,minor,positive
+471,IAG,IAG.MC,financial,minor,positive
+472,Grifols,GRF.MC,demand,minor,positive
+473,Cellnex,CLNX.MC,financial,minor,positive
+474,Red Eléctrica Corp,REE.MC,demand,minor,negative
+475,Iberdrola S.A.,IBE.MC,policy,minor,positive
+476,Acciona SA,ANA.MC,supply,major,negative
+477,Unicaja Banco SA,UNI.MC,financial,minor,positive
+477,Liberbank SA,LBK.MC,financial,minor,positive
+478,ACS,ACS.MC,financial,major,positive
+479,Cellnex,CLNX.MC,financial,minor,positive
+480,ACS,ACS.MC,financial,minor,positive
+481,Liberbank SA,LBK.MC,financial,minor,positive
+481,Unicaja Banco SA,UNI.MC,financial,minor,positive
+482,Banco Sabadell,SAB.MC,financial,minor,negative
+483,Naturgy,NTGY.MC,policy,major,positive
+484,Cellnex,CLNX.MC,demand,major,positive
+485,Banco Sabadell SA,SAB.MC,financial,minor,positive
+485,CaixaBank SA,CABK.MC,financial,minor,positive
+485,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+485,Bankia SA,BKIA.MC,financial,minor,positive
+486,Acciona SA,ANA.MC,demand,major,positive
+487,Telefónica S.A.,TEF.MC,financial,minor,positive
+488,Cellnex,CLNX.MC,financial,major,positive
+489,Soltec,SOLTEC.MC,financial,major,positive
+490,Repsol SA,REP.MC,financial,minor,positive
+491,Acciona,ANA.MC,demand,minor,positive
+492,Naturgy Energy Group S.A.,NTGY.MC,policy,major,positive
+493,CaixaBank SA,CABK.MC,policy,minor,positive
+493,Bankia SA,BKIA.MC,policy,minor,positive
+493,Unicaja Banco SA,UNI.MC,policy,minor,positive
+493,Liberbank SA,LBK.MC,policy,minor,positive
+495,Siemens Gamesa,SGRE.MC,supply,minor,negative
+496,Iberdrola,IBE.MC,policy,minor,positive
+497,Repsol,REP.MC,supply,major,negative
+498,Solaria Energía y Medio Ambiente S.A.,SLR.MC,financial,minor,positive
+498,MásMóvil Ibercom S.A.,MAS.MC,financial,minor,negative
+498,Neinor Homes S.A.U.,HOME.MC,financial,minor,positive
+499,Santander,SAN.MC,financial,minor,negative
+500,Inmobiliaria Colonial SOCIMI S.A.,COL.MC,financial,minor,positive
+501,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+502,Repsol,REP.MC,supply,major,negative
+503,Santander,SAN.MC,financial,minor,negative
+504,Bankia SA,BKIA.MC,financial,minor,negative
+504,CaixaBank SA,CABK.MC,financial,major,positive
+505,IAG,IAG.MC,demand,minor,positive
+506,Telefónica S.A.,TEF.MC,financial,major,positive
+507,BBVA,BBVA.MC,financial,major,positive
+508,Telefónica SA (TEF.MC),TEF.MC,financial,major,positive
+509,Acciona,ANA.MC,demand,minor,positive
+510,Repsol,REP.MC,supply,minor,negative
+511,Santander,SAN.MC,financial,minor,positive
+511,BBVA,BBVA.MC,financial,minor,positive
+511,CaixaBank,CABK.MC,financial,minor,positive
+512,Iberdrola,IBE.MC,financial,minor,negative
+513,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+514,IAG,IAG.MC,demand,minor,negative
+515,Iberdrola,IBE.MC,demand,major,positive
+516,Aena SME SA,AENA.MC,demand,major,negative
+517,Endesa S.A.,ELE.MC,policy,major,positive
+518,Aena,AENA.MC,demand,major,negative
+519,Meliá,MEL.MC,demand,minor,negative
+520,Meliá Hotels,MEL.MC,demand,minor,negative
+521,F2i,F2I.MC,financial,minor,positive
+522,Acciona SA,ANA.MC,demand,minor,positive
+523,Cellnex,CLNX.MC,financial,minor,positive
+524,Cellnex,CLNX.MC,financial,major,positive
+525,Colonial,COL.MC,demand,minor,positive
+526,Grifols,GRF.MC,demand,minor,positive
+527,Grifols,GRF.MC,demand,minor,positive
+528,Inditex,ITX.MC,demand,minor,negative
+529,Solaria Energia y Medio Ambiente SA (SLR.MC),SLR.MC,policy,minor,positive
+529,Grenergy Renovables SA (GRE.MC),GRE.MC,policy,minor,positive
+529,Iberdrola SA (IBE.MC),IBE.MC,policy,minor,positive
+529,Greenalia SA (GRN.MC),GRN.MC,policy,minor,positive
+529,Endesa SA (ELE.MC),ELE.MC,policy,minor,positive
+530,CaixaBank SA,CABK.MC,financial,minor,positive
+530,Banco Santander SA,SAN.MC,financial,minor,positive
+530,Soltec Power Holdings SA,SOLTEC.MC,policy,major,positive
+531,Banco Santander SA,SAN.MC,financial,minor,positive
+532,Pharma Mar,PHM.MC,financial,minor,positive
+533,IAG,IAG.MC,financial,minor,positive
+534,Amadeus,AMS.MC,demand,minor,negative
+535,Repsol,REP.MC,financial,minor,positive
+536,Endesa SA,ELE.MC,policy,minor,positive
+537,CaixaBank SA,CABK.MC,financial,minor,negative
+537,Bankia SA,BKIA.MC,financial,minor,negative
+538,International Consolidated Airlines Group,IAG.MC,policy,minor,negative
+539,Indra Sistemas S.A.,IDR.MC,supply,major,negative
+540,ACS,ACS.MC,financial,major,positive
+541,PharmaMar,PHM.MC,supply,minor,positive
+542,IAG,IAG.MC,financial,minor,negative
+543,Repsol SA,REP.MC,policy,minor,positive
+544,ACS,ACS.MC,financial,minor,positive
+545,Banco Santander SA,SAN.MC,financial,minor,positive
+545,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+545,CaixaBank SA,CABK.MC,financial,minor,positive
+546,Acciona,ANA.MC,policy,minor,positive
+546,Enagás,ENG.MC,policy,minor,positive
+547,Enagás SA,ENG.MC,supply,minor,positive
+547,Naturgy Energy Group SA,NTGY.MC,supply,minor,positive
+548,Bankia,BKIA.MC,financial,major,positive
+548,CaixaBank,CABK.MC,financial,major,positive
+549,Enagás,ENG.MC,financial,minor,positive
+550,Cellnex,CLNX.MC,financial,minor,positive
+551,Enagás SA,ENG.MC,financial,minor,positive
+552,ACS,ACS.MC,financial,minor,positive
+553,Enagás,ENG.MC,financial,minor,positive
+554,Iberdrola,IBE.MC,financial,minor,negative
+555,Iberdrola SA,IBE.MC,financial,minor,negative
+555,Telefónica,TEF.MC,financial,minor,negative
+555,Repsol,REP.MC,financial,minor,negative
+556,CaixaBank SA,CABK.MC,financial,minor,negative
+556,Bankia SA,BKIA.MC,financial,minor,positive
+557,Iberdrola (IBE.MC),IBE.MC,financial,major,positive
+558,Iberdrola,IBE.MC,demand,minor,positive
+559,HSBC Holdings PLC (HSBC),HSBC.MC,financial,major,negative
+559,Banco Santander SA (SAN.MC),SAN.MC,financial,major,negative
+560,Telefónica,TEF.MC,financial,minor,negative
+561,Iberdrola,IBE.MC,demand,major,positive
+562,International Consolidated Airlines Group,IAG.MC,demand,minor,negative
+563,Iberdrola,IBE.MC,demand,minor,positive
+564,Enagás,ENG.MC,demand,minor,negative
+565,Iberdrola,IBE.MC,financial,minor,positive
+566,Telefónica,TEF.MC,technology,minor,positive
+567,Grifols,GRF.MC,financial,minor,negative
+568,Telefónica,TEF.MC,financial,minor,negative
+569,Banco Santander S.A.,SAN.MC,financial,major,negative
+569,Arima Real Estate,ARI.MC,financial,minor,negative
+569,Lar España,LAR.MC,financial,major,negative
+569,Merlin Properties Socimi SA,MRL.MC,financial,major,negative
+569,Inmobiliaria Colonial Socimi SA,COL.MC,financial,minor,negative
+570,Iberdrola,IBE.MC,financial,minor,positive
+571,Bankinter,BKT.MC,financial,major,negative
+572,Grifols,GRF.MC,supply,minor,negative
+573,Bankinter SA,BKT.MC,financial,minor,negative
+574,IAG,IAG.MC,supply,major,negative
+575,IAG,IAG.MC,demand,minor,negative
+576,Grifols,GRF.MC,demand,minor,positive
+577,IAG,IAG.MC,supply,major,negative
+578,Iberdrola,IBE.MC,financial,major,positive
+579,Bankinter,BKT.MC,financial,major,negative
+579,BBVA,BBVA.MC,financial,major,negative
+579,Bankia,BKIA.MC,financial,major,negative
+579,Banco Sabadell,SAB.MC,financial,major,negative
+579,CaixaBank,CABK.MC,financial,major,negative
+579,Banco Santander,SAN.MC,financial,major,negative
+580,IAG,IAG.MC,financial,minor,negative
+581,Bankinter SA,BKT.MC,financial,major,negative
+582,Red Electrica Corp,REE.MC,policy,minor,positive
+582,Nextracker,NXT.MC,policy,minor,positive
+582,Green Power,GRE.MC,policy,minor,positive
+582,Soltec Industrial,SOL.MC,policy,minor,positive
+583,IAG,IAG.MC,demand,major,negative
+584,ACS.MC,ACS.MC,financial,minor,negative
+585,Iberdrola,IBE.MC,financial,minor,positive
+586,IAG,IAG.MC,supply,major,negative
+587,Repsol SA,REP.MC,supply,major,positive
+588,Cellnex Telecom SA (CLNX.MC),CLNX.MC,financial,major,positive
+589,Bankinter,BKT.MC,financial,minor,negative
+590,Cellnex,CLNX.MC,financial,minor,positive
+591,Telefónica,TEF.MC,financial,minor,negative
+592,Bankinter,BKT.MC,financial,minor,negative
+593,ACS.MC,ACS.MC,supply,minor,positive
+594,PharmaMar,PHM.MC,financial,major,positive
+595,IAG,IAG.MC,financial,minor,positive
+596,Bankia S.A.,BKIA.MC,financial,minor,positive
+596,CaixaBank S.A.,CABK.MC,financial,minor,positive
+597,CaixaBank S.A.,CABK.MC,policy,minor,positive
+597,Bankia S.A.,BKIA.MC,policy,minor,positive
+598,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+599,Cellnex,CLNX.MC,financial,major,positive
+600,Cellnex,CLNX.MC,demand,minor,positive
+601,Acciona SA,ANA.MC,financial,minor,negative
+602,Banco Santander SA,SAN.MC,financial,minor,positive
+602,CaixaBank SA,CABK.MC,financial,minor,positive
+602,Banco Sabadell SA,SAB.MC,financial,minor,negative
+603,Santander,SAN.MC,financial,major,negative
+604,Banco Santander SA (SAN.MC),SAN.MC,financial,major,negative
+605,Banco Santander SA,SAN.MC,financial,major,negative
+606,Bankia SA,BKIA.MC,financial,major,positive
+606,CaixaBank SA,CABK.MC,financial,major,positive
+607,Enagás SA,ENG.MC,financial,minor,positive
+608,Banco Santander SA,SAN.MC,financial,major,negative
+609,Enagás,ENG.MC,financial,minor,negative
+610,Bankia,BKIA.MC,financial,major,negative
+611,Red Eléctrica Corp SA,REE.MC,financial,minor,positive
+612,Aena SME SA,AENA.MC,demand,major,negative
+613,Naturgy,NTGY.MC,demand,minor,negative
+614,Red Eléctrica,REE.MC,demand,minor,positive
+615,Aena,AENA.MC,financial,minor,positive
+616,Naturgy,NTGY.MC,demand,minor,negative
+617,Bankia SA,BKIA.MC,financial,major,negative
+618,Bankia,BKIA.MC,financial,minor,positive
+619,Banco Santander,SAN.MC,financial,minor,positive
+620,Banco Santander,SAN.MC,financial,minor,positive
+621,PharmaMar,PHM.MC,financial,major,positive
+622,Bankia SA,BKIA.MC,financial,major,negative
+623,Ferrovial SA,FER.MC,supply,major,positive
+624,Naturgy Energy Group SA,NTGY.MC,demand,major,negative
+625,Iberdrola,IBE.MC,policy,major,positive
+626,Aena,AENA.MC,demand,minor,negative
+627,Banco de Sabadell S.A.,SAB.MC,financial,major,negative
+627,Banco Santander S.A.,SAN.MC,financial,major,negative
+628,Abertis,ABE.MC,demand,major,negative
+628,ACS,ACS.MC,demand,major,negative
+629,Telefónica,TEF.MC,financial,major,negative
+630,Telefónica SA,TEF.MC,technology,major,positive
+631,Repsol,REP.MC,financial,major,negative
+632,Telefónica SA,TEF.MC,financial,major,negative
+633,Repsol,REP.MC,supply,minor,negative
+634,Santander,SAN.MC,financial,minor,positive
+635,Telefónica,TEF.MC,demand,major,negative
+636,Repsol,REP.MC,financial,minor,positive
+637,ACS,ACS.MC,demand,minor,negative
+638,ACS,ACS.MC,financial,minor,positive
+639,ACS,ACS.MC,financial,minor,positive
+639,Abertis,ABE.MC,supply,major,negative
+640,Repsol SA,REP.MC,supply,major,negative
+641,Bankia S.A.,BKIA.MC,financial,minor,positive
+641,CaixaBank S.A.,CABK.MC,financial,minor,positive
+641,Santander S.A.,SAN.MC,financial,minor,positive
+642,Ferrovial,FER.MC,demand,major,negative
+643,Ferrovial,FER.MC,supply,major,negative
+644,CaixaBank,CABK.MC,financial,minor,negative
+645,BBVA,BBVA.MC,financial,major,negative
+646,Banco Sabadell,SAB.MC,financial,major,negative
+647,Repsol,REP.MC,financial,major,positive
+648,CaixaBank SA,CABK.MC,financial,major,negative
+649,BBVA,BBVA.MC,financial,minor,negative
+650,Sabadell SA,SAB.MC,financial,major,negative
+651,Ferrovial,FER.MC,demand,minor,negative
+652,Aena,AENA.MC,financial,minor,positive
+653,Grifols,GRF.MC,supply,minor,negative
+654,Ferrovial,FER.MC,financial,minor,negative
+655,IAG,IAG.MC,demand,minor,negative
+656,Telefónica,TEF.MC,financial,minor,negative
+657,Cellnex,CLNX.MC,financial,major,positive
+658,Aena,AENA.MC,demand,minor,positive
+659,CaixaBank SA,CABK.MC,financial,major,negative
+659,Bankia SA,BKIA.MC,financial,minor,negative
+660,IAG,IAG.MC,supply,major,negative
+661,Ferrovial,FER.MC,demand,minor,negative
+662,BBVA,BBVA.MC,financial,major,negative
+663,Repsol,REP.MC,demand,minor,negative
+664,Santander,SAN.MC,financial,minor,positive
+665,Bankia,BKIA.MC,financial,minor,negative
+666,CaixaBank,CABK.MC,financial,minor,positive
+666,Bankia,BKIA.MC,financial,minor,positive
+667,BBVA,BBVA.MC,financial,minor,positive
+668,Sabadell,SAB.MC,financial,minor,negative
+669,Iberdrola,IBE.MC,supply,minor,positive
+670,Sabadell,SAB.MC,financial,major,negative
+671,Aena,AENA.MC,demand,major,negative
+672,Naturgy,NTGY.MC,supply,minor,negative
+673,Solaria Energía y Medio Ambiente SA,SLR.MC,financial,major,positive
+673,Gestamp Automoción,GEST.MC,supply,major,negative
+673,Meliá Hotels International SA,MEL.MC,demand,major,negative
+673,Ferrovial SA,FER.MC,financial,major,negative
+673,Inditex,ITX.MC,financial,major,negative
+674,Red Eléctrica Corp,REE.MC,demand,minor,negative
+675,MásMóvil Ibercom SA,MAS.MC,financial,major,negative
+676,Banco Santander,SAN.MC,financial,major,negative
+677,Cellnex Telecom SA,CLNX.MC,financial,major,negative
+678,Cellnex,CLNX.MC,demand,minor,positive
+679,Soltec Power Holdings SA,SOL.MC,financial,minor,positive
+679,Banco Santander SA,SAN.MC,financial,minor,positive
+680,Cellnex Telecom SA,CLNX.MC,demand,major,positive
+681,Siemens Gamesa,SGRE.MC,demand,major,negative
+682,Iberdrola,IBE.MC,policy,minor,positive
+682,Acciona,ANA.MC,policy,minor,positive
+682,ENACE Energía y Celulosa S.A.,ENC.MC,policy,minor,positive
+683,Banco Sabadell SA,SAB.MC,financial,major,negative
+683,Ibercaja,IBCA.MC,financial,major,negative
+683,Banco Santander SA,SAN.MC,financial,major,negative
+683,Liberbank SA,LBK.MC,financial,major,negative
+683,Bankia SA,BKIA.MC,financial,major,negative
+683,Unicaja Banco SA,UNI.MC,financial,major,negative
+683,CaixaBank SA,CABK.MC,financial,major,negative
+684,Endesa,ELE.MC,financial,major,positive
+685,Endesa SA,ELE.MC,financial,minor,positive
+686,Siemens Gamesa,SGRE.MC,supply,major,negative
+687,Iberdrola,IBE.MC,financial,major,positive
+688,Cellnex,CLNX.MC,financial,minor,positive
+689,Endesa,ELE.MC,supply,minor,positive
+690,IAG,IAG.MC,policy,minor,negative
+691,Iberdrola,IBE.MC,demand,minor,positive
+692,Siemens Gamesa,SGRE.MC,financial,minor,negative
+693,Cellnex,CLNX.MC,demand,major,positive
+694,Ferrovial S.A.,FER.MC,financial,minor,positive
+695,Siemens Gamesa Renewable Energy,SGRE.MC,demand,minor,positive
+696,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,financial,minor,negative
+697,Cellnex,CLNX.MC,financial,major,positive
+698,Iberdrola,IBE.MC,financial,major,positive
+699,Banco de Sabadell SA,SAB.MC,financial,major,negative
+700,Ferrovial SA,FER.MC,financial,minor,positive
+701,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+702,Acciona,ANA.MC,supply,major,negative
+703,Naturgy,NTGY.MC,policy,minor,positive
+704,Iberdrola,IBE.MC,policy,major,positive
+705,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+706,Acciona,ANA.MC,financial,minor,positive
+707,Iberdrola,IBE.MC,supply,major,positive
+708,Aena,AENA.MC,financial,minor,positive
+709,Acciona SA (ANA.MC),ANA.MC,demand,major,negative
+710,Iberdrola,IBE.MC,financial,minor,positive
+711,Iberdrola,IBE.MC,financial,major,positive
+712,Iberdrola,IBE.MC,demand,major,positive
+713,Indra Sistemas S.A.,IDR.MC,demand,major,negative
+714,Iberdrola,IBE.MC,supply,minor,negative
+715,Siemens Gamesa,SGRE.MC,financial,minor,negative
+716,Abertis,ABT.MC,financial,major,positive
+716,Actividades de Construcción y Servicios S.A.,ACS.MC,financial,minor,positive
+717,Telefónica,TEF.MC,financial,minor,positive
+718,Amadeus,AMS.MC,demand,minor,negative
+719,IAG,IAG.MC,demand,major,positive
+720,PharmaMar,PHM.MC,financial,major,negative
+721,Indra Sistemas SA,IDR.MC,supply,major,negative
+722,CaixaBank,CABK.MC,financial,minor,positive
+723,Inmobiliaria Colonial SOCIMI S.A.,COL.MC,financial,minor,positive
+724,Siemens Gamesa,SGRE.MC,demand,minor,positive
+725,Aena,AENA.MC,demand,minor,negative
+726,BBVA,BBVA.MC,financial,minor,positive
+726,Santander,SAN.MC,financial,minor,positive
+727,Acciona SA,ANA.MC,demand,major,positive
+728,IAG,IAG.MC,demand,major,negative
+729,Cellnex,CLNX.MC,financial,minor,positive
+729,Telefónica,TEF.MC,financial,minor,positive
+730,Aena SME SA,AENA.MC,demand,major,negative
+731,Siemens Gamesa,SGRE.MC,demand,major,positive
+732,Merlin Properties SOCIMI SA,MRL.MC,financial,minor,positive
+732,Bankia SA,BKIA.MC,financial,minor,positive
+732,Neinor Homes S.A.U.,HOME.MC,financial,minor,positive
+732,CaixaBank SA,CABK.MC,financial,minor,positive
+733,Cellnex Telecom SA,CLNX.MC,demand,major,positive
+734,Cellnex Telecom SA (CLNX.MC),CLNX.MC,financial,major,positive
+735,CaixaBank S.A.,CABK.MC,policy,major,positive
+735,Bankia S.A.,BKIA.MC,financial,major,negative
+735,Unicaja Banco S.A.,UNI.MC,financial,minor,negative
+735,Liberbank S.A.,LBK.MC,financial,minor,negative
+735,Mapfre S.A.,MAP.MC,policy,minor,negative
+736,Endesa S.A.,ELE.MC,supply,minor,negative
+736,Repsol S.A.,REP.MC,demand,minor,positive
+737,Inmobiliaria Colonial SOCIMI S.A.,COL.MC,financial,major,negative
+738,Banco Santander S.A.,SAN.MC,financial,minor,positive
+739,Merlin Properties Socimi SA,MRL.MC,financial,major,negative
+740,Merlin Properties,MRL.MC,financial,minor,positive
+741,Cellnex,CLNX.MC,demand,minor,positive
+742,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+743,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+744,Aena,AENA.MC,demand,minor,positive
+745,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+746,Repsol,REP.MC,supply,minor,negative
+747,Cellnex,CLNX.MC,financial,minor,positive
+748,Banco Santander S.A.,SAN.MC,financial,major,negative
+749,Repsol S.A.,REP.MC,demand,minor,negative
+750,Naturgy,NTGY.MC,financial,minor,positive
+751,BBVA,BBVA.MC,financial,major,positive
+752,Acciona,ANA.MC,financial,minor,positive
+753,BBVA,BBVA.MC,financial,minor,positive
+754,BBVA,BBVA.MC,financial,major,positive
+755,BBVA,BBVA.MC,financial,minor,positive
+756,Cellnex,CLNX.MC,financial,major,positive
+757,Cellnex,CLNX.MC,financial,minor,positive
+758,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,policy,minor,positive
+759,Naturgy,NTGY.MC,financial,minor,positive
+760,BBVA,BBVA.MC,financial,minor,positive
+761,BBVA,BBVA.MC,financial,major,positive
+761,Sabadell,SAB.MC,financial,major,positive
+762,Banco Sabadell,SAB.MC,financial,major,positive
+762,BBVA,BBVA.MC,financial,major,positive
+763,Repsol,REP.MC,supply,minor,positive
+764,BBVA,BBVA.MC,financial,major,positive
+764,Banco Sabadell,SAB.MC,financial,major,positive
+765,Banco Santander SA,SAN.MC,financial,major,positive
+766,ACS.MC,ACS.MC,financial,major,positive
+767,Banco Santander,SAN.MC,financial,minor,positive
+768,Naturgy,NTGY.MC,financial,minor,positive
+769,Cellnex,CLNX.MC,financial,major,positive
+770,Sabadell,SAB.MC,financial,minor,negative
+770,BBVA,BBVA.MC,financial,minor,negative
+771,BBVA (BBVA.MC),BBVA.MC,financial,minor,positive
+771,Sabadell (SAB.MC),SAB.MC,financial,minor,positive
+772,BBVA,BBVA.MC,policy,minor,negative
+772,Sabadell,SAB.MC,policy,minor,positive
+773,BBVA,BBVA.MC,financial,minor,positive
+773,Banco Sabadell,SAB.MC,financial,minor,positive
+774,Iberdrola,IBE.MC,demand,minor,positive
+775,BBVA,BBVA.MC,financial,minor,negative
+775,Banco Sabadell,SAB.MC,financial,minor,positive
+776,BBVA,BBVA.MC,financial,minor,positive
+776,Banco Sabadell,SAB.MC,financial,minor,positive
+777,Banco Sabadell,SAB.MC,financial,minor,positive
+778,Banco Santander SA (SAN.MC),SAN.MC,supply,minor,positive
+778,CaixaBank SA (CABK.MC),CABK.MC,supply,minor,positive
+778,Banco Bilbao Vizcaya Argentaria SA (BBVA.MC),BBVA.MC,supply,minor,positive
+778,Bankia SA (BKIA.MC),BKIA.MC,supply,minor,positive
+778,Banco Sabadell SA (SAB.MC),SAB.MC,supply,minor,positive
+779,Sabadell,SAB.MC,financial,minor,positive
+779,BBVA,BBVA.MC,financial,minor,positive
+779,Unicaja,UNI.MC,financial,minor,positive
+779,CaixaBank,CABK.MC,financial,minor,positive
+779,Liberbank,LBK.MC,financial,minor,positive
+779,Bankia,BKIA.MC,financial,minor,positive
+780,BBVA,BBVA.MC,financial,minor,negative
+780,Banco Sabadell,SAB.MC,financial,minor,positive
+781,Banco Santander S.A.,SAN.MC,financial,minor,positive
+781,Abengoa S.A.,ABG.MC,financial,major,negative
+782,Banco Santander,SAN.MC,supply,major,negative
+783,Meliá,MEL.MC,demand,minor,positive
+784,ACS,ACS.MC,demand,minor,positive
+785,BBVA,BBVA.MC,financial,minor,positive
+786,Acciona,ANA.MC,financial,minor,positive
+787,Liberbank SA,LBK.MC,financial,minor,positive
+787,Banco de Sabadell SA,SAB.MC,financial,minor,positive
+787,Unicaja Banco SA,UNI.MC,financial,minor,positive
+787,CaixaBank SA,CABK.MC,financial,minor,positive
+787,Bankia SA,BKIA.MC,financial,minor,positive
+787,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+788,Ferrovial,FER.MC,supply,minor,negative
+789,Bankinter,BKT.MC,financial,minor,negative
+789,Solaria,SLR.MC,supply,minor,negative
+790,Meliá Hotels International S.A.,MEL.MC,policy,minor,positive
+791,International Consolidated Airlines Group S.A.,IAG.MC,policy,minor,positive
+792,BBVA,BBVA.MC,financial,minor,positive
+793,Acciona S.A.,ANA.MC,supply,minor,positive
+794,Iberdrola S.A.,IBE.MC,supply,major,positive
+795,Solaria,SLR.MC,demand,minor,positive
+796,Telefónica,TEF.MC,financial,major,negative
+797,Telefónica,TEF.MC,policy,minor,negative
+798,Endesa,ELE.MC,policy,minor,positive
+798,Iberdrola SA,IBE.MC,policy,minor,positive
+798,Acciona SA,ANA.MC,policy,minor,positive
+798,Naturgy Energy Group SA,NTGY.MC,policy,minor,positive
+798,Repsol SA,REP.MC,policy,minor,positive
+799,Sabadell SA,SAB.MC,financial,minor,positive
+799,BBVA.MC,BBVA.MC,financial,minor,negative
+800,Endesa,ELE.MC,financial,minor,positive
+801,Iberdrola,IBE.MC,supply,minor,positive
+802,BBVA,BBVA.MC,financial,minor,positive
+803,Iberdrola,IBE.MC,financial,minor,positive
+804,Bankia,BKIA.MC,financial,minor,positive
+804,CaixaBank,CABK.MC,financial,minor,positive
+805,CaixaBank,CABK.MC,financial,minor,positive
+805,Bankia,BKIA.MC,financial,minor,positive
+806,BBVA,BBVA.MC,financial,minor,positive
+806,Sabadell,SAB.MC,financial,minor,negative
+807,CaixaBank SA,CABK.MC,policy,minor,positive
+808,Telefónica S.A.,TEF.MC,financial,minor,negative
+809,Cellnex Telecom SA,CLNX.MC,demand,minor,positive
+809,Endesa SA,ELE.MC,demand,minor,positive
+810,Telefónica,TEF.MC,financial,minor,negative
+811,Meliá Hotels,MEL.MC,demand,minor,positive
+812,Repsol,REP.MC,financial,minor,positive
+813,Telefónica,TEF.MC,financial,minor,negative
+814,Repsol,REP.MC,financial,minor,positive
+815,Banco Sabadell SA,SAB.MC,financial,major,positive
+815,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+816,CaixaBank,CABK.MC,financial,minor,positive
+816,Unicaja,UNI.MC,financial,minor,positive
+816,Santander,SAN.MC,financial,minor,negative
+817,Repsol,REP.MC,financial,minor,positive
+818,Telefónica,TEF.MC,financial,major,positive
+819,Endesa,ELE.MC,demand,minor,positive
+820,Cellnex,CLNX.MC,financial,minor,positive
+821,Grifols,GRLS.MC,supply,major,positive
+822,Endesa,ELE.MC,financial,minor,positive
+823,Cellnex,CLNX.MC,financial,minor,positive
+824,NH Hotel Group,NHH.MC,demand,minor,negative
+824,Meliá Hotels,MEL.MC,demand,minor,negative
+825,CaixaBank SA,CABK.MC,financial,major,positive
+825,Naturgy Energy Group S.A.,NTGY.MC,financial,major,positive
+826,Endesa SA (ELE.MC),ELE.MC,financial,major,positive
+827,Naturgy,NTGY.MC,supply,minor,positive
+828,Aena SME S.A.,AENA.MC,supply,minor,positive
+829,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,minor,positive
+830,Repsol,REP.MC,financial,minor,positive
+831,Repsol,REP.MC,policy,minor,positive
+832,Santander,SAN.MC,financial,minor,positive
+833,Repsol S.A.,REP.MC,financial,major,positive
+834,Endesa SA,ELE.MC,financial,minor,positive
+835,Repsol S.A. (REP.MC),REP.MC,demand,minor,positive
+836,Endesa,ELE.MC,financial,minor,positive
+837,Telefónica S.A.,TEF.MC,technology,major,positive
+838,Banco Santander,SAN.MC,financial,major,negative
+839,Indra Sistemas SA (IDR.MC),IDR.MC,financial,minor,negative
+840,BBVA SA,BBVA.MC,financial,major,negative
+840,Banco Sabadell SA,SAB.MC,financial,major,negative
+841,Banco Sabadell,SAB.MC,financial,minor,positive
+842,Banco Sabadell,SAB.MC,financial,major,positive
+843,Repsol,REP.MC,financial,minor,positive
+844,Cellnex,CLNX.MC,demand,minor,positive
+845,IAG,IAG.MC,demand,minor,positive
+846,Repsol,REP.MC,financial,minor,negative
+847,BBVA,BBVA.MC,financial,minor,positive
+847,Sabadell,SAB.MC,financial,minor,negative
+848,BBVA,BBVA.MC,financial,minor,positive
+848,Sabadell,SAB.MC,financial,major,negative
+849,Banco Sabadell,SAB.MC,financial,minor,positive
+849,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+850,Banco de Sabadell SA,SAB.MC,financial,major,negative
+851,Repsol,REP.MC,technology,minor,positive
+852,Banco Sabadell S.A. (SAB.MC),SAB.MC,financial,minor,negative
+853,Acciona SA,ANA.MC,financial,major,positive
+854,Repsol,REP.MC,supply,minor,positive
+855,Colonial,COL.MC,demand,minor,negative
+856,Inditex,ITX.MC,financial,minor,negative
+857,Repsol,REP.MC,financial,minor,positive
+858,Repsol,REP.MC,financial,minor,positive
+859,Acciona,ANA.MC,financial,minor,positive
+860,ENCE Energía y Celulosa SA,ENC.MC,policy,minor,positive
+860,Acciona SA,ANA.MC,policy,minor,positive
+861,CaixaBank SA (CABK.MC),CABK.MC,financial,minor,positive
+861,Banco Sabadell SA (SAB.MC),SAB.MC,financial,major,negative
+861,Banco Bilbao Vizcaya Argentaria SA (BBVA.MC),BBVA.MC,financial,minor,positive
+861,Bankia SA (BKIA.MC),BKIA.MC,financial,minor,positive
+862,Amadeus,AMS.MC,demand,minor,negative
+863,CaixaBank SA,CABK.MC,financial,major,positive
+863,Bankia SA,BKIA.MC,financial,major,positive
+864,Banco Santander,SAN.MC,financial,major,negative
+865,Bankia,BKIA.MC,financial,major,positive
+865,CaixaBank,CABK.MC,financial,major,positive
+866,Banco Sabadell SA,SAB.MC,financial,minor,positive
+867,Aena,AENA.MC,demand,minor,positive
+868,Naturgy Energy Group S.A.,NTGY.MC,financial,major,positive
+869,Repsol Sinopec,REP.MC,supply,major,positive
+870,Repsol SA,REP.MC,financial,minor,negative
+871,Banco Sabadell,SAB.MC,financial,minor,negative
+871,BBVA,BBVA.MC,financial,minor,positive
+872,Siemens Gamesa Renewable Energy,SGRE.MC,demand,minor,positive
+873,Repsol,REP.MC,financial,minor,positive
+874,Amadeus,AMS.MC,demand,minor,negative
+875,Siemens Gamesa Renewable Energy S.A.,SGREN.MC,technology,minor,positive
+876,Indra Sistemas SA,IDR.MC,supply,minor,negative
+877,Aena SME S.A.,AENA.MC,financial,major,negative
+877,Unicaja Banco S.A.,UNI.MC,financial,minor,positive
+878,Repsol,REP.MC,demand,minor,positive
+879,Cellnex,CLNX.MC,financial,minor,positive
+880,CaixaBank,CABK.MC,financial,major,positive
+880,Bankia,BKIA.MC,financial,major,positive
+881,Banco Santander S.A.,SAN.MC,financial,major,negative
+882,BBVA,BBVA.MC,financial,minor,positive
+882,Telefónica,TEF.MC,financial,minor,positive
+883,Aena,AENA.MC,demand,minor,positive
+884,PharmaMar,PHR.MC,financial,major,negative
+885,Merlin Properties,MRL.MC,demand,minor,negative
+886,BBVA,BBVA.MC,financial,minor,positive
+887,Santander,SAN.MC,financial,major,positive
+887,BBVA,BBVA.MC,financial,major,positive
+888,Telefónica,TEF.MC,financial,major,negative
+889,Siemens Gamesa,SGRE.MC,supply,minor,positive
+890,Inditex,ITX.MC,demand,minor,negative
+891,Meliá Hotels,MEL.MC,demand,minor,negative
+892,Banco Santander,SAN.MC,financial,minor,positive
+893,Inditex,ITX.MC,demand,minor,positive
+894,Telefónica,TEF.MC,financial,minor,positive
+895,Repsol,REP.MC,demand,minor,negative
+896,Sabadell,SAB.MC,financial,minor,negative
+897,BBVA,BBVA.MC,financial,minor,positive
+898,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,policy,minor,negative
+899,CaixaBank SA,CABK.MC,financial,minor,positive
+899,Bankia SA,BKIA.MC,financial,minor,positive
+900,Inmobiliaria Colonial Socimi S.A.,COL.MC,financial,minor,positive
+901,Siemens Gamesa,SGRE.MC,demand,minor,positive
+902,Siemens Gamesa,SGRE.MC,policy,major,positive
+903,Iberia,IAG.MC,demand,minor,positive
+903,Aena,AENA.MC,demand,minor,positive
+904,Acciona SA,ANA.MC,demand,major,positive
+905,Banco Santander,SAN.MC,financial,major,negative
+906,Acciona,ANA.MC,financial,minor,positive
+907,Acciona S.A.,ANA.MC,financial,minor,negative
+908,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+909,Aena,AENA.MC,demand,major,positive
+910,Telefónica SA,TEF.MC,policy,major,negative
+911,Repsol S.A.,REP.MC,financial,minor,positive
+912,Endesa S.A.,ENE.MC,policy,minor,positive
+913,Repsol,REP.MC,financial,minor,positive
+914,Banco de Sabadell S.A.,SAB.MC,financial,minor,positive
+914,Banco Santander S.A.,SAN.MC,financial,minor,positive
+914,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,minor,positive
+914,Bankinter S.A.,BKT.MC,financial,minor,positive
+914,Liberbank S.A.,LBK.MC,financial,minor,positive
+914,Unicaja Banco S.A.,UNI.MC,financial,minor,positive
+914,CaixaBank S.A.,CABK.MC,financial,minor,positive
+915,CaixaBank S.A.,CABK.MC,financial,major,positive
+916,Aena SME SA,AENA.MC,demand,minor,negative
+917,BBVA,BBVA.MC,financial,major,positive
+918,Telefónica S.A.,TEF.MC,financial,major,positive
+919,Inditex,ITX.MC,demand,major,negative
+920,Telefónica,TEF.MC,financial,minor,negative
+921,Inditex,ITX.MC,demand,minor,negative
+922,Telefónica,TEF.MC,financial,minor,positive
+923,Telefónica,TEF.MC,demand,minor,positive
+924,Inditex,ITX.MC,demand,minor,positive
+925,Telefónica,TEF.MC,financial,minor,positive
+926,Indra,IDR.MC,financial,minor,positive
+926,Grifols,GRF.MC,financial,minor,positive
+926,Cellnex,CLNX.MC,financial,minor,positive
+926,Merlin Properties,MRL.MC,financial,minor,positive
+926,BBVA,BBVA.MC,financial,minor,positive
+926,Repsol,REP.MC,financial,minor,positive
+927,IAG,IAG.MC,demand,minor,positive
+928,Cellnex,CLNX.MC,financial,minor,positive
+929,Banco Santander,SAN.MC,financial,major,negative
+930,Ferrovial,FER.MC,technology,minor,positive
+931,Inditex,ITX.MC,demand,minor,positive
+932,Telefónica,TEF.MC,financial,minor,positive
+933,Naturgy Energy Group SA,NTGY.MC,technology,minor,positive
+934,Ferrovial SA,FER.MC,policy,major,positive
+935,Inditex,ITX.MC,demand,minor,positive
+936,Inditex,ITX.MC,demand,minor,positive
+937,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,technology,minor,positive
+938,Inditex,ITX.MC,demand,minor,negative
+939,CaixaBank SA,CABK.MC,financial,minor,positive
+939,Bankia SA,BKIA.MC,financial,minor,positive
+940,Repsol,REP.MC,policy,minor,positive
+941,ACS,ACS.MC,financial,major,positive
+942,Solaria,SLR.MC,demand,minor,positive
+943,Banco Bilbao Vizcaya Argentaria,BBVA.MC,policy,minor,negative
+943,Sabadell,SAB.MC,policy,major,positive
+944,Enagás S.A.,ENAG.MC,supply,minor,positive
+944,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+945,Endesa,ELE.MC,supply,minor,negative
+946,Red Eléctrica Corp. S.A.,REE.MC,policy,minor,positive
+947,Acciona S.A.,ANA.MC,technology,major,positive
+948,Endesa,ELE.MC,policy,minor,negative
+949,Banco Sabadell S.A.,SAB.MC,policy,minor,positive
+950,Enagás,ENG.MC,supply,minor,negative
+951,Ferrovial,FER.MC,supply,minor,negative
+952,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,major,positive
+953,Iberdrola S.A.,IBE.MC,demand,minor,positive
+954,Cellnex,CLNX.MC,demand,minor,positive
+954,Iberdrola,IBE.MC,demand,minor,positive
+954,Inditex,ITX.MC,demand,minor,positive
+956,Barceló,BAR.MC,financial,major,positive
+956,Globalia,???.MC,financial,major,positive
+957,ACS.MC,ACS.MC,financial,major,positive
+958,BBVA,BBVA.MC,financial,minor,positive
+959,Bankinter SA,BKT.MC,financial,major,negative
+959,Banco Sabadell SA,SAB.MC,financial,major,negative
+959,Banco Santander SA,SAN.MC,financial,major,negative
+959,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+960,Amadeus IT Group SA,AMS.MC,policy,minor,positive
+961,Acciona SA,ANA.MC,supply,minor,positive
+962,Banco Sabadell SA,SAB.MC,financial,minor,positive
+963,Endesa,ELE.MC,supply,major,negative
+964,Aena,AENA.MC,demand,minor,positive
+964,Banco Sabadell,SABE.MC,financial,minor,negative
+964,IAG,IAG.MC,demand,minor,positive
+965,Acciona,ANA.MC,policy,major,positive
+966,Banco Santander S.A.,SAN.MC,financial,minor,positive
+967,Red Eléctrica Corp.,REE.MC,supply,major,negative
+968,IAG,IAG.MC,demand,minor,positive
+969,Enagás,ENG.MC,financial,minor,positive
+970,Bankinter SA,BKT.MC,financial,minor,positive
+970,Grenergy Renovables SA,GRE.MC,financial,major,positive
+971,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+972,Iberdrola,IBE.MC,financial,minor,negative
+973,NH,NHH.MC,demand,minor,positive
+973,Meliá Hotels,MEL.MC,demand,minor,positive
+974,Telefónica SA (TEF.MC),TEF.MC,financial,minor,positive
+975,Repsol,REP.MC,supply,minor,positive
+976,Repsol S.A.,REP.MC,supply,minor,positive
+977,Enagás S.A.,ENG.MC,technology,minor,positive
+977,Acciona S.A.,ANA.MC,technology,minor,positive
+978,Liberbank,LBK.MC,financial,major,negative
+978,Unicaja Banco,UNI.MC,financial,major,positive
+979,Liberbank,LBK.MC,financial,major,positive
+979,Unicaja Banco,UNI.MC,financial,major,positive
+980,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+981,Enagás,ENG.MC,supply,minor,positive
+982,Banco Sabadell SA,SAB.MC,financial,minor,negative
+982,Solaria Energía y Medio Ambiente SA,SLR.MC,technology,major,positive
+982,Soltec Power Holdings SA,SOL.MC,technology,major,positive
+982,Siemens Gamesa Renewable Energy SA,SGRE.MC,technology,major,positive
+982,Banco Santander SA,SAN.MC,financial,minor,negative
+983,Telefónica,TEF.MC,financial,minor,positive
+984,Enagás,ENG.MC,financial,minor,negative
+985,ACS,ACS.MC,financial,minor,positive
+986,IAG.MC,IAG.MC,financial,minor,positive
+987,ACS,ACS.MC,financial,minor,positive
+988,ACS,ACS.MC,financial,minor,positive
+989,Cellnex Telecom SA,CLNX.MC,policy,minor,positive
+990,IAG,IAG.MC,financial,minor,positive
+991,ACS.MC,ACS.MC,supply,minor,positive
+992,Red Eléctrica Corp. S.A.,REE.MC,demand,minor,positive
+993,Colonial,COL.MC,demand,minor,positive
+994,Telefónica,TEF.MC,demand,minor,positive
+995,Siemens Gamesa,SGRE.MC,financial,minor,positive
+996,Solaria,SLR.MC,demand,minor,positive
+997,Amadeus,AMS.MC,demand,minor,negative
+998,Solaria Energía y Medio Ambiente SA,SLR.MC,demand,major,positive
+999,Inditex,ITX.MC,demand,major,negative
+1001,Telefónica SA,TEF.MC,financial,minor,positive
+1002,Siemens Gamesa,SGRE.MC,demand,minor,positive
+1003,Naturgy,NTGY.MC,financial,minor,negative
+1004,Endesa,ELE.MC,financial,minor,negative
+1005,Solaria,SLR.MC,financial,minor,negative
+1006,Santander,SAN.MC,financial,minor,positive
+1007,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,negative
+1008,Endesa SA (ELE.MC),ELE.MC,financial,minor,positive
+1008,Enagás SA (ENG.MC),ENG.MC,financial,minor,positive
+1008,Red Eléctrica Corp. S.A. (REE.MC),REE.MC,financial,minor,positive
+1009,Quabit Inmobiliaria SA,QBT.MC,financial,major,positive
+1009,Neinor Homes SAU,HOME.MC,financial,major,positive
+1010,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,major,negative
+1011,Ferrovial SA,FER.MC,financial,minor,positive
+1012,Naturgy,NTGY.MC,supply,minor,positive
+1013,Siemens Gamesa,SGRE.MC,supply,minor,negative
+1014,Siemens Gamesa,SGRE.MC,supply,minor,positive
+1015,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1015,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,minor,positive
+1016,Telefónica,TEF.MC,financial,major,positive
+1017,Endesa,ELE.MC,demand,minor,positive
+1018,Acciona,ANA.MC,financial,minor,positive
+1019,Telefónica SA,TEF.MC,financial,major,positive
+1020,Solaria,SLR.MC,financial,major,negative
+1021,International Consolidated Airlines Group S.A.,IAG.MC,financial,major,negative
+1022,Telefónica,TEF.MC,financial,minor,positive
+1023,Grifols,GRLS.MC,supply,minor,negative
+1024,Cellnex Telecom,CLNX.MC,supply,minor,negative
+1024,Telefónica,TEF.MC,financial,minor,positive
+1025,IAG,IAG.MC,financial,major,negative
+1026,Siemens Gamesa Renewable Energy SA,SGRE.MC,technology,major,positive
+1027,Telefónica,TEF.MC,financial,major,positive
+1028,Aena SME SA,AENA.MC,demand,major,negative
+1029,Telefónica,TEF.MC,financial,minor,positive
+1030,Telefónica,TEF.MC,financial,major,negative
+1031,Iberdrola,IBE.MC,policy,minor,positive
+1032,AENA,AENA.MC,demand,minor,positive
+1033,Telefónica,TEF.MC,financial,minor,positive
+1033,Cellnex,CLNX.MC,financial,minor,negative
+1034,Naturgy Energy Group SA,NTGY.MC,policy,minor,positive
+1035,Acciona,ANA.MC,demand,major,positive
+1036,Acciona,ANA.MC,policy,minor,positive
+1037,Solara,SLR.MC,demand,major,negative
+1037,Iberdrola,IBE.MC,financial,minor,positive
+1037,Solarpack,SPK.MC,demand,major,negative
+1038,Telefónica,TEF.MC,financial,minor,positive
+1039,Telefónica,TEF.MC,demand,minor,negative
+1040,Solaria Energía y Medio Ambiente SA,SLR.MC,supply,minor,positive
+1041,Naturgy,NTGY.MC,policy,major,positive
+1042,Endesa SA,ELE.MC,financial,minor,positive
+1044,Iberdrola,IBE.MC,technology,major,positive
+1045,Repsol,REP.MC,supply,minor,negative
+1046,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+1047,Naturgy,NTGY.MC,policy,major,positive
+1048,CaixaBank,CABK.MC,financial,major,positive
+1049,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+1049,CaixaBank,CABK.MC,financial,minor,positive
+1049,Banco Santander,SAN.MC,financial,minor,positive
+1050,ACS.MC,ACS.MC,financial,minor,negative
+1051,Banco Sabadell,SAB.MC,financial,major,negative
+1052,Siemens Gamesa,SGRE.MC,demand,minor,positive
+1053,Cellnex,CLNX.MC,financial,minor,positive
+1053,Telefónica,TEF.MC,financial,minor,negative
+1054,Siemens Gamesa,SGRE.MC,supply,minor,positive
+1055,ACS,ACS.MC,financial,minor,positive
+1056,Aena,AENA.MC,demand,minor,negative
+1057,Naturgy,NTGY.MC,policy,major,positive
+1058,Merlin Properties,MRL.MC,demand,minor,positive
+1059,Enagás S.A.,ENG.MC,demand,major,positive
+1060,Duro Felguera S.A.,MDF.MC,financial,major,negative
+1060,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1060,Banco de Sabadell S.A.,SAB.MC,financial,minor,positive
+1061,BBVA,BBVA.MC,financial,minor,positive
+1062,Q-Energy,Q-Energy.MC,financial,major,positive
+1062,Banco Santander SA,SAN.MC,financial,minor,positive
+1063,IAG,IAG.MC,financial,major,positive
+1064,Repsol S.A.,REP.MC,supply,major,negative
+1065,Repsol,REP.MC,financial,minor,positive
+1066,IAG,IAG.MC,supply,minor,positive
+1067,Bankia,BKIA.MC,financial,minor,positive
+1067,CaixaBank,CABK.MC,financial,minor,negative
+1068,FCC.MC,FCC.MC,policy,minor,positive
+1068,SAB.MC,SAB.MC,financial,minor,positive
+1069,Santander,SAN.MC,financial,minor,positive
+1070,Banco Santander,SAN.MC,financial,minor,positive
+1071,Acerinox,ACX.MC,demand,minor,positive
+1072,IAG,IAG.MC,policy,minor,positive
+1073,Repsol,REP.MC,supply,minor,positive
+1074,Naturgy,NTGY.MC,demand,minor,positive
+1075,Grifols,GRF.MC,demand,minor,negative
+1076,Solarpack,SPK.MC,financial,minor,positive
+1076,Banco Santander,SAN.MC,financial,minor,positive
+1077,BBVA,BBVA.MC,financial,minor,positive
+1078,Banco Santander SA,SAN.MC,financial,minor,positive
+1078,Solarpack Corp. Tecnológica SA,SPK.MC,financial,minor,negative
+1079,Bankinter,BKT.MC,financial,minor,negative
+1080,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+1081,Repsol,REP.MC,supply,minor,negative
+1082,Bankinter SA,BKT.MC,financial,major,negative
+1083,Repsol,REP.MC,demand,minor,positive
+1084,Cellnex Telecom,CLNX.MC,demand,minor,positive
+1085,Acciona SA,ANA.MC,demand,minor,positive
+1086,Bankinter SA,BKT.MC,financial,minor,negative
+1087,Iberdrola,IBE.MC,supply,minor,positive
+1088,Acerinox,ACX.MC,demand,minor,positive
+1089,Bankinter,BKT.MC,financial,minor,positive
+1090,Cellnex,CLNX.MC,financial,minor,positive
+1091,Bankinter,BKT.MC,financial,minor,positive
+1092,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1093,BBVA,BBVA.MC,financial,minor,positive
+1094,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,minor,positive
+1095,Siemens Gamesa,SGRE.MC,demand,major,positive
+1096,Siemens Gamesa,SGRE.MC,financial,minor,positive
+1097,Siemens Gamesa,SGRE.MC,supply,minor,negative
+1098,Bankia,BKIA.MC,financial,minor,negative
+1099,Aena,AENA.MC,demand,minor,negative
+1100,Inditex,ITX.MC,demand,major,negative
+1101,Cellnex,CLNX.MC,financial,minor,negative
+1102,Santander,SAN.MC,financial,minor,positive
+1102,BBVA,BBVA.MC,financial,minor,positive
+1103,Bankinter,BKT.MC,financial,minor,positive
+1104,Amadeus,AMS.MC,demand,minor,negative
+1105,Naturgy,NTGY.MC,financial,major,positive
+1106,PharmaMar,PHM.MC,financial,major,positive
+1107,Naturgy,NTGY.MC,financial,minor,positive
+1108,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1109,Santander,SAN.MC,financial,minor,positive
+1110,Naturgy,NTGY.MC,financial,minor,positive
+1111,Aena,AENA.MC,demand,minor,positive
+1112,Naturgy,NTGY.MC,financial,minor,positive
+1113,Acciona,ANA.MC,financial,minor,positive
+1114,Naturgy Energy Group SA,NTGY.MC,supply,major,positive
+1115,Naturgy,NTGY.MC,financial,major,positive
+1116,Acciona SA,ANA.MC,policy,major,positive
+1116,Endesa SA,ELE.MC,policy,minor,positive
+1116,Repsol SA,REP.MC,policy,minor,negative
+1116,Acciona SA,ANA.MC,policy,major,positive
+1116,Naturgy Energy Group SA,NTGY.MC,policy,major,positive
+1116,Acciona SA,ANA.MC,policy,major,positive
+1116,Endesa SA,ELE.MC,policy,minor,positive
+1116,Naturgy Energy Group SA,NTGY.MC,policy,major,positive
+1116,Repsol SA,REP.MC,policy,minor,negative
+1116,Repsol SA,REP.MC,policy,minor,negative
+1116,Endesa SA,ELE.MC,policy,minor,positive
+1116,Acciona SA,ANA.MC,policy,major,positive
+1116,Naturgy Energy Group SA,NTGY.MC,policy,major,positive
+1116,Repsol SA,REP.MC,policy,minor,negative
+1116,Endesa SA,ELE.MC,policy,minor,positive
+1116,Naturgy Energy Group SA,NTGY.MC,policy,major,positive
+1117,Endesa SA,ELE.MC,demand,minor,positive
+1117,Iberdrola,IBE.MC,demand,major,positive
+1117,Naturgy Energy Group SA,NTGY.MC,demand,major,positive
+1117,Acciona SA,ANA.MC,demand,major,positive
+1118,Garnacha Solar,GAR.MC,supply,major,positive
+1118,Ignis,IGN.MC,supply,major,positive
+1118,Capital Energy,CAP.MC,supply,major,positive
+1118,X-Elio,XEL.MC,supply,major,positive
+1118,Iberdrola SA,IBE.MC,supply,major,positive
+1118,Endesa SA,ELE.MC,supply,major,positive
+1118,Acciona SA,ANA.MC,supply,major,positive
+1118,Green Capital,GREN.MC,supply,major,positive
+1118,Greenalia SA,GRN.MC,supply,major,positive
+1118,Naturgy Energy Group SA,NTGY.MC,supply,major,positive
+1118,Solaria Energía y Medio Ambiente SA,SLR.MC,supply,major,positive
+1118,Elawan,ELW.MC,supply,major,positive
+1119,Bankinter,BKT.MC,financial,minor,negative
+1120,Naturgy,NTGY.MC,financial,minor,positive
+1121,Repsol S.A.,REP.MC,policy,minor,positive
+1122,Solaria,SLR.MC,financial,minor,negative
+1123,Cellnex,CLNX.MC,financial,minor,positive
+1124,Ferrovial S.A.,FER.MC,supply,major,positive
+1125,Bankia,BKIA.MC,financial,major,negative
+1126,PharmaMar,PHM.MC,demand,major,positive
+1127,Bankia SA,BKIA.MC,financial,minor,negative
+1128,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+1129,Aena,AENA.MC,demand,major,negative
+1130,Naturgy,NTGY.MC,policy,minor,positive
+1131,Aena SME SA,AENA.MC,policy,minor,positive
+1132,Bankia SA,BKIA.MC,financial,minor,negative
+1133,CaixaBank,CABK.MC,financial,minor,negative
+1134,BBVA,BBVA.MC,financial,major,negative
+1135,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,minor,positive
+1136,Banco Bilbao Vizcaya Argentaria SA (BBVA.MC),BBVA.MC,financial,major,negative
+1137,CaixaBank SA,CABK.MC,financial,minor,negative
+1138,BBVA,BBVA.MC,financial,minor,positive
+1139,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,minor,positive
+1140,Telefónica,TEF.MC,policy,minor,positive
+1140,Euskaltel,EUSK.MC,policy,minor,positive
+1140,MásMóvil, MásMóvil.MC,policy,minor,positive
+1141,CaixaBank SA,CABK.MC,financial,minor,negative
+1142,Siemens Gamesa,SGRE.MC,demand,minor,positive
+1143,Siemens Gamesa Renewable Energy SA (SGRE.MC),SGRE.MC,demand,minor,positive
+1144,BBVA.MC,BBVA.MC,financial,major,negative
+1145,Banco de Sabadell S.A.,SAB.MC,financial,major,negative
+1145,Banco Santander S.A.,SAN.MC,financial,major,negative
+1145,Bankinter S.A.,BKT.MC,financial,major,negative
+1145,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,major,negative
+1146,Banco Sabadell,SAB.MC,financial,major,negative
+1147,Siemens Gamesa,SGRE.MC,demand,minor,positive
+1148,BBVA,BBVA.MC,financial,minor,positive
+1149,PharmaMar SA,PHM.MC,demand,minor,positive
+1150,Naturgy,NTGY.MC,policy,minor,negative
+1151,Banco Sabadell SA,SAB.MC,financial,minor,negative
+1152,CaixaBank,CABK.MC,financial,minor,positive
+1152,Bankia,BKIA.MC,financial,minor,positive
+1153,Endesa S.A.,ELE.MC,technology,major,positive
+1154,Repsol S.A.,REP.MC,policy,minor,positive
+1154,Red Eléctrica Corp. S.A.,REE.MC,policy,minor,positive
+1154,Endesa S.A.,ELE.MC,policy,minor,positive
+1155,Enagás SA,ENG.MC,technology,minor,positive
+1155,Naturgy Energy Group SA,NTGY.MC,technology,minor,positive
+1156,Acciona SA,ANA.MC,supply,minor,positive
+1157,Banco Sabadell SA,SAB.MC,financial,major,negative
+1158,ACS,ACS.MC,financial,minor,positive
+1159,Siemens Gamesa,SGRE.MC,demand,major,positive
+1160,Banco Sabadell,SAB.MC,financial,minor,positive
+1161,Bankia,BKIA.MC,financial,minor,positive
+1161,CaixaBank,CABK.MC,financial,minor,positive
+1162,Sabadell,SAB.MC,financial,minor,negative
+1163,Telefónica,TEF.MC,financial,minor,negative
+1164,Red Eléctrica Corp. S.A.,REE.MC,supply,minor,positive
+1165,Grenergy,GRE.MC,demand,minor,positive
+1165,Solaria,SLR.MC,demand,minor,positive
+1165,Solarpack,SPK.MC,demand,minor,positive
+1165,Soltec,SOL.MC,demand,minor,positive
+1165,Greenalia,GRN.MC,demand,minor,positive
+1166,Acerinox,ACX.MC,demand,minor,positive
+1167,CaixaBank S.A.,CABK.MC,financial,minor,positive
+1168,BBVA,BBVA.MC,financial,major,positive
+1169,Amadeus IT Group,AMS.MC,financial,minor,positive
+1170,Iberdrola,IBE.MC,supply,major,positive
+1170,Siemens Gamesa,SGRE.MC,supply,minor,positive
+1171,Repsol,REP.MC,demand,minor,positive
+1172,CaixaBank SA,CABK.MC,financial,minor,positive
+1173,Amadeus IT Group SA,AMS.MC,financial,minor,negative
+1174,Santander,SAN.MC,financial,major,negative
+1175,Iberdrola,IBE.MC,financial,minor,positive
+1176,Cellnex Telecom S.A.,CLNX.MC,financial,minor,positive
+1176,Telefónica S.A.,TEF.MC,financial,minor,positive
+1177,Solaria,SLR.MC,demand,minor,positive
+1178,Banco Santander,SAN.MC,financial,major,negative
+1179,Banco Santander,SAN.MC,financial,minor,positive
+1180,Bankia,BKIA.MC,financial,minor,positive
+1180,CaixaBank,CABK.MC,financial,minor,positive
+1181,Banco Santander,SAN.MC,financial,minor,positive
+1182,Siemens Gamesa,SGRE.MC,financial,minor,positive
+1183,Telefónica,TEF.MC,financial,minor,positive
+1184,Banco Santander SA,SAN.MC,financial,major,negative
+1185,Naturgy Energy Group SA,NTGY.MC,demand,minor,positive
+1185,Bankinter SA,BKT.MC,demand,minor,positive
+1186,Banco Santander SA (SAN.MC),SAN.MC,financial,major,negative
+1187,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+1188,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+1189,Cellnex,CLNX.MC,financial,minor,positive
+1190,Telefónica SA (TEF.MC),TEF.MC,financial,major,positive
+1191,Naturgy,NTGY.MC,demand,major,negative
+1192,Cellnex,CLNX.MC,policy,major,positive
+1192,Cellnex,CLNX.MC,policy,major,positive
+1192,Cellnex,CLNX.MC,policy,major,positive
+1192,Cellnex,CLNX.MC,policy,major,positive
+1193,Cellnex,CLNX.MC,financial,minor,positive
+1194,Banco Santander,SAN.MC,financial,minor,positive
+1195,Naturgy,NTGY.MC,financial,minor,negative
+1196,Cellnex,CLNX.MC,financial,minor,positive
+1197,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,minor,positive
+1197,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,negative
+1197,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1197,CaixaBank S.A.,CABK.MC,financial,minor,positive
+1198,Naturgy,NTGY.MC,financial,minor,negative
+1199,Naturgy,NTGY.MC,financial,minor,negative
+1200,Siemens Gamesa Renewable Energy,SGRE.MC,policy,minor,positive
+1201,Banco Sabadell SA,SAB.MC,financial,minor,positive
+1201,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1201,Banco Santander SA,SAN.MC,financial,minor,positive
+1202,Naturgy Energy Group S.A.,NTGY.MC,supply,major,negative
+1203,Cellnex,CLNX.MC,demand,major,positive
+1204,Cellnex,CLNX.MC,demand,major,positive
+1205,Iberdrola,IBE.MC,policy,major,positive
+1206,Solaria,SLR.MC,supply,minor,positive
+1207,BBVA,BBVA.MC,financial,minor,positive
+1208,BBVA,BBVA.MC,financial,minor,positive
+1209,Santander,SAN.MC,financial,minor,positive
+1210,Ferrovial,FER.MC,financial,minor,positive
+1211,Ferrovial,FER.MC,demand,minor,positive
+1212,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,negative
+1213,Repsol,REP.MC,demand,minor,positive
+1214,Banco Santander SA,SAN.MC,financial,minor,positive
+1215,Naturgy,NTGY.MC,financial,minor,negative
+1216,Banco Santander SA,SAN.MC,financial,major,positive
+1217,Solaria Energía y Medio Ambiente SA,SLR.MC,supply,major,positive
+1218,Actividades de Construcción y Servicios S.A.,ACS.MC,supply,minor,positive
+1219,Siemens Gamesa Renewable Energy SA,SGRE.MC,technology,minor,positive
+1220,ACS,ACS.MC,financial,minor,positive
+1221,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1222,ACS,ACS.MC,policy,major,positive
+1223,Solaria,SLR.MC,financial,minor,negative
+1224,Solaria,SLR.MC,financial,major,negative
+1225,Naturgy,NTGY.MC,financial,minor,positive
+1226,Banco Santander SA,SAN.MC,financial,minor,positive
+1226,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1227,Naturgy Energy Group SA,NTGY.MC,policy,major,positive
+1228,Enagás,ENG.MC,financial,major,negative
+1229,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1230,ACS,ACS.MC,financial,minor,positive
+1231,Endesa,ELE.MC,demand,minor,positive
+1232,Solaria,SLR.MC,financial,minor,negative
+1233,Solaria,SLR.MC,financial,major,negative
+1234,Naturgy,NTGY.MC,financial,minor,negative
+1235,Telefónica S.A.,TEF.MC,policy,minor,positive
+1236,Solaria,SLR.MC,financial,minor,negative
+1237,Naturgy,NTGY.MC,financial,minor,negative
+1238,Acciona S.A.,ANA.MC,policy,minor,positive
+1238,Naturgy Energy Group S.A.,NTGY.MC,policy,minor,positive
+1239,Grifols,GRF.MC,supply,minor,negative
+1240,IAG,IAG.MC,demand,minor,positive
+1241,Repsol SA,REP.MC,technology,minor,positive
+1242,Siemens Gamesa,SGRE.MC,demand,minor,positive
+1243,Iberdrola,IBE.MC,policy,major,positive
+1244,Enagás SA,ENG.MC,technology,minor,positive
+1244,Naturgy Energy Group SA,NTGY.MC,technology,minor,positive
+1245,ACS.MC,ACS.MC,financial,major,positive
+1246,Meliá Hotels,MEL.MC,demand,minor,positive
+1247,Red Eléctrica Corp. S.A.,REE.MC,policy,minor,positive
+1248,Aena,AENA.MC,supply,minor,positive
+1249,BBVA,BBVA.MC,financial,minor,negative
+1250,Telefónica SA,TEF.MC,financial,minor,negative
+1251,Endesa,ELE.MC,policy,major,positive
+1251,Iberdrola,IBE.MC,policy,major,positive
+1252,Enagás,ENG.MC,financial,minor,negative
+1253,Naturgy,NTGY.MC,financial,minor,positive
+1254,Naturgy,NTGY.MC,financial,minor,positive
+1255,Red Eléctrica,REE.MC,financial,minor,negative
+1256,Iberdrola,IBE.MC,policy,minor,positive
+1257,Siemens Gamesa,SGRE.MC,demand,minor,positive
+1258,Repsol SA,REP.MC,supply,minor,negative
+1259,ACS.MC,ACS.MC,supply,minor,positive
+1260,Iberdrola,IBE.MC,technology,minor,positive
+1261,Iberdrola,IBE.MC,policy,minor,positive
+1262,Iberdrola,IBE.MC,financial,major,positive
+1263,Acciona SA (ANA.MC),ANA.MC,supply,minor,positive
+1264,Repsol SA,REP.MC,supply,minor,positive
+1265,Acciona S.A. (ANA.MC),ANA.MC,supply,major,positive
+1266,Bankia S.A.,BKIA.MC,financial,minor,positive
+1266,CaixaBank S.A.,CABK.MC,financial,minor,positive
+1267,Telefónica,TEF.MC,financial,minor,positive
+1268,Bankia S.A.,BKIA.MC,financial,major,negative
+1268,CaixaBank S.A.,CABK.MC,financial,major,positive
+1269,Banco Sabadell,SAB.MC,financial,minor,negative
+1269,Liberbank,LBK.MC,financial,minor,positive
+1269,BBVA,BBVA.MC,financial,minor,positive
+1270,Enagás,ENG.MC,supply,major,negative
+1271,Acciona,ANA.MC,financial,major,positive
+1272,atl Capital,ATL.MC,financial,minor,positive
+1272,CIE Automotive,CIE.MC,demand,minor,positive
+1272,Acerinox,ACX.MC,demand,minor,positive
+1272,ArcelorMittal,MT.MC,demand,minor,positive
+1273,Banco Santander SA,SAN.MC,financial,minor,positive
+1273,Opdenergy,OPD.MC,financial,major,positive
+1274,Acciona S.A.,ANA.MC,financial,minor,positive
+1274,Repsol S.A.,REP.MC,financial,minor,positive
+1275,Repsol,REP.MC,financial,major,negative
+1276,Colonial Socimi SA,COL.MC,financial,minor,positive
+1277,Acciona,ANA.MC,financial,major,positive
+1278,Repsol SA,REP.MC,financial,major,negative
+1279,Acciona,ANA.MC,financial,major,positive
+1280,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1281,Repsol,REP.MC,financial,major,positive
+1282,Naturgy Energy Group SA,NTGY.MC,policy,minor,positive
+1282,Gestamp Automoción,GEST.MC,policy,minor,positive
+1283,Repsol,REP.MC,financial,minor,positive
+1284,Cellnex,CLNX.MC,financial,major,positive
+1285,Repsol SA (REP.MC),REP.MC,financial,major,negative
+1286,Repsol SA,REP.MC,financial,major,negative
+1287,Banco Santander SA,SAN.MC,financial,minor,positive
+1288,Bankia SA,BKIA.MC,policy,minor,positive
+1288,CaixaBank SA,CABK.MC,policy,minor,positive
+1289,Acciona SA (ANA.MC),ANA.MC,financial,major,positive
+1290,Acciona,ANA.MC,financial,minor,positive
+1291,Colonia,COL.MC,financial,minor,positive
+1292,Acciona SA,ANA.MC,financial,minor,positive
+1293,Colonial,COL.MC,financial,minor,positive
+1294,Repsol,REP.MC,supply,minor,positive
+1295,Acciona,ANA.MC,financial,minor,positive
+1296,Acciona SA,ANA.MC,financial,minor,positive
+1297,Red Eléctrica Corp SA,REE.MC,policy,minor,positive
+1298,Acciona,ANA.MC,financial,major,positive
+1298,Repsol,REP.MC,financial,minor,positive
+1299,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,minor,positive
+1300,Banco Santander SA,SAN.MC,policy,minor,positive
+1301,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,negative
+1302,Enagás,ENG.MC,financial,minor,positive
+1303,Enagás SA (ENG.MC),ENG.MC,financial,minor,positive
+1304,Acciona (ANA.MC),ANA.MC,financial,minor,positive
+1305,Solaria,SLR.MC,financial,minor,positive
+1306,Acciona Energía,ANA.MC,financial,minor,positive
+1307,Acciona S.A.,ANA.MC,demand,minor,positive
+1308,IAG,IAG.MC,financial,minor,positive
+1309,International Consolidated Airlines Group S.A. (IAG.MC),IAG.MC,demand,major,positive
+1310,AENA.MC,AENA.MC,supply,major,negative
+1310,Renfe Operadora,RENFE.MC,supply,major,negative
+1310,ADIF,ADIF.MC,supply,major,negative
+1311,Ferrovial SA,FER.MC,financial,minor,positive
+1312,Endesa,ELE.MC,financial,major,positive
+1313,Red Eléctrica Corp. SA,REE.MC,financial,minor,negative
+1314,Aena SME SA,AENA.MC,supply,major,negative
+1315,Iberdrola,IBE.MC,financial,minor,positive
+1316,Cellnex,CLNX.MC,supply,minor,negative
+1317,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+1318,Aena SME SA,AENA.MC,supply,major,negative
+1319,Endesa,ELE.MC,financial,major,positive
+1320,Iberdrola,IBE.MC,financial,minor,positive
+1321,Actividades de Construcción y Servicios S.A.,ACS.MC,policy,minor,positive
+1322,Aena,AENA.MC,financial,minor,negative
+1323,Endesa,ELE.MC,demand,minor,positive
+1324,Enagás,ENG.MC,supply,minor,negative
+1325,Endesa,ELE.MC,financial,minor,positive
+1326,Enagás,ENG.MC,financial,minor,negative
+1327,Repsol S.A.,REP.MC,demand,minor,positive
+1327,Iberdrola S.A.,IBE.MC,demand,minor,positive
+1327,Acciona S.A.,ANA.MC,demand,minor,positive
+1328,Telefónica SA (TEF.MC),TEF.MC,demand,major,positive
+1329,Red Eléctrica,REE.MC,financial,minor,negative
+1330,BBVA,BBVA.MC,financial,minor,positive
+1331,Iberdrola,IBE.MC,financial,minor,negative
+1332,Banco Santander,SAN.MC,financial,minor,positive
+1333,Endesa,ELE.MC,demand,minor,positive
+1334,Aena,AENA.MC,financial,minor,negative
+1335,Red Eléctrica,REE.MC,financial,minor,negative
+1336,Siemens Gamesa,SGRE.MC,technology,major,positive
+1337,Red Eléctrica,REE.MC,financial,minor,negative
+1338,Iberdrola,IBE.MC,demand,minor,positive
+1339,Iberdrola,IBE.MC,policy,minor,positive
+1340,Telefónica,TEF.MC,financial,minor,positive
+1341,Iberdrola,IBE.MC,demand,major,positive
+1342,Red Eléctrica,REE.MC,financial,minor,negative
+1343,Iberdrola,IBE.MC,demand,minor,positive
+1344,Telefónica SA (TEF.MC),TEF.MC,demand,major,positive
+1345,Telefónica (TEF.MC),TEF.MC,financial,minor,positive
+1346,Ferrovial,FER.MC,demand,major,negative
+1347,Colonial SOCIMI SA,COL.MC,financial,minor,negative
+1348,ACS,ACS.MC,demand,major,negative
+1349,Ferrovial SA (FER.MC),FER.MC,demand,major,negative
+1350,Merlin Properties Socimi SA (MRL.MC),MRL.MC,financial,major,negative
+1351,Telefónica,TEF.MC,financial,minor,positive
+1352,Aena,AENA.MC,demand,minor,positive
+1353,Ferrovial,FER.MC,demand,minor,positive
+1354,Cellnex,CLNX.MC,financial,major,negative
+1355,Cellnex,CLNX.MC,financial,major,positive
+1356,ACS,ACS.MC,demand,minor,negative
+1357,IAG,IAG.MC,financial,minor,positive
+1358,ACS,ACS.MC,demand,major,negative
+1359,BBVA,BBVA.MC,financial,minor,positive
+1359,Banco Santander,SAN.MC,financial,minor,positive
+1360,Ferrovial,FER.MC,demand,minor,positive
+1361,Merlin Properties,MRL.MC,financial,minor,positive
+1362,Colonial,COL.MC,financial,minor,negative
+1363,IAG,IAG.MC,demand,major,positive
+1364,Ferrovial,FER.MC,demand,minor,positive
+1365,Merlin Properties,MRL.MC,financial,minor,positive
+1366,Colonial,COL.MC,demand,minor,negative
+1367,Cellnex Telecom SA (CLNX.MC),CLNX.MC,financial,major,negative
+1368,Ferrovial,FER.MC,financial,minor,positive
+1368,Sabadell,SAB.MC,financial,minor,positive
+1369,Aena,AENA.MC,demand,minor,positive
+1370,ACS.MC,ACS.MC,financial,minor,positive
+1371,Endesa S.A.,ELE.MC,financial,major,positive
+1371,Red Eléctrica Corp. S.A.,REE.MC,financial,minor,positive
+1372,Grifols,GRF.MC,demand,major,positive
+1373,Merlin Properties,MRL.MC,demand,minor,positive
+1374,IAG,IAG.MC,demand,minor,positive
+1375,BBVA,BBVA.MC,financial,minor,positive
+1376,Grifols,GRF.MC,financial,major,negative
+1377,Red Eléctrica,REE.MC,financial,minor,negative
+1378,Inditex,ITX.MC,demand,minor,positive
+1379,Cellnex,CLNX.MC,financial,minor,positive
+1380,Telefónica,TEF.MC,financial,minor,positive
+1380,Bankinter,BKT.MC,financial,minor,positive
+1381,IAG,IAG.MC,financial,minor,positive
+1382,IAG,IAG.MC,demand,minor,positive
+1383,IAG,IAG.MC,demand,minor,positive
+1384,Grifols,GRF.MC,supply,minor,positive
+1385,Red Eléctrica Corp.,REE.MC,supply,minor,positive
+1386,IAG,IAG.MC,demand,minor,positive
+1387,Sabadell,SAB.MC,financial,minor,positive
+1388,Amadeus,AMS.MC,financial,minor,negative
+1389,Red Eléctrica,REE.MC,policy,minor,positive
+1390,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,minor,positive
+1391,Banco Sabadell,SAB.MC,financial,major,positive
+1392,Telefónica,TEF.MC,supply,major,positive
+1393,Endesa,ELE.MC,financial,minor,negative
+1394,Telefónica,TEF.MC,financial,minor,positive
+1395,Aena,AENA.MC,demand,minor,positive
+1396,IAG,IAG.MC,demand,minor,positive
+1397,Cellnex,CLNX.MC,financial,minor,positive
+1398,Banco Sabadell SA,SAB.MC,financial,major,positive
+1398,Bankinter SA,BKT.MC,financial,major,positive
+1398,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+1398,Banco Santander SA,SAN.MC,financial,major,positive
+1399,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,minor,positive
+1400,CaixaBank,CABK.MC,financial,minor,positive
+1400,Bankia,BKIA.MC,financial,minor,negative
+1401,Iberdrola,IBE.MC,technology,minor,positive
+1402,Iberdrola,IBE.MC,demand,major,positive
+1403,BBVA,BBVA.MC,financial,minor,positive
+1404,Iberdrola,IBE.MC,supply,major,positive
+1405,Iberdrola,IBE.MC,policy,major,positive
+1406,Meliá Hotels International SA (MEL.MC),MEL.MC,policy,major,positive
+1407,Enagás SA,ENG.MC,supply,minor,positive
+1408,Bankinter,BKT.MC,financial,minor,positive
+1409,CaixaBank,CABK.MC,financial,minor,positive
+1409,BBVA,BBVA.MC,supply,minor,negative
+1409,Banco Santander,SAN.MC,demand,minor,positive
+1410,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,minor,positive
+1411,BBVA,BBVA.MC,policy,minor,positive
+1412,Grenergy,GRE.MC,policy,minor,positive
+1412,Greenalia,GRN.MC,policy,minor,positive
+1412,Audax,ADX.MC,policy,minor,positive
+1412,Solarpack,SPK.MC,policy,minor,positive
+1412,Soltec,SOL.MC,policy,minor,positive
+1413,Endesa,ELE.MC,demand,minor,positive
+1414,Endesa SA,ELE.MC,policy,major,positive
+1415,Meliá Hotels,MEL.MC,demand,major,positive
+1416,Global Dominion Access SA,DOM.MC,financial,minor,positive
+1417,Acciona S.A.,ANA.MC,supply,minor,positive
+1418,BBVA,BBVA.MC,financial,minor,positive
+1418,Santander,SAN.MC,financial,minor,negative
+1419,Iberdrola,IBE.MC,financial,minor,positive
+1420,Inditex,ITX.MC,financial,minor,negative
+1421,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1422,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,minor,positive
+1423,Siemens Gamesa,SGRE.MC,supply,minor,negative
+1424,ACS,ACS.MC,financial,minor,positive
+1425,Cellnex,CLNX.MC,financial,minor,positive
+1426,Acciona SA,ANA.MC,demand,minor,positive
+1427,Repsol S.A.,REP.MC,financial,minor,positive
+1428,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1429,Aena SME S.A.,AENA.MC,supply,minor,negative
+1430,Inditex,ITX.MC,demand,minor,negative
+1431,CaixaBank SA,CABK.MC,financial,minor,positive
+1432,Industria de Diseño Textil SA (ITX.MC),ITX.MC,supply,major,negative
+1433,BBVA,BBVA.MC,demand,minor,positive
+1434,Inditex,ITX.MC,demand,minor,negative
+1435,Iberdrola,IBE.MC,supply,major,positive
+1437,Aena,AENA.MC,policy,minor,positive
+1438,Naturgy,NTGY.MC,supply,minor,positive
+1439,Aena,AENA.MC,supply,minor,negative
+1440,Inditex,ITX.MC,demand,minor,negative
+1441,Enagás,ENG.MC,financial,minor,negative
+1442,Inditex,ITX.MC,financial,major,negative
+1443,Colonial,COL.MC,demand,minor,negative
+1443,Merlin Properties,MRL.MC,demand,minor,negative
+1444,Cellnex Telecom S.A.,CLNX.MC,financial,minor,positive
+1445,Aena,AENA.MC,policy,minor,positive
+1446,Ferrovial SA,FER.MC,demand,major,negative
+1447,Inditex,ITX.MC,demand,minor,positive
+1448,IAG,IAG.MC,demand,minor,positive
+1449,Inditex,ITX.MC,demand,minor,negative
+1450,Inditex,ITX.MC,demand,minor,positive
+1451,Inditex,ITX.MC,financial,minor,negative
+1452,Repsol,REP.MC,financial,minor,positive
+1453,Inditex,ITX.MC,demand,minor,positive
+1454,Aena SME SA,AENA.MC,demand,major,negative
+1455,Inditex,ITX.MC,demand,minor,positive
+1456,Red Eléctrica Corp,REE.MC,policy,minor,positive
+1457,Telefónica S.A.,TEF.MC,financial,major,negative
+1458,Banco Sabadell,SAB.MC,financial,minor,negative
+1459,CaixaBank SA,CABK.MC,financial,minor,positive
+1459,Bankia SA,BKIA.MC,financial,minor,positive
+1459,Bankinter SA,BKT.MC,financial,minor,positive
+1459,Banco Santander SA,SAN.MC,financial,minor,positive
+1459,Liberbank SA,LBK.MC,financial,minor,positive
+1459,Unicaja Banco SA,UNI.MC,financial,minor,positive
+1459,Banco Sabadell SA,SAB.MC,financial,minor,positive
+1459,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1460,Endesa SA,ELE.MC,policy,major,positive
+1461,Naturgy Energy Group SA,NTGY.MC,supply,major,positive
+1462,Acciona SA,ANA.MC,supply,major,negative
+1463,Ferrovial SA,FER.MC,demand,minor,positive
+1464,Repsol SA,REP.MC,financial,minor,positive
+1465,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,minor,positive
+1466,Santander,SAN.MC,financial,minor,positive
+1467,Siemens Gamesa,SGRE.MC,financial,major,negative
+1468,Inditex,ITX.MC,supply,minor,negative
+1469,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+1470,Repsol,REP.MC,financial,minor,negative
+1471,Repsol,REP.MC,financial,minor,positive
+1472,Repsol,REP.MC,financial,minor,positive
+1473,Banco Santander SA,SAN.MC,financial,minor,positive
+1474,Capital Energy,CAP.MC,supply,minor,positive
+1474,General Electric Co.,GE.MC,supply,minor,positive
+1474,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,minor,positive
+1475,Cellnex Telecom SA,CLNX.MC,demand,minor,positive
+1476,Acciona,ANA.MC,policy,major,positive
+1477,Acciona SA,ANA.MC,supply,major,positive
+1478,Bankinter SA,BKT.MC,financial,minor,negative
+1479,Acciona S.A.,ANA.MC,financial,major,positive
+1480,Telefónica SA,TEF.MC,financial,minor,positive
+1481,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1481,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1481,CaixaBank SA,CABK.MC,financial,minor,positive
+1481,Banco Santander SA,SAN.MC,financial,minor,positive
+1482,Iberdrola,IBE.MC,technology,major,positive
+1483,NH Hotel Group,NHH.MC,demand,major,negative
+1483,Meliá,MEL.MC,demand,major,negative
+1484,Siemens Gamesa,SGRE.MC,financial,minor,negative
+1485,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,policy,minor,positive
+1486,Telefónica,TEF.MC,financial,minor,negative
+1487,Bankinter SA,BKT.MC,demand,minor,positive
+1487,Acciona SA,ANA.MC,demand,minor,positive
+1488,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,minor,negative
+1489,Repsol SA,REP.MC,supply,minor,positive
+1490,Meliá Hotels International SA,MEL.MC,supply,major,negative
+1491,International Consolidated Airlines Group S.A.,IAG.MC,financial,minor,positive
+1492,CaixaBank SA,CABK.MC,financial,minor,negative
+1492,Liberbank SA,LBK.MC,financial,minor,negative
+1492,Bankia SA,BKIA.MC,financial,minor,negative
+1492,Unicaja Banco SA,UNI.MC,financial,minor,negative
+1493,Endesa SA,ELE.MC,policy,minor,positive
+1494,Naturgy,NTGY.MC,financial,minor,negative
+1495,Banco de Sabadell SA,SAB.MC,policy,minor,positive
+1496,Banco de Sabadell SA,SAB.MC,financial,minor,positive
+1497,IAG,IAG.MC,financial,minor,positive
+1498,IAG,IAG.MC,financial,minor,negative
+1499,Banco Sabadell,SAB.MC,financial,minor,negative
+1500,Telefonica S.A.,TEF.MC,policy,minor,positive
+1501,BBVA,BBVA.MC,financial,minor,negative
+1502,Naturgy,NTGY.MC,financial,minor,positive
+1503,Banco Santander,SAN.MC,financial,minor,negative
+1503,BBVA,BBVA.MC,financial,minor,negative
+1504,Enagás,ENG.MC,supply,minor,positive
+1505,Red Eléctrica,REE.MC,financial,minor,negative
+1506,Acciona SA,ANA.MC,demand,minor,positive
+1507,Red Eléctrica Corp. S.A.,REE.MC,policy,minor,positive
+1508,BBVA,BBVA.MC,financial,major,negative
+1509,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1510,Bankinter SA,BKT.MC,financial,major,positive
+1511,Merlin Properties,MRL.MC,demand,minor,positive
+1512,Colonial,COL.MC,financial,minor,negative
+1513,CaixaBank SA,CABK.MC,financial,major,positive
+1513,Bankia SA,BKIA.MC,financial,major,positive
+1514,BBVA,BBVA.MC,financial,minor,positive
+1515,Bankinter SA,BKT.MC,financial,major,positive
+1516,Grifols,GRF.MC,demand,minor,positive
+1517,Meliá Hotels International SA,MEL.MC,demand,minor,positive
+1518,International Consolidated Airlines Group SA,IAG.MC,financial,minor,positive
+1519,Bankia,BKIA.MC,financial,minor,positive
+1519,CaixaBank,CABK.MC,financial,minor,positive
+1520,Cellnex,CLNX.MC,demand,minor,positive
+1521,IAG,IAG.MC,financial,minor,positive
+1522,CaixaBank SA,CABK.MC,financial,major,positive
+1522,Fluidra SA,FDR.MC,financial,minor,positive
+1522,Bankia SA,BKIA.MC,financial,major,negative
+1522,Soltec Power Holdings SA,SOL.MC,financial,minor,positive
+1522,Técnicas Reunidas SA,TRE.MC,financial,minor,positive
+1523,IAG,IAG.MC,financial,minor,positive
+1524,Bankia,BKIA.MC,financial,minor,positive
+1524,CaixaBank,CABK.MC,financial,minor,positive
+1525,Naturgy Energy Group SA,NTGY.MC,supply,major,negative
+1526,Meliá,MEL.MC,demand,minor,positive
+1527,Opdenergy,OPD.MC,financial,major,positive
+1528,CaixaBank SA,CABK.MC,financial,major,positive
+1528,Bankia SA,BKIA.MC,financial,major,positive
+1529,AENA.MC,AENA.MC,policy,minor,positive
+1530,Aena SME S.A.,AENA.MC,policy,major,positive
+1531,Ferrovial,FER.MC,demand,minor,positive
+1532,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,demand,minor,positive
+1533,Banco Santander SA,SAN.MC,supply,minor,negative
+1534,Meliá Hotels International SA,MEL.MC,demand,major,negative
+1535,Cellnex,CLNX.MC,financial,major,positive
+1536,Cellnex,CLNX.MC,financial,minor,negative
+1537,Opdenergy,OPD.MC,financial,minor,positive
+1538,Repsol SA,REP.MC,policy,minor,positive
+1539,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1540,Banco Santander S.A. (SAN.MC),SAN.MC,financial,minor,positive
+1541,Santander,SAN.MC,financial,minor,positive
+1542,Banco Santander,SAN.MC,financial,minor,positive
+1543,Banco Santander,SAN.MC,financial,minor,positive
+1544,Santander,SAN.MC,financial,minor,positive
+1545,Telefónica,TEF.MC,demand,minor,negative
+1546,CaixaBank,CABK.MC,financial,minor,positive
+1546,Bankia,BKIA.MC,financial,major,negative
+1547,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1548,Bankia SA,BKIA.MC,financial,major,positive
+1548,CaixaBank SA,CABK.MC,financial,major,positive
+1549,Repsol S.A.,REP.MC,policy,minor,negative
+1550,Banco Santander SA,SAN.MC,financial,minor,positive
+1551,Repsol S.A.,REP.MC,policy,major,positive
+1552,Banco Bilbao Vizcaya Argentaria S.A. (BBVA.MC),BBVA.MC,financial,minor,negative
+1552,Banco de Sabadell S.A. (SAB.MC),SAB.MC,financial,minor,positive
+1553,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1554,Santander,SAN.MC,financial,minor,negative
+1555,Iberdrola,IBE.MC,supply,minor,positive
+1556,Telefónica,TEF.MC,demand,minor,positive
+1556,Euskaltel,EKT.MC,supply,major,positive
+1557,Almirall,ALM.MC,financial,minor,positive
+1558,Endesa,ELE.MC,policy,minor,positive
+1559,CaixaBank S.A.,CABK.MC,financial,minor,positive
+1560,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+1561,Acciona,ANA.MC,financial,major,positive
+1562,Cellnex,CLNX.MC,financial,minor,negative
+1563,Aena,AENA.MC,demand,minor,positive
+1564,Enagás,ENG.MC,policy,major,positive
+1565,ACS.MC,ACS.MC,financial,minor,positive
+1566,Repsol SA,REP.MC,policy,major,positive
+1566,Siemens Gamesa Renewable Energy SA,SGRE.MC,policy,major,positive
+1567,Acciona S.A.,ANA.MC,demand,minor,positive
+1568,Cellnex,CLNX.MC,financial,minor,positive
+1569,Naturgy Energy Group S.A.,NTGY.MC,technology,major,positive
+1570,Bankia SA,BKIA.MC,financial,minor,positive
+1570,CaixaBank SA,CABK.MC,financial,minor,positive
+1571,Ferrovial,FER.MC,financial,minor,positive
+1572,Iberdrola,IBE.MC,supply,minor,positive
+1573,Siemens Gamesa,SGRE.MC,demand,major,positive
+1574,Banco Sabadell SA,SAB.MC,demand,minor,positive
+1575,IAG,IAG.MC,demand,minor,positive
+1576,ACS,ACS.MC,policy,major,negative
+1577,Corporación Financiera Alba,ALB.MC,policy,minor,positive
+1577,Banco Santander,SAN.MC,financial,minor,positive
+1577,Euskaltel,EKT.MC,policy,major,negative
+1578,ACS,ACS.MC,financial,major,positive
+1579,ACS,ACS.MC,financial,major,negative
+1580,Siemens Gamesa,SGRE.MC,policy,minor,positive
+1581,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+1582,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,minor,positive
+1583,Ferrovial SA,FER.MC,demand,major,positive
+1584,Telefónica SA,TEF.MC,supply,minor,positive
+1584,Acciona SA,ANA.MC,supply,major,positive
+1585,Ferrovial,FER.MC,demand,minor,positive
+1586,Banco Santander,SAN.MC,financial,major,positive
+1587,Iberdrola,IBE.MC,technology,minor,positive
+1588,ACS,ACS.MC,financial,major,positive
+1589,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+1590,Ferrovial SA,FER.MC,financial,minor,positive
+1591,Ecoener,ECOE.MC,financial,major,positive
+1591,Ecoener,ECOE.MC,financial,major,positive
+1591,Ecoener,ECOE.MC,financial,major,positive
+1591,Ecoener,ECOE.MC,financial,major,positive
+1592,ACS,ACS.MC,financial,minor,positive
+1593,ACS,ACS.MC,financial,minor,positive
+1594,CaixaBank,CABK.MC,financial,minor,positive
+1595,ACS,ACS.MC,financial,minor,positive
+1596,Naturgy Energy Group SA,NTGY.MC,policy,minor,positive
+1596,Acciona S.A.,ANA.MC,policy,minor,positive
+1596,Repsol S.A.,REP.MC,policy,minor,positive
+1597,Acciona,ANA.MC,supply,minor,negative
+1598,Siemens Gamesa Renewable Energy SA,SGRE.MC,technology,minor,positive
+1599,Iberdrola S.A.,IBE.MC,financial,minor,positive
+1599,Acciona SA,ANA.MC,financial,minor,positive
+1599,Banco Santander SA,SAN.MC,financial,minor,negative
+1599,Repsol SA,REP.MC,financial,minor,positive
+1600,Ferrovial,FER.MC,supply,minor,positive
+1600,ACS,ACS.MC,supply,minor,positive
+1601,Aena SME S.A.,AENA.MC,demand,minor,positive
+1601,Renfe,RENFE.MC,demand,minor,positive
+1602,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1602,Alantra Partners S.A.,ALNT.MC,financial,minor,positive
+1602,Opdenergy,OPD.MC,financial,major,positive
+1604,Merlin Properties,MRL.MC,financial,minor,negative
+1605,Acciona,ANA.MC,financial,major,positive
+1606,Endesa SA,ELE.MC,supply,minor,positive
+1607,BBVA,BBVA.MC,financial,minor,positive
+1607,CaixaBank,CABK.MC,financial,minor,positive
+1607,Santander,SAN.MC,financial,minor,positive
+1608,Iberdrola S.A.,IBE.MC,policy,minor,positive
+1609,ACS.MC,ACS.MC,financial,minor,positive
+1610,ACS,ACS.MC,financial,major,positive
+1611,ACS,ACS.MC,financial,minor,positive
+1612,Repsol S.A.,REP.MC,supply,minor,negative
+1613,ACS,ACS.MC,financial,major,positive
+1614,Repsol,REP.MC,demand,minor,positive
+1615,ACS,ACS.MC,financial,minor,positive
+1616,ACS,ACS.MC,financial,minor,positive
+1617,CaixaBank,CABK.MC,financial,major,positive
+1618,Ferrovial,FER.MC,policy,minor,positive
+1619,Aena,AENA.MC,financial,minor,positive
+1620,Repsol,REP.MC,financial,minor,positive
+1621,Euskaltel,EKT.MC,financial,major,positive
+1622,Iberdrola,IBE.MC,technology,major,positive
+1623,Banco de Sabadell SA,SAB.MC,financial,minor,positive
+1624,Aena,AENA.MC,demand,major,negative
+1625,Acciona,ANA.MC,financial,minor,positive
+1626,CaixaBank SA (CABK.MC),CABK.MC,financial,minor,positive
+1627,International Consolidated Airlines Group,IAG.MC,financial,major,positive
+1627,Barceló,??.MC,financial,minor,positive
+1627,Air Europa,??.MC,financial,major,negative
+1627,Globalia,??.MC,financial,major,negative
+1628,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1629,Cellnex,CLNX.MC,financial,minor,positive
+1630,Red Eléctrica Corp.,REE.MC,policy,minor,positive
+1630,Iberdrola,IBE.MC,policy,minor,positive
+1631,Acciona,ANA.MC,financial,minor,positive
+1632,Repsol,REP.MC,financial,minor,positive
+1633,Repsol,REP.MC,demand,minor,positive
+1634,Endesa S.A.,ELE.MC,policy,minor,positive
+1635,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,negative
+1636,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1637,BBVA,BBVA.MC,financial,major,negative
+1638,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1639,Acciona,ANA.MC,policy,major,positive
+1640,ACS SA,ACS.MC,policy,major,positive
+1641,Telefónica SA (TEF.MC),TEF.MC,financial,major,positive
+1642,CaixaBank SA,CABK.MC,supply,major,negative
+1642,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,supply,major,negative
+1643,ACS,ACS.MC,financial,minor,positive
+1644,Siemens Gamesa,SGRE.MC,technology,minor,positive
+1644,Iberdrola,IBE.MC,technology,minor,positive
+1644,Naturgy,NTGY.MC,technology,minor,positive
+1645,Repsol,REP.MC,supply,minor,negative
+1646,Meliá Hotels International SA,MEL.MC,demand,minor,positive
+1647,Siemens Gamesa,SGRE.MC,supply,minor,positive
+1648,Acciona SA,ANA.MC,financial,major,positive
+1649,Banco Santander SA,SAN.MC,financial,minor,positive
+1649,Bankinter SA,BKT.MC,financial,minor,positive
+1650,Telefónica,TEF.MC,policy,minor,positive
+1651,Red Eléctrica Corp,REE.MC,technology,minor,positive
+1652,Enagás,ENG.MC,demand,minor,negative
+1653,Industria de Diseño Textil SA,ITX.MC,financial,minor,positive
+1653,Banco Santander SA,SAN.MC,financial,minor,positive
+1654,Repsol,REP.MC,supply,minor,positive
+1655,Air Nostrum,ANE.MC,demand,major,negative
+1656,Red Eléctrica Corp. S.A.,REE.MC,technology,minor,positive
+1657,Atlantia SpA,ATL.MC,policy,major,negative
+1657,Actividades de Construcción y Servicios SA,ACS.MC,financial,minor,positive
+1658,Actividades de Construcción y Servicios S.A. (ACS.MC),ACS.MC,policy,minor,positive
+1659,Endesa SA,ELE.MC,financial,minor,positive
+1659,CaixaBank SA,CABK.MC,financial,minor,positive
+1660,ACS,ACS.MC,financial,minor,positive
+1661,Repsol,REP.MC,financial,minor,negative
+1662,Banco Sabadell,SABE.MC,financial,minor,positive
+1662,Repsol,REP.MC,financial,minor,positive
+1663,Naturgy,NTGY.MC,financial,minor,negative
+1664,Naturgy Energy Group SA,NTGY.MC,technology,minor,positive
+1665,Bankinter S.A.,BKT.MC,financial,minor,positive
+1666,Enagás,ENG.MC,supply,minor,negative
+1667,Grifols,GRF.MC,financial,minor,positive
+1668,Enagás,ENG.MC,financial,minor,negative
+1669,Enagás SA (ENG.MC),ENG.MC,financial,minor,negative
+1670,Banco Bilbao Vizcaya Argentaria S.A,BBVA.MC,financial,minor,positive
+1670,Opdenergy,OPD.MC,financial,major,positive
+1671,Enagás,ENG.MC,financial,minor,positive
+1672,Unicaja Banco SA,UNI.MC,financial,major,negative
+1672,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+1672,Banco Sabadell SA,SAB.MC,financial,major,negative
+1672,Banco Santander SA,SAN.MC,financial,major,negative
+1672,CaixaBank SA,CABK.MC,financial,major,negative
+1672,Liberbank SA,LBK.MC,financial,major,negative
+1673,Repsol,REP.MC,financial,minor,negative
+1674,CaixaBank SA,CABK.MC,supply,major,negative
+1675,CaixaBank SA,CABK.MC,financial,major,negative
+1675,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,negative
+1676,BBVA,BBVA.MC,financial,minor,positive
+1677,Telefónica,TEF.MC,financial,minor,positive
+1678,Cellnex,CLNX.MC,financial,minor,positive
+1680,CIE Automotive,CIE.MC,demand,minor,positive
+1681,Bankinter,BKT.MC,financial,minor,positive
+1681,Línea Directa,LDIR.MC,financial,minor,positive
+1682,Repsol,REP.MC,financial,minor,positive
+1682,Acciona,ANA.MC,financial,minor,positive
+1683,Iberdrola,IBE.MC,financial,minor,positive
+1684,Cellnex Telecom S.A.,CLNX.MC,financial,major,positive
+1685,Red Eléctrica Corp. S.A.,REE.MC,financial,minor,positive
+1686,Bankinter,BKT.MC,financial,minor,positive
+1687,Cellnex,CLNX.MC,financial,minor,positive
+1688,Bankinter SA,BKT.MC,financial,minor,positive
+1689,Red Eléctrica Corp SA (REE.MC),REE.MC,financial,minor,positive
+1690,Merlin Properties SOCIMI SA,MRL.MC,policy,minor,positive
+1690,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,policy,minor,negative
+1690,Grupo SanJosé SA,GSJ.MC,policy,minor,positive
+1691,Bankinter SA,BKT.MC,demand,minor,positive
+1692,BBVA,BBVA.MC,financial,major,negative
+1693,ACS,ACS.MC,policy,major,positive
+1694,CaixaBank S.A.,CABK.MC,financial,major,negative
+1694,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,major,negative
+1695,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+1695,CaixaBank SA,CABK.MC,financial,major,negative
+1696,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+1696,CaixaBank SA,CABK.MC,financial,major,negative
+1697,Santander,SAN.MC,financial,major,positive
+1698,Pharma Mar SA,PHM.MC,financial,minor,positive
+1699,Opdenergy,OPD.MC,financial,major,positive
+1700,Santander,SAN.MC,financial,major,positive
+1701,Naturgy,NTGY.MC,financial,minor,positive
+1702,Iberdrola,IBE.MC,policy,minor,positive
+1702,Acciona,ANA.MC,policy,minor,positive
+1703,Ferrovial,FER.MC,demand,minor,positive
+1704,Telefónica,TEF.MC,policy,minor,positive
+1705,Telefónica S.A. (TEF.MC),TEF.MC,financial,minor,positive
+1706,Iberdrola,IBE.MC,financial,minor,positive
+1707,Santander,SAN.MC,financial,minor,positive
+1708,Solaria Energía y Medio Ambiente SA,SRL.MC,supply,minor,positive
+1709,Banco Santander,SAN.MC,demand,minor,positive
+1710,IAG,IAG.MC,demand,minor,negative
+1711,Inditex,ITX.MC,supply,minor,positive
+1712,Iberdrola,IBE.MC,supply,major,positive
+1713,CaixaBank,CABK.MC,financial,major,negative
+1713,BBVA,BBVA.MC,financial,major,negative
+1714,Grifols,GRF.MC,supply,minor,negative
+1715,Solaria Energía y Medio Ambiente S.A.,SLR.MC,supply,minor,positive
+1716,Red Eléctrica Corp SA,REE.MC,policy,major,positive
+1717,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+1718,Aena,AENA.MC,demand,minor,positive
+1719,CaixaBank SA,CABK.MC,supply,major,negative
+1720,BBVA,BBVA.MC,policy,minor,positive
+1721,Ferrovial SA,FER.MC,financial,major,negative
+1722,Inmobiliaria Colonial Socimi S.A.,COL.MC,demand,minor,positive
+1722,Aedas Homes SAU,AEDAS.MC,demand,minor,positive
+1723,Merlin Properties Socimi S.A.,MRL.MC,financial,major,positive
+1724,Santander,SAN.MC,financial,major,positive
+1725,Red Eléctrica Corp SA,REE.MC,financial,minor,positive
+1726,Red Eléctrica Corp SA,REE.MC,financial,minor,positive
+1727,Banco Santander,SAN.MC,financial,minor,positive
+1728,Naturgy,NTGY.MC,demand,minor,positive
+1729,Naturgy,NTGY.MC,demand,minor,negative
+1730,Red Eléctrica,REE.MC,financial,minor,negative
+1731,Telefónica SA,TEF.MC,financial,minor,positive
+1731,Iberdrola SA,IBE.MC,financial,minor,positive
+1731,CaixaBank SA,CABK.MC,financial,minor,positive
+1732,Naturgy,NTGY.MC,financial,minor,positive
+1733,Red Eléctrica,REE.MC,financial,minor,positive
+1734,Santander,SAN.MC,financial,minor,positive
+1735,Naturgy Energy Group SA,NTGY.MC,financial,major,positive
+1736,Banco Santander SA,SAN.MC,financial,major,positive
+1737,Repsol,REP.MC,demand,major,positive
+1738,Aena SME SA,AENA.MC,supply,major,negative
+1739,Repsol,REP.MC,supply,minor,positive
+1740,Aena SME SA,AENA.MC,demand,major,negative
+1741,Aena,AENA.MC,demand,minor,negative
+1742,Bankinter,BKT.MC,financial,minor,positive
+1743,Banco Santander,SAN.MC,financial,minor,positive
+1744,Línea Directa Aseguradora,LDA.MC,financial,major,positive
+1744,Bankinter SA,BKT.MC,financial,major,positive
+1745,Santander,SAN.MC,financial,minor,positive
+1746,BBVA,BBVA.MC,supply,minor,negative
+1747,Sacyr S.A.,SCYR.MC,demand,minor,positive
+1748,Repsol SA (REP.MC),REP.MC,supply,major,positive
+1749,PharmaMar,PHM.MC,financial,minor,positive
+1750,Aena,AENA.MC,supply,major,negative
+1751,Banco Sabadell SA,SAB.MC,financial,minor,positive
+1752,Banco Sabadell,SAB.MC,financial,minor,negative
+1753,BBVA,BBVA.MC,financial,minor,positive
+1754,Banco Sabadell SA,SAB.MC,financial,minor,negative
+1755,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1756,BBVA,BBVA.MC,financial,minor,positive
+1757,Banco Sabadell,SAB.MC,financial,minor,positive
+1758,Banco Sabadell,SAB.MC,financial,minor,positive
+1759,BBVA,BBVA.MC,financial,minor,positive
+1760,Cellnex,CLNX.MC,demand,minor,positive
+1761,CaixaBank SA (CABK.MC),CABK.MC,financial,minor,positive
+1761,Acciona SA (ANA.MC),ANA.MC,financial,minor,positive
+1761,Banco Sabadell SA (SAB.MC),SAB.MC,financial,minor,positive
+1761,Banco Bilbao Vizcaya Argentaria SA (BBVA.MC),BBVA.MC,financial,minor,positive
+1761,Banco Santander SA (SAN.MC),SAN.MC,financial,minor,positive
+1762,AENA.MC,AENA.MC,demand,minor,negative
+1763,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1764,Banco Santander SA,SAN.MC,financial,minor,positive
+1764,Acciona SA,ANA.MC,financial,minor,positive
+1764,Banco Sabadell SA,SAB.MC,financial,minor,positive
+1765,Bankinter,BKT.MC,financial,minor,negative
+1766,Acciona,ANA.MC,financial,minor,positive
+1767,Santander,SAN.MC,financial,minor,positive
+1768,BBVA,BBVA.MC,financial,minor,positive
+1768,Santander,SAN.MC,financial,minor,positive
+1769,Bankinter,BKT.MC,financial,minor,positive
+1770,Repsol,REP.MC,policy,minor,negative
+1771,Repsol,REP.MC,demand,minor,positive
+1772,Endesa,ELE.MC,financial,major,positive
+1773,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1774,Banco Sabadell SA,SAB.MC,financial,minor,negative
+1775,Repsol,REP.MC,demand,minor,negative
+1776,Siemens Gamesa,SGRE.MC,financial,minor,negative
+1777,Siemens Gamesa Renewable Energy (SGRE.MC),SGRE.MC,financial,minor,negative
+1778,Siemens Gamesa,SGRE.MC,demand,minor,positive
+1779,Siemens Gamesa,SGRE.MC,financial,minor,negative
+1780,CAF,CAF.MC,financial,minor,positive
+1780,Gestamp Automoción,GEST.MC,financial,minor,positive
+1780,Indra Sistemas,IDR.MC,financial,minor,positive
+1781,BBVA,BBVA.MC,financial,minor,positive
+1782,Siemens Gamesa,SGRE.MC,financial,minor,negative
+1783,Meliá,MEL.MC,demand,minor,positive
+1784,BBVA,BBVA.MC,financial,minor,positive
+1785,BBVA,BBVA.MC,financial,minor,positive
+1786,CaixaBank,CABK.MC,financial,minor,positive
+1787,Repsol,REP.MC,policy,minor,positive
+1788,Aena,AENA.MC,demand,minor,positive
+1789,Siemens Gamesa,SGRE.MC,supply,minor,negative
+1790,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+1791,Red Eléctrica Corp SA,REE.MC,demand,minor,positive
+1793,Acciona SA,ANA.MC,demand,minor,positive
+1794,Endesa,ELE.MC,financial,minor,negative
+1795,Endesa,ELE.MC,financial,minor,negative
+1796,Actividades de Construcción y Servicios S.A.,ACS.MC,financial,minor,positive
+1796,Abertis,ABE.MC,financial,minor,positive
+1797,CaixaBank,CABK.MC,financial,major,positive
+1798,Endesa,ELE.MC,financial,minor,positive
+1799,Endesa,ELE.MC,demand,minor,negative
+1800,Siemens Gamesa,SGRE.MC,supply,minor,positive
+1801,Endesa,ELE.MC,financial,minor,positive
+1802,CaixaBank SA,CABK.MC,financial,minor,positive
+1803,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+1804,Sacyr SA,SCYR.MC,financial,minor,negative
+1805,CaixaBank SA (CABK.MC),CABK.MC,financial,minor,positive
+1806,Ferrovial,FER.MC,demand,minor,negative
+1807,Acciona,ANA.MC,demand,major,positive
+1808,Acciona SA,ANA.MC,financial,major,positive
+1809,Ferrovial SA,FER.MC,demand,major,negative
+1810,Acciona,ANA.MC,financial,minor,positive
+1811,Banco Santander,SAN.MC,financial,minor,positive
+1812,Cellnex (CLNX.MC),CLNX.MC,financial,minor,negative
+1813,Ferrovial,FER.MC,financial,minor,positive
+1814,International Consolidated Airlines Group SA,IAG.MC,demand,minor,negative
+1815,Acciona,ANA.MC,demand,minor,positive
+1816,Banco Sabadell,SAB.MC,financial,minor,negative
+1817,Cellnex,CLNX.MC,financial,minor,positive
+1818,Endesa,ELE.MC,demand,minor,negative
+1819,CaixaBank,CABK.MC,financial,minor,positive
+1820,Acciona,ANA.MC,financial,minor,positive
+1821,ACS (ACS.MC),ACS.MC,demand,minor,positive
+1822,IAG,IAG.MC,supply,major,negative
+1823,Acciona SA,ANA.MC,financial,major,positive
+1824,Colonial,COL.MC,demand,minor,negative
+1824,Merlin Properties,MRL.MC,demand,minor,negative
+1825,Cellnex,CLNX.MC,financial,major,positive
+1826,ACS,ACS.MC,demand,minor,positive
+1827,ACS,ACS.MC,financial,major,positive
+1828,Ferrovial,FER.MC,demand,minor,positive
+1829,IAG,IAG.MC,financial,minor,positive
+1830,Acciona SA,ANA.MC,financial,major,positive
+1831,Solaria Energía y Medio Ambiente S.A. (SLR.MC),SLR.MC,demand,major,positive
+1832,Acciona SA,ANA.MC,financial,minor,positive
+1834,Repsol SA,REP.MC,demand,minor,negative
+1835,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+1836,Fluidra SA,FDR.MC,financial,minor,negative
+1837,International Consolidated Airlines Group S.A.,IAG.MC,financial,minor,positive
+1838,Cellnex,CLNX.MC,financial,minor,positive
+1839,Actividades de Construcción y Servicios S.A.,ACS.MC,financial,minor,positive
+1840,CaixaBank,CABK.MC,financial,minor,positive
+1841,Telefónica SA,TEF.MC,technology,minor,positive
+1842,Repsol,REP.MC,supply,minor,negative
+1843,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,minor,negative
+1845,CaixaBank S.A.,CABK.MC,policy,minor,positive
+1846,Iberdrola,IBE.MC,policy,major,positive
+1847,Iberdrola,IBE.MC,financial,minor,negative
+1848,Iberdrola,IBE.MC,financial,minor,negative
+1849,Aena,AENA.MC,demand,major,negative
+1850,Acciona SA,ANA.MC,supply,minor,positive
+1851,Endesa S.A.,ELE.MC,financial,minor,positive
+1851,Acciona S.A.,ANA.MC,financial,minor,positive
+1852,Repsol,REP.MC,financial,minor,positive
+1853,Telefónica SA,TEF.MC,financial,major,positive
+1854,Repsol SA,REP.MC,policy,minor,positive
+1855,BBVA.MC,BBVA.MC,financial,minor,positive
+1856,Telefónica,TEF.MC,financial,minor,positive
+1857,Iberdrola,IBE.MC,demand,minor,positive
+1858,Telefónica SA,TEF.MC,financial,minor,positive
+1859,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,minor,positive
+1860,Iberdrola,IBE.MC,financial,minor,positive
+1861,Meliá Hotels International SA,MEL.MC,demand,minor,positive
+1862,IAG,IAG.MC,demand,minor,positive
+1863,Solaria,SLR.MC,demand,minor,positive
+1864,ACS,ACS.MC,financial,minor,positive
+1865,ACS,ACS.MC,financial,minor,positive
+1866,Merlin Properties Socimi SA,MRL.MC,financial,minor,positive
+1867,ACS,ACS.MC,demand,minor,positive
+1868,ACS,ACS.MC,supply,minor,negative
+1869,Caixabank SA,CABK.MC,financial,major,negative
+1869,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+1870,Acciona S.A.,ANA.MC,supply,minor,positive
+1871,Acciona S.A.,ANA.MC,supply,major,positive
+1871,Repsol S.A.,REP.MC,supply,major,positive
+1872,Bankinter SA,BKT.MC,financial,minor,positive
+1873,Merlin Properties Socimi SA,MRL.MC,financial,minor,positive
+1874,CaixaBank SA,CABK.MC,financial,minor,negative
+1875,CaixaBank SA,CABK.MC,financial,major,negative
+1875,Industria de Diseño Textil SA,ITX.MC,demand,major,negative
+1875,NH Hotel Group SA,NHH.MC,demand,major,negative
+1875,Banco Santander SA,SAN.MC,financial,major,negative
+1875,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+1875,Liberbank SA,LBK.MC,financial,major,negative
+1875,Banco Sabadell SA,SAB.MC,financial,major,negative
+1875,Indra Sistemas SA,IDR.MC,supply,major,negative
+1875,Actividades de Construcción y Servicios SA,ACS.MC,supply,major,negative
+1875,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,major,negative
+1875,Naturgy Energy Group SA,NTGY.MC,supply,major,negative
+1876,Ferrovial,FER.MC,demand,minor,positive
+1877,Merlin Properties,MRL.MC,demand,minor,negative
+1878,CaixaBank,CABK.MC,financial,minor,positive
+1879,Telefónica,TEF.MC,demand,minor,positive
+1880,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,minor,negative
+1881,Siemens Gamesa,SGRE.MC,financial,minor,negative
+1882,Telefónica SA,TEF.MC,financial,minor,positive
+1883,Amadeus IT Group SA,AMS.MC,demand,minor,positive
+1884,Colonial,COL.MC,supply,minor,negative
+1885,Banco Sabadell S.A.,SAB.MC,financial,minor,negative
+1886,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1887,Solaria Energía y Medio Ambiente S.A.,SLR.MC,policy,major,positive
+1888,Inmobiliaria Colonial SA,COL.MC,financial,minor,negative
+1889,Acciona S.A.,ANA.MC,demand,minor,positive
+1889,FCC,FCC.MC,demand,minor,positive
+1890,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1891,Colonial,COL.MC,demand,minor,positive
+1892,Colonial,COL.MC,demand,minor,negative
+1893,Sabadell,SAB.MC,financial,minor,positive
+1894,Colonial,COL.MC,financial,minor,positive
+1895,Endesa,ELE.MC,financial,minor,positive
+1896,Ercros,ERC.MC,supply,minor,negative
+1896,Naturgy,NTGY.MC,supply,minor,positive
+1897,Iberdrola,IBE.MC,financial,minor,positive
+1898,Naturgy (NTGY.MC),NTGY.MC,financial,minor,positive
+1899,Banco Bilbao Vizcaya Argentaria SA (BBVA.MC),BBVA.MC,financial,minor,positive
+1900,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,financial,minor,negative
+1901,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,minor,positive
+1902,BBVA.MC,BBVA.MC,financial,major,negative
+1903,CaixaBank S.A.,CABK.MC,financial,major,positive
+1904,Repsol,REP.MC,policy,major,positive
+1905,Naturgy,NTGY.MC,financial,minor,negative
+1906,Siemens Gamesa,SGRE.MC,financial,minor,positive
+1908,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1908,Banco de Sabadell S.A.,SAB.MC,financial,minor,positive
+1909,Acciona S.A.,ANA.MC,supply,minor,positive
+1911,Repsol,REP.MC,policy,minor,positive
+1912,CaixaBank,CABK.MC,policy,major,negative
+1913,Telefónica SA,TEF.MC,policy,major,positive
+1914,Telefónica,TEF.MC,financial,minor,positive
+1915,Iberdrola,IBE.MC,technology,minor,positive
+1916,BBVA,BBVA.MC,financial,major,negative
+1917,Grupo Empresarial San José,GSJ.MC,financial,minor,negative
+1917,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+1917,Merlin Properties,MRL.MC,financial,minor,negative
+1918,Banco Santander SA,SAN.MC,financial,minor,positive
+1919,Endesa S.A.,ELE.MC,demand,minor,positive
+1919,Soltec Power Holdings S.A.,SOL.MC,demand,minor,positive
+1920,Repsol S.A.,REP.MC,financial,minor,negative
+1921,Red Eléctrica Corp SA,REE.MC,technology,minor,negative
+1921,Cellnex Telecom SA,CLNX.MC,technology,minor,positive
+1922,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+1923,Grifols SA,GRF.MC,financial,major,positive
+1924,Indra Sistemas S.A.,IDR.MC,financial,minor,positive
+1925,Indra Sistemas SA,IDR.MC,policy,major,negative
+1926,ACS.MC,ACS.MC,demand,major,positive
+1927,Indra Sistemas SA,IDR.MC,policy,major,positive
+1928,Indra,IDR.MC,policy,minor,negative
+1929,Banco Sabadell,SAB.MC,financial,minor,positive
+1930,Banco Sabadell,SAB.MC,financial,minor,negative
+1931,Colonial,COL.MC,financial,minor,negative
+1932,Indra,IDR.MC,financial,minor,negative
+1933,Telefónica S.A.,TEF.MC,supply,minor,positive
+1934,Iberdrola,IBE.MC,supply,major,positive
+1935,Merlin Properties Socimi S.A.,MRL.MC,financial,minor,positive
+1936,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+1936,Bolsas y Mercados Españoles,BME.MC,financial,minor,positive
+1937,BBVA,BBVA.MC,financial,major,positive
+1938,BBVA,BBVA.MC,policy,minor,positive
+1939,Telefónica,TEF.MC,financial,minor,positive
+1940,Merlin Properties SOCIMI SA,MRL.MC,financial,minor,positive
+1941,Cellnex Telecom S.A.,CLNX.MC,financial,minor,positive
+1942,Cellnex Telecom SA,CLNX.MC,financial,minor,positive
+1943,Siemens Gamesa Renewable Energy SA,SGRE.MC,demand,major,positive
+1944,Telefónica,TEF.MC,financial,minor,positive
+1945,CaixaBank S.A.,CABK.MC,financial,minor,positive
+1946,Banco Santander S.A.,SAN.MC,financial,minor,positive
+1946,Acciona S.A.,ANA.MC,financial,minor,positive
+1946,CaixaBank S.A.,CABK.MC,financial,minor,positive
+1946,Banco de Sabadell S.A.,SAB.MC,financial,minor,positive
+1947,Banco Sabadell,SAB.MC,financial,minor,positive
+1948,Merlin Properties Socimi SA (MRL.MC),MRL.MC,demand,minor,positive
+1949,Meliá Hotels International S.A.,MEL.MC,demand,minor,positive
+1949,Exceltur,EXCELTUR.MC,demand,major,negative
+1949,CEHAT,CEHAT.MC,demand,minor,positive
+1949,Rumbo.es,RUMBO.MC,demand,minor,positive
+1949,Hotel Maristel,MARISTEL.MC,demand,minor,positive
+1949,NH Hotel Group SA,NHH.MC,demand,minor,positive
+1950,Indra Sistemas SA,IDR.MC,policy,minor,positive
+1951,Enagás SA,ENG.MC,policy,minor,positive
+1951,Repsol SA,REP.MC,policy,minor,positive
+1952,Banco Sabadell,SAB.MC,financial,major,positive
+1953,Sabadell SA,SAB.MC,financial,major,positive
+1954,Banco Sabadell SA (SAB.MC),SAB.MC,financial,major,positive
+1955,Endesa S.A.,ELE.MC,technology,major,positive
+1956,Sabadell,SAB.MC,financial,minor,negative
+1957,Indra,IDR.MC,demand,minor,positive
+1958,Naturgy,NTGY.MC,financial,minor,positive
+1959,Sabadell,SAB.MC,financial,minor,negative
+1960,Banco Sabadell (SAB.MC),SAB.MC,financial,minor,negative
+1961,Inditex,ITX.MC,demand,minor,positive
+1962,ACS,ACS.MC,demand,minor,positive
+1963,Telefónica SA,TEF.MC,technology,minor,positive
+1964,Meliá Hotels,MEL.MC,demand,minor,negative
+1965,Naturgy Energy Group SA,NTGY.MC,policy,minor,negative
+1965,Endesa SA,ELE.MC,policy,minor,negative
+1965,Iberdrola SA,IBE.MC,policy,minor,negative
+1966,Naturgy,NTGY.MC,policy,minor,negative
+1966,Endesa,ELE.MC,policy,minor,negative
+1966,Iberdrola,IBE.MC,policy,minor,negative
+1966,Acciona,ANA.MC,policy,minor,negative
+1967,Abertis,ACS.MC,financial,minor,positive
+1968,Ferrovial S.A.,FER.MC,policy,minor,positive
+1969,BBVA,BBVA.MC,financial,minor,positive
+1970,Telefónica S.A.,TEF.MC,financial,major,positive
+1971,AENA.MC,AENA.MC,demand,minor,positive
+1972,CaixaBank SA,CABK.MC,financial,minor,negative
+1973,Banco Sabadell,SAB.MC,financial,minor,negative
+1974,Naturgy Energy Group S.A.,NTGY.MC,policy,minor,negative
+1974,Endesa S.A.,ELE.MC,policy,minor,negative
+1975,CaixaBank SA,CABK.MC,financial,minor,positive
+1976,Repsol,REP.MC,financial,minor,positive
+1977,Endesa,ELE.MC,financial,minor,negative
+1977,Iberdrola,IBE.MC,financial,minor,negative
+1978,Acciona,ANA.MC,supply,minor,positive
+1979,Iberdrola,IBE.MC,financial,minor,negative
+1979,Naturgy,NTGY.MC,financial,minor,negative
+1979,Endesa,ELE.MC,financial,minor,negative
+1980,Endesa,ELE.MC,policy,minor,negative
+1980,Iberdrola,IBE.MC,policy,minor,negative
+1981,Red Eléctrica Corp SA,REE.MC,demand,minor,positive
+1982,Aena SME SA,AENA.MC,supply,minor,positive
+1983,IAG,IAG.MC,demand,minor,positive
+1984,Iberdrola,IBE.MC,supply,minor,positive
+1985,Banco Bilbao Vizcaya Argentaria SA (BBVA.MC),BBVA.MC,financial,major,negative
+1986,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,supply,major,negative
+1987,Colonial SOCIMI SA,COL.MC,financial,minor,positive
+1988,IAG,IAG.MC,demand,minor,negative
+1988,Meliá Hotels,MEL.MC,demand,minor,negative
+1988,Amadeus,AMS.MC,demand,minor,negative
+1988,Aena,AENA.MC,demand,minor,negative
+1989,Grifols,GRF.MC,supply,minor,negative
+1990,Colonial,COL.MC,financial,minor,positive
+1991,Banco Santander SA,SAN.MC,financial,minor,positive
+1992,Endesa,ELE.MC,policy,minor,negative
+1993,Iberdrola,IBE.MC,policy,minor,negative
+1994,Colonial,COL.MC,financial,minor,positive
+1995,BBVA,BBVA.MC,policy,minor,positive
+1996,Endesa SA,ELE.MC,policy,minor,negative
+1996,Naturgy Energy Group SA,NTGY.MC,policy,minor,negative
+1996,Iberdrola SA,IBE.MC,policy,minor,negative
+1997,Bankinter,BKT.MC,financial,minor,negative
+1998,Acciona S.A.,ANA.MC,financial,minor,positive
+1999,CaixaBank SA (CABK.MC),CABK.MC,financial,major,negative
+2000,CaixaBank SA,CABK.MC,supply,major,negative
+2001,International Airlines Group,IAG.MC,demand,minor,positive
+2002,Ferrovial SA,FER.MC,demand,minor,positive
+2003,ACS,ACS.MC,financial,minor,negative
+2004,Aena,AENA.MC,financial,minor,negative
+2005,Cellnex,CLNX.MC,financial,minor,positive
+2006,BBVA,BBVA.MC,financial,minor,positive
+2007,PharmaMar,PHM.MC,financial,minor,negative
+2008,Grifols,GRF.MC,financial,minor,negative
+2009,Red Eléctrica Corp. SA,REE.MC,financial,major,positive
+2010,Acciona,ANA.MC,demand,minor,positive
+2011,CaixaBank SA,CABK.MC,supply,minor,negative
+2012,Acciona S.A.,ANA.MC,policy,minor,positive
+2012,Repsol S.A.,REP.MC,policy,minor,positive
+2013,BBVA,BBVA.MC,financial,major,negative
+2014,Banco de Sabadell SA,SAB.MC,financial,minor,positive
+2015,Meliá Hotels International S.A.,MEL.MC,financial,minor,positive
+2015,Bankinter S.A.,BKT.MC,financial,minor,positive
+2016,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,supply,major,negative
+2017,Inditex,ITX.MC,demand,major,positive
+2018,Banco Santander SA,SAN.MC,financial,minor,positive
+2019,Inditex,ITX.MC,demand,major,positive
+2020,Inditex,ITX.MC,demand,minor,positive
+2021,Inditex,ITX.MC,financial,minor,negative
+2022,BBVA,BBVA.MC,financial,minor,positive
+2023,Inditex,ITX.MC,demand,major,positive
+2024,BBVA,BBVA.MC,financial,minor,negative
+2025,BBVA,BBVA.MC,financial,major,negative
+2026,Aena,AENA.MC,demand,minor,positive
+2027,BBVA,BBVA.MC,financial,minor,negative
+2028,Iberdrola,IBE.MC,policy,minor,negative
+2029,Inditex,ITX.MC,demand,minor,positive
+2030,IAG,IAG.MC,demand,minor,positive
+2031,Acciona,ANA.MC,policy,minor,negative
+2032,Iberdrola,IBE.MC,financial,minor,positive
+2033,ACS,ACS.MC,financial,minor,positive
+2034,Telefónica,TEF.MC,demand,minor,positive
+2035,Inditex,ITX.MC,demand,minor,positive
+2036,Solaria,SLR.MC,financial,minor,positive
+2037,Inditex,ITX.MC,demand,minor,positive
+2038,Grifols,GRF.MC,supply,minor,positive
+2039,Actividades de Construcción y Servicios SA,ACS.MC,financial,minor,positive
+2040,Melià,MEL.MC,demand,minor,positive
+2041,Enagás,ENG.MC,financial,minor,negative
+2042,Naturgy Energy Group SA,NTGY.MC,supply,minor,positive
+2043,Santander,SAN.MC,financial,major,negative
+2044,Grifols,GRF.MC,financial,minor,positive
+2045,Grifols,GRF.MC,demand,minor,positive
+2046,Aena SME SA,AENA.MC,demand,major,negative
+2047,Telefónica SA,TEF.MC,technology,minor,positive
+2048,Colonial SOCIMI S.A.,COL.MC,financial,minor,negative
+2049,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+2050,Acciona Energía,ANA.MC,demand,minor,positive
+2051,Iberdrola S.A.,IBE.MC,policy,minor,negative
+2051,Endesa S.A.,ELE.MC,policy,minor,negative
+2052,Inmobiliaria Colonial SOCIMI S.A.,COL.MC,financial,minor,positive
+2053,Cellnex,CLNX.MC,financial,minor,positive
+2054,Indra Sistemas SA,IDR.MC,financial,major,positive
+2054,Telefonica SA,TEF.MC,financial,major,positive
+2055,Red Eléctrica Corp. S.A.,REE.MC,policy,minor,positive
+2056,Naturgy Energy Group SA,NTGY.MC,demand,minor,positive
+2056,Línea Directa Aseguradora S.A.,LDA.MC,demand,minor,positive
+2058,Bankinter,BKT.MC,financial,minor,positive
+2059,Iberdrola S.A.,IBE.MC,policy,minor,positive
+2059,Endesa S.A.,ELE.MC,policy,minor,positive
+2060,Cellnex,CLNX.MC,financial,minor,negative
+2061,Telefónica S.A.,TEF.MC,policy,minor,positive
+2062,Colonial SOCIMI S.A.,COL.MC,financial,minor,positive
+2063,Colonial SOCIMI S.A.,COL.MC,financial,minor,positive
+2064,Inditex,ITX.MC,demand,minor,positive
+2065,Bankia SA,BKIA.MC,financial,minor,negative
+2065,Caixabank SA,CABK.MC,financial,minor,negative
+2065,Banco Sabadell SA,SAB.MC,financial,minor,negative
+2065,Banco Santander SA,SAN.MC,financial,minor,negative
+2066,Naturgy Energy Group S.A.,NTGY.MC,policy,minor,positive
+2066,Repsol S.A.,REP.MC,policy,minor,positive
+2066,Acciona S.A.,ANA.MC,policy,minor,positive
+2066,Endesa S.A.,ELE.MC,policy,minor,positive
+2067,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,technology,major,positive
+2068,Banco Sabadell SA,SAB.MC,financial,major,negative
+2068,CaixaBank,CAIX.MC,financial,minor,negative
+2068,Bankinter SA,BKT.MC,financial,minor,positive
+2069,Endesa S.A.,ELE.MC,financial,major,negative
+2069,Iberdrola S.A.,IBE.MC,financial,major,negative
+2069,Naturgy Energy Group S.A.,NTGY.MC,financial,major,negative
+2070,Banco Santander SA,SAN.MC,financial,minor,positive
+2070,CaixaBank SA,CABK.MC,financial,minor,positive
+2070,Banco Sabadell SA,SAB.MC,financial,minor,positive
+2071,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,minor,positive
+2072,NH Hotel Group S.A.,NHH.MC,financial,minor,positive
+2073,Repsol,REP.MC,financial,minor,positive
+2074,Solarpack Corp. Tecnológica SA,SPK.MC,financial,major,positive
+2074,Acciona Energía,ANA.MC,financial,major,positive
+2075,Iberdrola,IBE.MC,policy,minor,positive
+2076,Solarpack,SPK.MC,demand,minor,positive
+2076,Solaria,SLR.MC,demand,minor,positive
+2077,IAG,IAG.MC,demand,minor,positive
+2077,Amadeus,AMS.MC,demand,minor,negative
+2077,Meliá Hotels,MEL.MC,demand,minor,positive
+2077,Aena,AENA.MC,demand,minor,positive
+2078,Liberbank SA,LBK.MC,financial,minor,positive
+2078,CaixaBank SA,CABK.MC,financial,minor,positive
+2078,Unicaja Banco SA,UNI.MC,financial,minor,positive
+2078,Bankia,CABK.MC,financial,minor,positive
+2079,Endesa S.A.,ELE.MC,policy,minor,positive
+2080,Acerinox,AX.MC,supply,minor,negative
+2081,Banco Santander,SAN.MC,financial,minor,positive
+2082,Acciona Energía,ANE.MC,financial,major,positive
+2082,Acciona S.A.,ANA.MC,financial,major,positive
+2083,Acerinox,AX.MC,financial,minor,positive
+2084,Acerinox,ACX.MC,supply,minor,negative
+2085,Acciona Energía,ANA.MC,financial,minor,positive
+2086,Meliá,MEL.MC,demand,minor,positive
+2086,NH,NHH.MC,demand,minor,positive
+2086,IAG,IAG.MC,demand,minor,positive
+2087,Acciona,ANA.MC,demand,major,positive
+2088,BBVA,BBVA.MC,financial,minor,positive
+2089,Enagás SA,ENG.MC,technology,major,positive
+2090,Banco Santander,SAN.MC,financial,minor,positive
+2091,Santander,SAN.MC,financial,minor,positive
+2092,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+2093,Acción,ANA.MC,financial,major,positive
+2094,Acciona SA,ANA.MC,financial,major,positive
+2094,Acciona Energía,ANE.MC,financial,major,positive
+2095,Naturgy Energy Group SA,NTGY.MC,supply,major,positive
+2096,Banco Sabadell,SAB.MC,financial,minor,positive
+2097,Colonial SOCIMI S.A.,COL.MC,financial,minor,positive
+2098,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+2099,Ferrovial,FER.MC,demand,minor,negative
+2100,Abertis,ABE.MC,financial,minor,positive
+2100,ACS,ACS.MC,financial,minor,positive
+2100,La Caixa,CAIX.MC,financial,minor,positive
+2101,Acciona Energía,ANA.MC,financial,minor,positive
+2102,Colonial,COL.MC,financial,minor,positive
+2103,Repsol SA,REP.MC,policy,minor,positive
+2104,Meliá Hotels,MEL.MC,demand,minor,positive
+2104,IAG,IAG.MC,demand,minor,positive
+2104,Inditex,ITX.MC,demand,minor,positive
+2104,BBVA,BBVA.MC,financial,minor,positive
+2104,Acerinox,ACX.MC,supply,minor,positive
+2104,Bankinter,BKT.MC,financial,minor,positive
+2105,CaixaBank SA,CABK.MC,financial,minor,negative
+2106,Actividades de Construcción y Servicios S.A.,ACS.MC,financial,minor,negative
+2106,Iberdrola S.A.,IBE.MC,financial,major,negative
+2107,Acciona SA,ANA.MC,financial,minor,positive
+2108,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+2109,Acciona,ANA.MC,demand,minor,positive
+2110,Actividades de Construccion y Servicios S.A.,ACS.MC,financial,major,negative
+2110,Iberdrola S.A.,IBE.MC,financial,major,negative
+2111,Factorenergia,FACTO.MC,financial,minor,positive
+2111,Acciona Energía,ANA.MC,financial,minor,positive
+2112,Iberdrola S.A.,IBE.MC,policy,major,negative
+2112,Actividades de Construccion y Servicios S.A.,ACS.MC,policy,major,negative
+2115,Acciona,ANA.MC,demand,minor,positive
+2116,Banco de Sabadell SA,SAB.MC,financial,minor,positive
+2117,Iberdrola SA,IBE.MC,policy,minor,positive
+2118,Iberdrola,IBE.MC,policy,major,negative
+2119,Iberdrola SA,IBE.MC,financial,minor,negative
+2119,Actividades de Construcción y Servicios S.A.,ACS.MC,financial,minor,negative
+2120,Iberdrola,IBE.MC,financial,minor,negative
+2121,Iberdrola,IBE.MC,financial,minor,negative
+2121,Iberdrola,IBE.MC,financial,minor,negative
+2121,Iberdrola,IBE.MC,financial,minor,negative
+2121,Iberdrola,IBE.MC,financial,minor,negative
+2122,Acciona SA,ANA.MC,demand,minor,positive
+2123,Red Eléctrica Corp SA,REE.MC,policy,minor,positive
+2124,Aena,AENA.MC,demand,minor,positive
+2125,Banco Sabadell,SAB.MC,financial,minor,negative
+2125,Banco Santander,SAN.MC,financial,minor,positive
+2125,Bankinter,BKT.MC,financial,minor,positive
+2125,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+2126,BBVA,BBVA.MC,financial,minor,positive
+2127,Aena,AENA.MC,financial,minor,positive
+2128,Solaria Energía y Medio Ambiente SA (SLR.MC),SLR.MC,demand,major,positive
+2129,Ferrovial SA,FER.MC,demand,minor,positive
+2130,Banco Santander,SAN.MC,financial,minor,positive
+2130,Solarpack,SPK.MC,financial,major,positive
+2131,Endesa,ELE.MC,demand,minor,positive
+2132,Iberdrola,IBE.MC,policy,major,negative
+2133,Aena SME S.A.,AENA.MC,supply,minor,negative
+2134,Grifols,GRF.MC,financial,minor,positive
+2135,Acciona S.A.,ANA.MC,financial,minor,positive
+2136,TUI,TUI1.MC,demand,minor,negative
+2136,Ryanair,RYA.MC,demand,minor,negative
+2136,Carnival,CCL.MC,demand,minor,negative
+2136,Wizz Air,WIZZ.MC,demand,minor,negative
+2136,easyJet,EZJ.MC,demand,minor,negative
+2136,IAG,IAG.MC,demand,minor,negative
+2136,Intercontinental Hotels Group,IHG.MC,demand,minor,negative
+2137,Colonial SOCIMI SA,COL.MC,financial,minor,positive
+2138,CaixaBank S.A.,CABK.MC,financial,minor,positive
+2139,Banco Santander,SAN.MC,financial,minor,positive
+2139,CaixaBank,CABK.MC,financial,minor,positive
+2139,Bankia,BKIA.MC,financial,minor,positive
+2139,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+2139,Bankinter,BKT.MC,financial,minor,positive
+2139,Abengoa,ABG.MC,financial,minor,positive
+2139,Bankia,BKIA.MC,financial,minor,positive
+2139,Banco Santander,SAN.MC,financial,minor,positive
+2139,Bankinter,BKT.MC,financial,minor,positive
+2139,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+2139,Bankia,BKIA.MC,financial,minor,positive
+2139,CaixaBank,CABK.MC,financial,minor,positive
+2139,Banco Santander,SAN.MC,financial,minor,positive
+2139,Bankinter,BKT.MC,financial,minor,positive
+2139,Abengoa,ABG.MC,financial,minor,positive
+2139,CaixaBank,CABK.MC,financial,minor,positive
+2139,Bankinter,BKT.MC,financial,minor,positive
+2139,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+2139,CaixaBank,CABK.MC,financial,minor,positive
+2139,Banco Santander,SAN.MC,financial,minor,positive
+2139,Abengoa,ABG.MC,financial,minor,positive
+2139,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+2139,Bankia,BKIA.MC,financial,minor,positive
+2139,Abengoa,ABG.MC,financial,minor,positive
+2140,ACS,ACS.MC,financial,minor,positive
+2141,Acciona,ANA.MC,financial,minor,negative
+2142,Aena,AENA.MC,policy,minor,negative
+2143,CaixaBank S.A.,CABK.MC,financial,major,negative
+2144,Repsol S.A.,REP.MC,financial,minor,positive
+2145,CaixaBank S.A.,CABK.MC,financial,major,negative
+2146,Repsol,REP.MC,financial,minor,positive
+2147,CaixaBank SA,CABK.MC,financial,major,negative
+2148,Acciona Energía,ANE.MC,financial,major,positive
+2148,Acciona SA,ANA.MC,financial,minor,positive
+2149,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+2150,Grifols,GRF.MC,financial,minor,positive
+2151,Acciona,ANA.MC,policy,major,positive
+2152,Acciona Energía,ANA.MC,financial,minor,positive
+2153,Iberdrola,IBE.MC,policy,major,negative
+2154,Telefónica,TEF.MC,financial,minor,positive
+2155,Merlin Properties SOCIMI SA,MRL.MC,demand,minor,positive
+2156,Repsol SA,REP.MC,technology,minor,positive
+2156,Técnicas Reunidas SA, TRE.MC,technology,minor,positive
+2157,Aena,AENA.MC,demand,minor,positive
+2158,Acciona SA,ANA.MC,financial,minor,negative
+2159,Actividades de Construcción y Servicios S.A.,ACS.MC,demand,minor,positive
+2160,Bankinter S.A.,BKT.MC,financial,minor,positive
+2160,Meliá Hotels International S.A.,MEL.MC,financial,minor,positive
+2161,CaixaBank,CABK.MC,financial,minor,positive
+2162,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,minor,positive
+2163,Grifols,GRF.MC,financial,minor,positive
+2164,Inmobiliaria Colonial Socimi S.A.,COL.MC,financial,minor,positive
+2165,Acciona Energía,ANE.MC,financial,minor,positive
+2166,Línea Directa,LDA.MC,financial,minor,positive
+2166,Acciona S.A.,ANA.MC,financial,major,positive
+2166,Opdenergy,NOP.MC,financial,minor,negative
+2166,Grupo Ecoener SAU,ENER.MC,financial,minor,negative
+2166,Aena SME S.A.,AENA.MC,financial,major,positive
+2166,Cellnex Telecom S.A.,CLNX.MC,financial,major,positive
+2166,Acciona Energía,ANE.MC,financial,major,positive
+2167,Iberdrola,IBE.MC,supply,minor,positive
+2168,Enagás,ENG.MC,technology,minor,positive
+2169,Inditex,ITX.MC,supply,major,negative
+2170,CaixaBank,CABK.MC,supply,major,negative
+2171,Bankia,BKIA.MC,financial,major,negative
+2171,CaixaBank,CABK.MC,financial,major,negative
+2172,CaixaBank SA,CABK.MC,financial,major,negative
+2173,Meliá Hotels,MEL.MC,financial,minor,positive
+2174,CaixaBank,CABK.MC,financial,minor,positive
+2175,CaixaBank,CABK.MC,financial,minor,negative
+2176,Acciona Energía,ANA.MC,demand,minor,positive
+2177,Acciona,ANA.MC,financial,minor,negative
+2178,Aena SME S.A.,AENA.MC,supply,minor,positive
+2179,ACS.MC,ACS.MC,financial,minor,positive
+2180,Santander Consumer,SAN.MC,financial,minor,positive
+2181,Meliá Hotels,MEL.MC,financial,minor,positive
+2182,Endesa SA,ELE.MC,policy,minor,positive
+2183,Siemens Gamesa,SGRE.MC,demand,minor,positive
+2184,Enagás SA,ENG.MC,demand,minor,positive
+2185,Solaria,SLR.MC,demand,minor,positive
+2186,Red Eléctrica Corp. S.A.,REE.MC,technology,minor,positive
+2187,Inditex,ITX.MC,demand,minor,positive
+2187,Grifols,GRF.MC,financial,minor,positive
+2187,Ferrovial,FER.MC,demand,minor,positive
+2188,ACS,ACS.MC,financial,minor,positive
+2189,Iberdrola,IBE.MC,financial,minor,positive
+2190,Iberdrola,IBE.MC,demand,minor,positive
+2191,Grifols,GRF.MC,demand,minor,positive
+2191,Inditex,ITX.MC,demand,minor,positive
+2191,ACS,ACS.MC,demand,minor,positive
+2192,Banco Santander SA,SAN.MC,financial,minor,positive
+2192,Banco Sabadell SA,SAB.MC,financial,minor,positive
+2193,Acciona Energías Renovables SA,ANE.MC,supply,major,positive
+2193,Acciona SA,ANA.MC,supply,major,positive
+2194,Telefónica SA,TEF.MC,financial,minor,positive
+2195,Repsol SA,REP.MC,supply,major,negative
+2196,ACS,ACS.MC,policy,minor,positive
+2197,Repsol,REP.MC,supply,minor,negative
+2198,Naturgy,NTGY.MC,supply,minor,positive
+2199,Banco Sabadell SA,SAB.MC,policy,minor,positive
+2200,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+2200,CaixaBank S.A.,CABK.MC,financial,minor,negative
+2201,Sacyr S.A.,SCYR.MC,policy,major,negative
+2201,Repsol S.A.,REP.MC,policy,major,negative
+2201,CaixaBank S.A.,CABK.MC,policy,major,negative
+2202,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+2203,Repsol,REP.MC,supply,minor,negative
+2204,Colonial Inmobiliaria,COL.MC,financial,minor,positive
+2205,CaixaBank,CABK.MC,financial,minor,positive
+2206,CaixaBank SA,CABK.MC,financial,major,positive
+2207,Repsol S.A.,REP.MC,supply,major,positive
+2208,Iberdrola Renovables,IBE.MC,financial,minor,negative
+2209,Iberdrola,IBE.MC,supply,minor,positive
+2210,Iberdrola,IBE.MC,policy,minor,negative
+2212,Aena,AENA.MC,demand,major,negative
+2213,Ferrovial,FER.MC,demand,minor,positive
+2214,BBVA.MC,BBVA.MC,financial,minor,positive
+2215,Iberdrola SA,IBE.MC,demand,minor,positive
+2215,Mapfre SA,MAP.MC,demand,minor,negative
+2216,Iberia,IAG.MC,demand,minor,positive
+2216,International Consolidated Airlines Group S.A.,IAG.MC,demand,minor,positive
+2217,Bankinter SA,BKT.MC,financial,major,positive
+2218,ACS.MC,ACS.MC,supply,major,positive
+2219,Cellnex,CLNX.MC,demand,major,positive
+2220,Banco Santander SA,SAN.MC,financial,minor,positive
+2221,Siemens Gamesa,SGRE.MC,supply,minor,negative
+2222,Aena,AENA.MC,demand,minor,negative
+2223,Iberdrola,IBE.MC,demand,major,positive
+2224,Acciona S.A.,ANA.MC,technology,minor,positive
+2224,Corporación Acciona Energías Renovables S.A.,ANE.MC,technology,minor,positive
+2225,Aena SA,AENA.MC,demand,minor,positive
+2226,Naturgy Energy Group SA,NTGY.MC,supply,minor,positive
+2227,Inditex,ITX.MC,policy,major,positive
+2228,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,positive
+2229,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+2230,Acciona SA,ANA.MC,supply,major,negative
+2230,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,major,negative
+2231,Bankinter,BKT.MC,financial,minor,positive
+2231,Sabadell,SAB.MC,financial,minor,positive
+2231,BBVA,BBVA.MC,financial,minor,positive
+2232,Solaria (SLR.MC),SLR.MC,demand,minor,positive
+2233,Naturgy,NTGY.MC,financial,minor,positive
+2234,Naturgy (NTGY.MC),NTGY.MC,supply,minor,positive
+2235,Repsol SA,REP.MC,technology,minor,positive
+2235,Iberia,IAG.MC,technology,minor,positive
+2236,Aena SME SA,AENA.MC,demand,minor,positive
+2237,Iberdrola SA,IBE.MC,policy,minor,positive
+2238,Siemens Gamesa Renewable Energy SA,SGRE.MC,financial,major,negative
+2239,Siemens Gamesa,SGRE.MC,supply,minor,negative
+2240,Siemens Gamesa Renewable Energy SA (SGRE.MC),SGRE.MC,supply,minor,negative
+2241,Banco Santander SA,SAN.MC,policy,minor,positive
+2241,Repsol SA,REP.MC,policy,minor,positive
+2242,Siemens Gamesa,SGRE.MC,financial,major,negative
+2243,Telefónica,TEF.MC,financial,minor,negative
+2244,Siemens Gamesa,SGRE.MC,financial,major,negative
+2245,Repsol,REP.MC,financial,minor,positive
+2245,Santander,SAN.MC,financial,minor,positive
+2246,Siemens Gamesa,SGRE.MC,supply,minor,negative
+2247,Caixabank,CABK.MC,policy,minor,negative
+2247,Iberdrola,IBE.MC,policy,minor,negative
+2248,Banco Santander,SAN.MC,financial,major,positive
+2249,Siemens Gamesa,SGRE.MC,financial,major,negative
+2250,Iberdrola SA (IBE.MC),IBE.MC,technology,minor,positive
+2251,Acciona SA,ANA.MC,demand,minor,positive
+2251,Ferrovial SA,FER.MC,demand,minor,positive
+2252,Santander,SAN.MC,financial,minor,positive
+2253,Inditex,ITX.MC,demand,minor,negative
+2254,Siemens Gamesa,SGRE.MC,supply,minor,negative
+2255,NH,NHH.MC,demand,minor,positive
+2255,Meliá,MEL.MC,demand,minor,positive
+2255,IAG,IAG.MC,demand,minor,positive
+2256,Ferrovial,FER.MC,supply,major,negative
+2257,Siemens Gamesa,SGRE.MC,financial,minor,negative
+2258,Telefónica,TEF.MC,financial,major,positive
+2259,Telefónica SA,TEF.MC,technology,minor,positive
+2260,Acciona S.A.,ANA.MC,financial,minor,positive
+2261,Telefónica,TEF.MC,demand,minor,negative
+2262,Siemens Gamesa,SGRE.MC,demand,minor,positive
+2263,Red Eléctrica,REE.MC,financial,minor,negative
+2264,Repsol S.A.,REP.MC,supply,major,positive
+2264,Talgo S.A.,TLGO.MC,supply,major,positive
+2265,Mapfre SA,MAP.MC,financial,major,negative
+2266,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,demand,minor,positive
+2267,Ferrovial,FER.MC,policy,minor,positive
+2267,Acciona,ANA.MC,policy,minor,positive
+2268,IAG,IAG.MC,demand,minor,negative
+2269,Siemens Gamesa,SGRE.MC,financial,major,negative
+2270,Ferrovial,FER.MC,financial,minor,positive
+2270,Acciona,ANA.MC,financial,minor,positive
+2271,Iberdrola,IBE.MC,demand,minor,positive
+2272,Mapfre SA,MAP.MC,financial,major,positive
+2274,Iberdrola,IBE.MC,financial,major,negative
+2275,Iberdrola,IBE.MC,financial,minor,negative
+2276,Iberdrola,IBE.MC,financial,minor,negative
+2277,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,policy,minor,positive
+2278,Iberdrola,IBE.MC,demand,minor,positive
+2279,BBVA,BBVA.MC,demand,minor,positive
+2280,Banco Santander SA,SAN.MC,financial,major,negative
+2280,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,financial,major,negative
+2280,Banco Sabadell SA,SAB.MC,financial,major,negative
+2280,Bankinter SA,BKT.MC,financial,major,negative
+2281,Telefónica S.A.,TEF.MC,financial,minor,positive
+2282,Bankinter,BKT.MC,financial,minor,positive
+2283,Bankinter SA,BKT.MC,financial,major,positive
+2284,Repsol,REP.MC,financial,minor,positive
+2285,Iberdrola,IBE.MC,financial,minor,positive
+2286,Iberdrola,IBE.MC,demand,minor,positive
+2287,Naturgy,NTGY.MC,financial,minor,positive
+2288,Bankinter SA,BKT.MC,financial,major,positive
+2289,Acciona Energía,ANE.MC,supply,minor,positive
+2289,Acciona,ANA.MC,supply,minor,positive
+2290,Iberdrola,IBE.MC,demand,minor,positive
+2291,Iberdrola,IBE.MC,demand,major,positive
+2292,Bankinter,BKT.MC,demand,minor,positive
+2293,Bankinter,BKT.MC,financial,minor,positive
+2294,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,negative
+2295,Iberdrola,IBE.MC,financial,minor,positive
+2296,Siemens Gamesa,SGRE.MC,supply,minor,negative
+2298,Cellnex,CLNX.MC,technology,minor,positive
+2298,Grifols,GRF.MC,supply,minor,positive
+2298,Merlin Properties,MRL.MC,demand,minor,negative
+2298,Repsol,REP.MC,supply,minor,positive
+2298,BBVA,BBVA.MC,financial,minor,positive
+2299,Repsol,REP.MC,technology,major,positive
+2300,Repsol SA,REP.MC,financial,minor,positive
+2300,Banco Santander SA,SAN.MC,financial,minor,positive
+2302,Enagás,ENG.MC,financial,minor,negative
+2303,Ferrovial S.A.,FER.MC,financial,major,positive
+2304,Ferrovial,FER.MC,financial,minor,positive
+2305,Endesa SA,ELE.MC,financial,minor,negative
+2306,Enagás,ENG.MC,supply,minor,negative
+2307,IAG,IAG.MC,demand,minor,negative
+2308,Endesa,ELE.MC,supply,minor,negative
+2309,Endesa SA,ELE.MC,supply,minor,negative
+2310,Endesa,ELE.MC,demand,minor,negative
+2311,Ferrovial,FER.MC,financial,minor,positive
+2312,Acciona S.A.,ANA.MC,supply,minor,positive
+2312,Acciona Energías Renovables S.A.,ANE.MC,supply,minor,positive
+2313,Enagás,ENG.MC,supply,minor,positive
+2314,Iberdrola,IBE.MC,supply,major,positive
+2315,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+2316,Ferrovial,FER.MC,demand,minor,negative
+2317,Actividades de Construcción y Servicios SA,ACS.MC,financial,minor,positive
+2318,Ferrovial SA,FER.MC,financial,minor,positive
+2319,Santander,SAN.MC,financial,major,positive
+2320,Red Eléctrica,REE.MC,financial,minor,positive
+2321,Santander,SAN.MC,financial,major,positive
+2322,Aena SME SA,AENA.MC,demand,major,negative
+2323,ACS,ACS.MC,financial,minor,positive
+2324,Aena,AENA.MC,financial,minor,negative
+2325,Ferrovial,FER.MC,financial,minor,positive
+2326,Enagás,ENG.MC,financial,minor,positive
+2327,ACS,ACS.MC,demand,minor,positive
+2328,Aena,AENA.MC,demand,minor,positive
+2329,Red Eléctrica,REE.MC,financial,minor,positive
+2330,Red Eléctrica,REE.MC,financial,minor,positive
+2331,Ferrovial,FER.MC,demand,minor,positive
+2332,Naturgy Energy Group SA,NTGY.MC,financial,major,positive
+2333,Banco de Sabadell S.A.,SAB.MC,financial,minor,positive
+2334,Ferrovial,FER.MC,demand,minor,positive
+2335,Banco Santander SA,SAN.MC,financial,minor,positive
+2336,AENA.MC,AENA.MC,supply,minor,negative
+2337,Red Eléctrica Corp. S.A.,REE.MC,financial,minor,positive
+2337,Telefónica S.A.,TEF.MC,financial,minor,positive
+2338,Banco Santander SA,SAN.MC,financial,minor,positive
+2339,Naturgy Energy Group S.A.,NTGY.MC,policy,minor,positive
+2340,Naturgy Energy Group SA,NTGY.MC,financial,major,positive
+2341,Banco Sabadell,SAB.MC,financial,major,positive
+2342,Telefónica SA (TEF.MC),TEF.MC,financial,major,positive
+2343,Telefónica,TEF.MC,financial,major,positive
+2344,Cellnex Telecom SA,CLNX.MC,financial,minor,negative
+2345,Repsol,REP.MC,supply,minor,positive
+2346,Sabadell,SAB.MC,financial,major,positive
+2347,Repsol SA,REP.MC,financial,minor,positive
+2348,Telefónica SA,TEF.MC,financial,major,positive
+2349,Repsol,REP.MC,supply,minor,positive
+2350,Naturgy,NTGY.MC,financial,minor,positive
+2351,Telefónica,TEF.MC,financial,minor,positive
+2352,Banco Sabadell,SAB.MC,financial,minor,positive
+2353,Santander,SAN.MC,financial,minor,positive
+2354,Repsol,REP.MC,financial,minor,positive
+2355,Repsol,REP.MC,demand,minor,positive
+2356,Banco Sabadell SA,SAB.MC,financial,major,positive
+2357,Repsol SA,REP.MC,financial,minor,positive
+2358,CaixaBank S.A.,CABK.MC,financial,minor,positive
+2358,Repsol S.A.,REP.MC,financial,minor,positive
+2359,Banco Santander,SAN.MC,policy,major,negative
+2360,Amadeus IT Group SA,AMS.MC,financial,minor,positive
+2361,Colonial Socimi SA,COL.MC,financial,major,positive
+2362,CaixaBank,CABK.MC,financial,major,positive
+2363,BBVA,BBVA.MC,financial,minor,positive
+2364,Inditex,ITX.MC,financial,major,positive
+2364,Enagás S.A.,ENG.MC,financial,minor,positive
+2364,Red Eléctrica Corp. S.A.,REE.MC,financial,major,positive
+2365,Acciona SA,ANA.MC,financial,major,positive
+2366,Merlin Properties Socimi SA,MRL.MC,financial,major,positive
+2367,Siemens Gamesa,SGRE.MC,financial,major,negative
+2368,CaixaBank SA,CABK.MC,financial,major,positive
+2369,BBVA,BBVA.MC,financial,minor,positive
+2370,Sacyr,SCYR.MC,financial,minor,negative
+2371,Banco Sabadell,SAB.MC,financial,minor,negative
+2372,International Consolidated Airlines Group S.A.,IAG.MC,demand,major,negative
+2373,IAG,IAG.MC,financial,minor,positive
+2374,Siemens Gamesa,SGRE.MC,financial,minor,negative
+2375,Colonial,COL.MC,financial,minor,positive
+2376,IAG,IAG.MC,demand,minor,negative
+2377,IAG,IAG.MC,demand,minor,negative
+2378,Merlin Properties,MRL.MC,financial,minor,positive
+2379,Acción SA,ANA.MC,financial,major,positive
+2380,IAG,IAG.MC,demand,minor,positive
+2381,CaixaBank,CABK.MC,financial,major,positive
+2382,IAG,IAG.MC,financial,minor,negative
+2383,Siemens Gamesa Renewable Energy,SGRE.MC,supply,minor,negative
+2384,Acciona,ANA.MC,demand,minor,positive
+2385,Naturgy,NTGY.MC,financial,minor,positive
+2386,Repsol,REP.MC,supply,minor,positive
+2387,Sacyr SA,SCYR.MC,financial,major,negative
+2388,Merlin Properties,MRL.MC,demand,minor,positive
+2388,Colonial,COL.MC,demand,minor,positive
+2389,BBVA,BBVA.MC,financial,minor,positive
+2390,Banco Santander SA,SAN.MC,financial,minor,positive
+2390,Banco Bilbao Vizcaya Argentaria,BBVA.MC,financial,minor,positive
+2390,Bankinter SA,BKT.MC,financial,major,positive
+2390,Banco Sabadell SA,SAB.MC,financial,major,negative
+2391,Naturgy,NTGY.MC,financial,minor,positive
+2392,CaixaBank,CABK.MC,financial,minor,positive
+2393,CaixaBank S.A.,CABK.MC,financial,minor,negative
+2394,Enagás SA,ENG.MC,technology,minor,positive
+2394,Repsol SA,REP.MC,technology,minor,positive
+2395,BBVA,BBVA.MC,financial,minor,positive
+2396,Iberdrola,IBE.MC,policy,minor,positive
+2397,Telefónica SA,TEF.MC,financial,minor,negative
+2398,Aena,AENA.MC,financial,minor,negative
+2399,Siemens Gamesa,SGRE.MC,supply,minor,negative
+2400,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+2401,Aena SA,AENA.MC,supply,minor,positive
+2401,Endesa SA,ELE.MC,supply,minor,positive
+2401,Iberdrola SA,IBE.MC,supply,minor,positive
+2402,Naturgy Energy Group SA,NTGY.MC,financial,minor,positive
+2403,Naturgy,NTGY.MC,financial,minor,negative
+2404,Siemens Gamesa,SGRE.MC,demand,minor,positive
+2405,Colonial,COL.MC,financial,major,positive
+2406,Repsol SA (REP.MC),REP.MC,policy,minor,positive
+2407,Naturgy,NTGY.MC,policy,minor,positive
+2408,Meliá Hotels,MEL.MC,demand,minor,positive
+2409,Acciona,ANA.MC,supply,minor,positive
+2410,Cellnex,CLNX.MC,financial,minor,positive
+2411,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC,demand,minor,positive
+2412,PharmaMar SA,PHM.MC,financial,major,negative
+2412,Laboratorios Farmacéuticos Rovi SA,ROVI.MC,financial,major,positive
+2413,Repsol S.A.,REP.MC,supply,minor,positive
+2414,Merlin Properties,MRL.MC,financial,major,negative
+2415,Repsol,REP.MC,financial,minor,positive
+2416,Santander,SAN.MC,financial,minor,positive
+2417,Naturgy,NTGY.MC,policy,minor,positive
+2418,Repsol,REP.MC,financial,minor,negative
+2419,Indra,IDR.MC,financial,minor,positive
+2420,Bankinter,BKT.MC,demand,minor,positive
+2421,Acciona,ANA.MC,financial,minor,positive
+2421,Acciona Energía,ANE.MC,financial,minor,positive
+2421,Nordex,NDX1.MC,financial,minor,positive
+2422,Siemens Gamesa Renewable Energy SA,SGRE.MC,supply,major,positive
+2423,Colonial,COL.MC,financial,minor,negative
+2424,Red Eléctrica Corp SA,REE.MC,financial,minor,positive
+2425,Meliá Hotels International SA,MEL.MC,demand,minor,positive
+2425,NH Hotel Group SA,NHH.MC,demand,minor,positive
+2426,Red Eléctrica Corp.,REE.MC,supply,major,positive
+2427,Endesa S.A.,ELE.MC,supply,minor,negative
+2427,Iberdrola S.A.,IBE.MC,supply,minor,negative
+2427,Viesgo,VIESGO.MC,supply,minor,negative
+2428,Aena SME SA,AENA.MC,demand,minor,positive
+2429,BBVA,BBVA.MC,financial,minor,positive
+2430,Fluidra,FDR.MC,financial,minor,positive
+2431,Endesa SA,ELE.MC,demand,minor,positive
+2432,Almirall SA,ALM.MC,technology,major,positive
+2433,Almirall,ALM.MC,demand,minor,positive
+2434,Grifols SA,GRF.MC,financial,minor,positive
+2435,Iberdrola,IBE.MC,technology,major,positive
+2436,Grifols,GRF.MC,financial,minor,positive
+2437,IAG,IAG.MC,demand,minor,positive
+2438,Enagás SA,ENG.MC,policy,minor,positive
+2438,Acciona Energías Renovables SA,ANE.MC,policy,minor,positive
+2439,Iberdrola S.A.,IBE.MC,supply,major,negative
+2440,Cellnex,CLNX.MC,financial,minor,positive
+2441,ACS.MC,ACS.MC,policy,minor,positive
+2442,Banco Santander S.A.,SAN.MC,financial,minor,positive
+2442,Acciona S.A.,ANA.MC,financial,minor,positive
+2443,Santander,SAN.MC,financial,minor,positive
+2444,Banco Santander SA,SAN.MC,financial,minor,positive
+2445,Iberdrola,IBE.MC,technology,minor,positive
+2446,ACS,ACS.MC,supply,minor,positive
+2447,Santander,SAN.MC,financial,minor,positive
+2448,Repsol,REP.MC,technology,minor,positive
+2449,Inditex,ITX.MC,demand,minor,negative
+2450,Inditex,ITX.MC,supply,major,negative
+2451,Red Eléctrica Corp.,REE.MC,supply,major,negative
+2452,Solaria,SLR.MC,supply,minor,negative
+2453,Enagás S.A.,ENG.MC,supply,major,negative
+2453,Naturgy Energy Group S.A.,NTGY.MC,supply,major,negative
+2454,Acciona Energía,ANE.MC,financial,minor,positive
+2455,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+2455,Enagás S.A.,ENG.MC,supply,minor,positive
+2456,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,minor,negative
+2457,ACS.MC,ACS.MC,financial,minor,negative
+2458,Iberdrola,IBE.MC,policy,minor,positive
+2459,Red Electrica Corp.,REE.MC,supply,minor,positive
+2460,Banco Sabadell,SAB.MC,supply,minor,negative
+2461,COL.MC,COL.MC,financial,major,positive
+2462,Indra,IDR.MC,financial,minor,positive
+2463,Aena,AENA.MC,demand,minor,negative
+2463,IAG,IAG.MC,demand,minor,negative
+2463,Ferrovial,FER.MC,demand,minor,negative
+2463,NH,NHH.MC,demand,minor,negative
+2463,Meliá,MEL.MC,demand,minor,negative
+2463,Amadeus,AMS.MC,demand,minor,negative
+2464,Repsol,REP.MC,supply,minor,negative
+2465,Fluidra SA,FDR.MC,financial,major,positive
+2466,BBVA,BBVA.MC,financial,minor,positive
+2466,Banco Santander SA,SAN.MC,financial,minor,positive
+2466,Amadeus IT Group SA,AMS.MC,supply,minor,negative
+2467,Fluidra,FDR.MC,demand,minor,positive
+2468,Acerinox,ACX.MC,supply,minor,positive
+2469,Banco Sabadell SA (SAB.MC),SAB.MC,financial,major,negative
+2470,CaixaBank SA,CABK.MC,financial,minor,positive
+2471,Ferrovial SA,FER.MC,financial,minor,positive
+2472,Endesa,ELE.MC,financial,minor,positive
+2473,Telefónica,TEF.MC,policy,minor,positive
+2474,Acerinox,ACX.MC,demand,minor,positive
+2475,Ferrovial,FER.MC,financial,minor,positive
+2476,Fluidra,FDR.MC,financial,minor,positive
+2477,Red Eléctrica Corp SA,REE.MC,demand,minor,positive
+2478,Red Eléctrica,REE.MC,financial,minor,positive
+2479,Naturgy,NTGY.MC,demand,minor,positive
+2480,Cellnex Telecom SA,CLNX.MC,financial,major,positive
+2481,Cellnex Telecom S.A.,CLNX.MC,financial,minor,positive
+2482,Solaria,SLR.MC,supply,minor,negative
+2483,Cellnex,CLNX.MC,financial,minor,positive
+2484,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,technology,minor,positive
+2485,Endesa,ELE.MC,supply,major,negative
+2486,Acciona Energía,ANE.MC,demand,minor,positive
+2487,Banco Sabadell SA,SAB.MC,financial,major,negative
+2488,Telefónica,TEF.MC,supply,minor,negative
+2489,Endesa S.A.,ELE.MC,demand,major,negative
+2489,Iberdrola S.A.,IBE.MC,policy,major,negative
+2489,Naturgy Energy Group S.A.,NTGY.MC,supply,major,negative
+2489,Repsol S.A.,REP.MC,financial,major,negative
+2490,Siemens Gamesa,SGRE.MC,supply,major,negative
+2491,Naturgy Energy Group S.A.,NRGY.MC,financial,minor,positive
+2492,Enagás SA,ENG.MC,supply,minor,positive
+2493,Naturgy,NTGY.MC,financial,minor,positive
+2494,Naturgy,NTGY.MC,financial,minor,negative
+2495,Banco Santander SA,SAN.MC,financial,minor,positive
+2496,Naturgy Energy Group S.A.,NRGY.MC,financial,minor,positive
+2497,CaixaBank S.A.,CABK.MC,financial,minor,positive
+2498,Indra Sistemas S.A.,IDR.MC,policy,major,positive
+2499,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+2500,Banco Santander,SAN.MC,financial,minor,positive
+2501,Iberdrola,IBE.MC,policy,major,positive
+2502,Cellnex,CLNX.MC,financial,minor,positive
+2503,Enagás,ENG.MC,policy,minor,positive
+2503,Iberdrola,IBE.MC,financial,minor,negative
+2503,Endesa,ELE.MC,financial,minor,negative
+2503,Naturgy,NTGY.MC,financial,minor,negative
+2504,Endesa,ELE.MC,demand,minor,positive
+2505,ACS,ACS.MC,financial,minor,positive
+2506,Almirall,ALM.MC,financial,minor,positive
+2507,Red Eléctrica Corp SA,REE.MC,financial,minor,positive
+2508,Telefónica SA,TEF.MC,financial,minor,positive
+2509,Colonial,COL.MC,financial,minor,positive
+2510,PharmaMar SA,PHM.MC,demand,minor,positive
+2511,Aena,AENA.MC,supply,minor,negative
+2512,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,negative
+2513,Inditex,ITX.MC,financial,minor,positive
+2514,Endesa S.A.,ELE.MC,financial,minor,negative
+2514,Iberdrola S.A.,IBE.MC,financial,minor,negative
+2514,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,negative
+2515,Naturgy Energy Group SA,NTGY.MC,financial,minor,negative
+2515,Iberdrola SA,IBE.MC,financial,minor,negative
+2515,Endesa SA,ELE.MC,financial,minor,negative
+2516,Fluidra,FDR.MC,financial,minor,negative
+2517,Fluidra,FDR.MC,financial,major,negative
+2518,Inditex,ITX.MC,financial,major,positive
+2519,Inditex (ITX.MC),ITX.MC,demand,major,positive
+2520,Fluidra,FDR.MC,demand,major,positive
+2521,Inditex,ITX.MC,demand,minor,positive
+2522,Inditex,ITX.MC,demand,minor,positive
+2523,Inditex,ITX.MC,demand,major,positive
+2524,Banco Santander,SAN.MC,financial,minor,positive
+2525,Iberdrola,IBE.MC,financial,major,negative
+2525,Endesa,ELE.MC,financial,major,negative
+2525,Acciona,ANA.MC,financial,minor,negative
+2525,Naturgy,NTGY.MC,financial,minor,negative
+2526,Naturgy,NTGY.MC,policy,major,negative
+2527,Iberdrola,IBE.MC,policy,major,negative
+2527,Endesa,ELE.MC,policy,major,negative
+2528,Iberdrola,IBE.MC,financial,major,negative
+2528,Naturgy,NTGY.MC,financial,major,negative
+2528,Endesa,ELE.MC,financial,major,negative
+2528,Acciona Energía,ANE.MC,financial,major,negative
+2529,Inditex,ITX.MC,demand,minor,positive
+2530,Endesa,ELE.MC,policy,major,negative
+2531,Endesa,ELE.MC,supply,minor,negative
+2531,Iberdrola,IBE.MC,supply,minor,negative
+2532,Acciona,ANA.MC,demand,minor,positive
+2532,Acciona Energía,ANE.MC,demand,minor,positive
+2533,Solaria,SLR.MC,demand,minor,positive
+2534,Acciona,ANA.MC,financial,minor,positive
+2534,Acciona Energía,ANE.MC,financial,minor,positive
+2535,Endesa,ELE.MC,policy,major,negative
+2536,Iberdrola,IBE.MC,policy,minor,negative
+2537,Almirall SA,ALM.MC,financial,minor,positive
+2538,Iberdrola S.A.,IBE.MC,supply,major,positive
+2539,Banco Santander S.A.,SAN.MC,financial,minor,positive
+2540,Cirsa,CIR.MC,financial,minor,positive
+2541,Inditex,ITX.MC,demand,minor,positive
+2542,Inditex,ITX.MC,demand,minor,positive
+2543,Iberdrola,IBE.MC,financial,minor,negative
+2544,Inditex,ITX.MC,demand,minor,positive
+2545,Naturgy,NTGY.MC,policy,minor,negative
+2546,Grenergy Renovables SA,GRE.MC,financial,minor,positive
+2547,Grifols SA,GRF.MC,financial,major,positive
+2549,Grifols,GRF.MC,financial,minor,positive
+2550,Grifols,GRF.MC,financial,minor,negative
+2551,IAG,IAG.MC,financial,minor,positive
+2552,ACS SA,ACS.MC,demand,major,positive
+2552,Acciona SA,ANA.MC,demand,major,positive
+2553,Repsol,REP.MC,financial,minor,positive
+2554,Grifols,GRF.MC,demand,minor,positive
+2555,Iberdrola,IBE.MC,policy,major,negative
+2555,Naturgy,NTGY.MC,policy,major,negative
+2555,Endesa,ELE.MC,policy,major,negative
+2556,Grifols,GRF.MC,demand,minor,positive
+2557,Naturgy Energy Group S.A.,NTGY.MC,financial,minor,positive
+2558,CaixaBank S.A. (CABK.MC),CABK.MC,supply,major,negative
+2559,Repsol S.A.,REP.MC,technology,major,positive
+2560,Cellnex,CLNX.MC,financial,minor,positive
+2561,Enagás S.A.,ENG.MC,demand,minor,positive
+2561,Naturgy Energy Group S.A.,NTGY.MC,demand,minor,positive
+2562,CaixaBank SA,CABK.MC,financial,minor,positive
+2563,Iberia,IAG.MC,policy,minor,positive
+2564,ACS.MC,ACS.MC,demand,minor,positive
+2565,Grifols S.A.,GRF.MC,financial,major,positive
+2566,Iberdrola,IBE.MC,demand,minor,positive
+2566,ACS,ACS.MC,demand,minor,positive
+2567,IAG,IAG.MC,demand,minor,positive
+2568,Telefónica,TEF.MC,demand,minor,positive
+2569,Banco Bilbao Vizcaya Argentaria S.A.,BBVA.MC,financial,minor,positive
+2570,Iberdrola SA,IBE.MC,financial,minor,negative
+2570,Endesa SA,ELE.MC,financial,minor,negative
+2571,Iberdrola S.A,IBE.MC,financial,minor,positive
+2572,PharmaMar,PHM.MC,supply,major,positive
+2573,Iberdrola S.A.,IBE.MC,financial,major,negative
+2573,Endesa S.A.,ELE.MC,financial,major,negative
+2574,Áreas,AREAS.MC,financial,minor,positive
+2574,Aena SME S.A.,AENA.MC,financial,major,negative
+2575,Cellnex Telecom SA,CLNX.MC,supply,major,positive
+2576,Grifols,GRF.MC,financial,major,negative
+2577,Naturgy Energy Group S.A.,NTGY.MC,supply,minor,positive
+2578,Ferrovial S.A.,FER.MC,financial,major,positive
+2579,Aena SME SA,AENA.MC,financial,minor,negative
+2580,Naturgy,NTGY.MC,financial,minor,positive
+2581,Aena,AENA.MC,demand,minor,positive
+2582,Aena,AENA.MC,financial,minor,negative
+2583,Bankinter SA,BKT.MC,financial,minor,positive
+2583,Banco Sabadell SA,SAB.MC,financial,minor,positive
+2583,Banco Santander SA,SAN.MC,financial,minor,positive
+2584,Enagás S.A.,ENG.MC,financial,minor,negative
+2585,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,minor,positive
+2586,Cellnex,CLNX.MC,financial,minor,negative
+2587,Grifols,GRF.MC,financial,major,positive
+2588,Acciona SA,ANA.MC,demand,minor,positive
+2589,Repsol,REP.MC,supply,minor,positive
+2590,Siemens Gamesa,SGRE.MC,demand,minor,negative
+2591,Inditex,ITX.MC,financial,minor,positive
+2592,Repsol SA,REP.MC,demand,minor,positive
+2593,Aena,AENA.MC,demand,minor,positive
+2594,Aena SME S.A.,AENA.MC,policy,minor,positive
+2595,Aena SME S.A.,AENA.MC,policy,minor,positive
+2596,Banco Santander SA,SAN.MC,financial,major,positive
+2597,Aena,AENA.MC,policy,minor,positive
+2598,Ferrovial,FER.MC,demand,minor,positive
+2599,Santander,SAN.MC,financial,minor,positive
+2600,Bankia,BKIA.MC,financial,minor,positive
+2600,CaixaBank SA,CABK.MC,financial,minor,positive
+2601,CaixaBank S.A.,CABK.MC,policy,minor,positive
+2602,Iberdrola,IBE.MC,policy,major,negative
+2603,Naturgy Energy Group S.A.,NTGY.MC,supply,major,negative
+2603,Enagás S.A.,ENG.MC,supply,major,negative
+2604,Endesa,ELE.MC,demand,minor,negative
+2604,Iberdrola,IBE.MC,supply,minor,negative
+2604,Naturgy,NTGY.MC,financial,major,positive
+2605,Aena SME S.A.,AENA.MC,demand,minor,positive
+2606,PharmaMar,PHM.MC,financial,major,positive
+2607,BBVA,BBVA.MC,financial,minor,positive
+2608,Naturgy Energy Group S.A.,NTRGY.MC,financial,minor,negative
+2609,Naturgy,NTGY.MC,financial,minor,negative
+2610,Merlin Properties SOCIMI SA,MRL.MC,financial,minor,positive
+2611,Banco de Sabadell S.A.,SAB.MC,financial,major,negative
+2612,Siemens Gamesa Renewable Energy S.A.,SGRE.MC,supply,major,positive

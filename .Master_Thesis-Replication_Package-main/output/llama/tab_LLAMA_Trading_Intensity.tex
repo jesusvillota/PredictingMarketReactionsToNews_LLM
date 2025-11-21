@@ -1,0 +1,46 @@
+\inserthere{tab:LLM_trading_intensity}
+
+\begin{table}[htbp] 
+\caption{Trading Intensity Analysis: LLAMA} 
+\centering 
+\label{tab:LLM_trading_intensity}
+{\small
+\begin{tabular}{lcccccccccc}
+\toprule
+Split & Algorithm & \multicolumn{4}{c}{\# Open Positions} & \multicolumn{2}{c}{Trading Activity (\%)} & \multicolumn{2}{c}{Trading Costs (\%)} \\
+\cmidrule(lr{0.6em}){3-6} \cmidrule(lr{0.6em}){7-8} \cmidrule(lr{0.6em}){9-10}
+& & Avg. & Std. & Max & Min & Turnover & Changes/Pos. & Cost & Active \\
+\midrule
+\multirow{2}{*}{All} & \textit{Greedy} & 31.8 & 14.84 & 75 & 4 & 39.21 & 1.234 & 0.0588 & 100.0 \\
+ & \textit{Stable} & 26.61 & 12.16 & 56 & 3 & 39.18 & 1.473 & 0.0588 & 100.0 \\
+\midrule
+\multirow{2}{*}{Train} & \textit{Greedy} & 29.9 & 16.34 & 75 & 4 & 40.42 & 1.351 & 0.0606 & 100.0 \\
+ & \textit{Stable} & 25.54 & 12.90 & 56 & 3 & 40.45 & 1.584 & 0.0607 & 100.0 \\
+\midrule
+\multirow{2}{*}{Validation} & \textit{Greedy} & 37.0 & 7.69 & 58 & 24 & 38.43 & 1.039 & 0.0576 & 100.0 \\
+ & \textit{Stable} & 31.38 & 6.82 & 50 & 17 & 37.95 & 1.209 & 0.0569 & 100.0 \\
+\midrule
+\multirow{2}{*}{Test} & \textit{Greedy} & 29.7 & 16.24 & 75 & 6 & 37.56 & 1.264 & 0.0563 & 100.0 \\
+ & \textit{Stable} & 23.43 & 13.71 & 54 & 3 & 37.85 & 1.615 & 0.0568 & 100.0 \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{0.5cm}
+\begin{minipage}{\textwidth}
+\setlength{\parindent}{0pt}
+\scriptsize\textit{Note}: 
+This table presents trading intensity metrics for both Greedy and Stable algorithms across different data splits. 
+The metrics are computed at a daily frequency. The `\# Open Positions' columns report position-related statistics: 
+`Avg.' shows the mean number of concurrent open positions per day, `Std.' represents their standard deviation, while 
+`Max' and `Min' indicate the maximum and minimum number of positions held simultaneously. Under `Trading Activity (\%)', 
+`Turnover' is calculated as the sum of absolute changes in position sizes divided by the total portfolio size, expressed 
+as a percentage; formally, $Turnover_t = 100 \times (\sum_i |w_{i,t} - w_{i,t-1}|)/(\sum_i |w_{i,t}|)$, where $w_{i,t}$ 
+represents the position size in asset $i$ at time $t$. `Changes/Pos.' represents the average number of modifications per 
+position per day, computed as the daily turnover divided by the average number of positions, providing insight into how 
+actively individual positions are managed. The `Trading Costs (\%)' section reports `Cost' as the average daily implementation 
+shortfall (computed as the difference between gross and net returns) expressed in percentage terms, while `Active' shows 
+the percentage of trading days with at least one open position. All metrics are first computed daily and then averaged 
+over their respective periods, except for Max and Min positions which represent the absolute extremes over each period.
+\end{minipage}
+\end{table}

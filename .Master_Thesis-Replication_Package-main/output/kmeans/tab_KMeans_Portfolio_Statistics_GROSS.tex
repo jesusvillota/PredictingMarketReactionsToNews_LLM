@@ -1,0 +1,44 @@
+\inserthere{tab:KMeans_portfolio_statistics_gross}
+\begin{table}[H] 
+\caption{Statistics of $\mathcal{P}_{\text{KMeans}}$ across data splits | Gross Returns} 
+
+\centering
+\renewcommand{\arraystretch}{1.1} % Increased line spacing
+% Define new column types for better spacing
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+{\footnotesize
+\begin{tabular}{
+ P{1.28cm} % Split
+ P{0.9cm} % Algorithm
+ P{0.9cm} % Cum. Return
+ P{0.9cm} % Avg. Return
+ P{0.9cm} % St. Deviation
+ P{0.9cm} % Sharpe Ratio
+ P{0.9cm} % Sortino Ratio
+ P{0.9cm} % Max. Drawdown
+ P{1cm} % Calmar Ratio
+ P{0.9cm} % Skewness
+ P{0.9cm} % Kurtosis
+ P{0.9cm} % VaR
+ P{0.9cm} % CVaR
+}
+\Xhline{2\arrayrulewidth}
+\textbf{Split} & \textbf{Algo.} & \textbf{Cum. Ret.} & \textbf{Avg. Ret.} & \textbf{St. Dev.} & \textbf{Sharpe Ratio} & \textbf{Sortino Ratio} & \textbf{Max. DD} & \textbf{Calmar Ratio} & \textbf{Skew.} & \textbf{Exc. Kurt.} & \textbf{VaR 95\%} & \textbf{CVaR 95\%} \\
+\Xhline{2\arrayrulewidth}
+\multirow{2}{*}{All} & \textit{Greedy} & 1.070 & 5.3 & 9.7 & 0.5 & 0.6 & -6.9 & 0.8 & -0.45 & 4.04 & -13.7 & -22.9 \\  & \textit{Stable} & 1.489 & 35.8 & 16.8 & 1.8 & 2.2 & -7.6 & 4.7 & 0.19 & 5.08 & -22.6 & -36.1 \\  \hline \multirow{2}{*}{Train} & \textit{Greedy} & 0.959 & -6.2 & 11.7 & -0.5 & -0.5 & -6.9 & -0.9 & -0.52 & 2.72 & -18.3 & -28.5 \\  & \textit{Stable} & 1.250 & 40.4 & 19.6 & 1.7 & 2.0 & -7.6 & 5.3 & -0.22 & 3.24 & -29.3 & -43.1 \\  \hline \multirow{2}{*}{Validation} & \textit{Greedy} & 1.088 & 26.8 & 7.3 & 3.3 & 3.7 & -3.5 & 7.8 & -0.47 & 1.17 & -9.5 & -15.9 \\  & \textit{Stable} & 1.149 & 47.6 & 13.3 & 2.9 & 3.5 & -3.6 & 13.1 & -0.19 & 1.76 & -18.3 & -28.1 \\  \hline \multirow{2}{*}{Test} & \textit{Greedy} & 1.014 & 4.9 & 6.9 & 0.7 & 1.0 & -3.6 & 1.4 & 1.85 & 5.50 & -7.8 & -9.7 \\  & \textit{Stable} & 1.008 & 2.9 & 14.3 & 0.2 & 0.3 & -4.6 & 0.6 & 2.46 & 14.57 & -18.9 & -26.8 \\  \hline 
+\end{tabular}
+ }
+ \label{tab:KMeans_portfolio_statistics_gross}
+        
+\vspace{0.5cm}
+\begin{minipage}{\textwidth}
+\setlength{\parindent}{0pt}
+{\footnotesize\textit{Note:
+Portfolio statistics of the trading strategy based on clusters obtained from applying KMeans to article embeddings. 
+The statistics provided include performance metrics (Cumulative Return, Average Return (\%)), risk measures (Standard Deviation (\%), Maximum Drawdown (\%), Value at Risk (\%), Conditional Value at Risk (\%)), risk-adjusted performance ratios (Sharpe Ratio, Sortino Ratio, Calmar Ratio), and return distribution characteristics (Skewness, Excess Kurtosis). These statistics are provided for both cluster-selection algorithms: Greedy and Stable.
+Except for the Cumulative Return, all returns are annualized. The Sharpe Ratio is computed using the daily returns, assuming 252 trading days in a year. The Sortino Ratio is calculated using the daily downside returns. The Maximum Drawdown is the maximum loss from a peak to a trough. The Calmar Ratio is the ratio of the annualized return to the maximum drawdown. Skewness measures the asymmetry of the return distribution, while Kurtosis quantifies the tails' thickness. The Value at Risk (VaR) and Conditional Value at Risk (CVaR) are calculated at a 95\% confidence level.
+The Greedy algorithm longs (shorts) clusters that maximize (minimize) the cluster-average-$SR$ in the validation sample subject to a positivity (negativity) constraint, while the Stable algorithm longs (shorts) clusters that minimize the rank difference between the training and validation rankings of the cluster-average-$SR$'s subject to a positivity (negativity) constraint, which is now imposed on both sample splits. In both algorithms, the cardinality of each leg is upper-bounded by a hyperparameter $\theta$.
+The holding period of the beta-neutral positions is set to $L$ = 4 trading days and the number of traded clusters is $\theta = 0.5k=13$ as there are $k^*=26$ KMeans clusters of article embeddings. The selection criteria for these hyperparameters ($L,\theta$) is based on maximizing the Sharpe Ratios of the train and validation samples.
+}}
+\end{minipage}
+\end{table}
