@@ -60,8 +60,19 @@ def initialize_portfolio(
         first_day = split_data['date_affect'].min()
         last_day = split_data['date_affect'].max()
         
-        indices[f'first_day_{split_name}_index'] = trading_days.index(first_day)
-        indices[f'last_day_{split_name}_index'] = trading_days.index(last_day)
+        # Handle case where dates might not be in trading_days
+        # Use fallback indices if dates are not found
+        if first_day in trading_days:
+            indices[f'first_day_{split_name}_index'] = trading_days.index(first_day)
+        else:
+            # If first_day not found, use 0 (start of trading_days)
+            indices[f'first_day_{split_name}_index'] = 0
+        
+        if last_day in trading_days:
+            indices[f'last_day_{split_name}_index'] = trading_days.index(last_day)
+        else:
+            # If last_day not found, use last available trading day
+            indices[f'last_day_{split_name}_index'] = len(trading_days) - 1
     
     # Extract individual indices
     first_train_idx = indices.get('first_day_Train_index', 0)
