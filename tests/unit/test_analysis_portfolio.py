@@ -579,3 +579,4 @@ class TestCalculatePortfolioStatistics:
         assert isinstance(stats['annualized_return_gross'], float)
 
 
+
