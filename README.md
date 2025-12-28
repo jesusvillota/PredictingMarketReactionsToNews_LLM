@@ -13,13 +13,14 @@ Python package and CLI for studying how Spanish business news affects equity mar
 - A Groq API key (`GROQ_API_KEY`) for LLAMA-based parsing, if you run those steps.
 - Access to the raw news parquet file and risk-free rate CSV referenced in your `config.yaml`.
 
-## Installation
+## Installation (uv)
+Install [uv](https://github.com/astral-sh/uv) if you don't have it (`pip install uv`), then:
 ```bash
-python -m venv .venv
+uv venv
 source .venv/bin/activate
-pip install -e .
+uv pip install -e .
 # For development:
-pip install -e .[dev]
+uv pip install -e ".[dev]"
 ```
 
 ## Configuration
