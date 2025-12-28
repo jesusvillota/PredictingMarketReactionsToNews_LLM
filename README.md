@@ -14,13 +14,15 @@ Python package and CLI for studying how Spanish business news affects equity mar
 - Access to the raw news parquet file and risk-free rate CSV referenced in your `config.yaml`.
 
 ## Installation (uv)
-Install [uv](https://github.com/astral-sh/uv) if you don't have it (`pip install uv`), then:
+Install [uv](https://github.com/astral-sh/uv) if you don't have it (`pip install uv`), then install via the lockfile:
 ```bash
-uv venv
+# Full setup with dev tools
+uv sync --dev
+# Or runtime only
+# uv sync
+
+# Activate (optional if you prefer `uv run ...`)
 source .venv/bin/activate
-uv pip install -e .
-# For development:
-uv pip install -e ".[dev]"
 ```
 
 ## Configuration
