@@ -1,6 +1,6 @@
 # Predicting Market Reactions to News (PMRTN)
 
-Python package and CLI for studying how Spanish business news affects equity markets. The pipeline cleans and merges raw articles, extracts tickers, builds sentence embeddings, clusters news with KMeans, optionally parses shocks with LLAMA models via Groq, and downloads market data for downstream analysis.
+This repository is the replication package for the paper “Predicting Market Reactions to News: An LLM-Based Approach Using Spanish Business Articles,” available on SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5006857.
 
 ## Repo Layout
 - `src/PMRTN/` – library and CLI code (`pmrtn` entry point), including data loaders/processors, embeddings, clustering models, LLAMA parsing, visualization, and CLI commands.
